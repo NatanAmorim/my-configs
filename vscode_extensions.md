@@ -42,7 +42,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 ```
 {
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Darcula",
 
   "editor.fontSize": 14,
   "editor.fontFamily": "Fira Code",
