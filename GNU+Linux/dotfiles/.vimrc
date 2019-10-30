@@ -18,7 +18,7 @@ Plugin 'vim-airline/vim-airline-themes'				" Airline Themes
 Plugin 'scrooloose/nerdtree'					" added nerdtree
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'blueshirts/darcula'
+Plugin 'dracula/vim', {'name': 'dracula'}
 
 call vundle#end()		" required, all plugins must appear before this line.
 
@@ -41,7 +41,7 @@ filetype plugin indent on    " required
 
 syntax on
 
-colorscheme darcula " load the color scheme before anything
+colorscheme dracula " load the color scheme before anything
 " ===============================================================
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan

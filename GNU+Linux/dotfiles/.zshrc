@@ -14,16 +14,16 @@ if [ -f ~/.powerlevel9k_config ]; then
 fi
 
 # Plugins (find some way to add them)
-# zplug "zsh-users/zsh-syntax-highlighting", from:github
-#zplug "zsh-users/zsh-autosuggestions", from:github
-# zplug "plugins/git", from:oh-my-zsh
-# zplug "plugins/sudo", from:oh-my-zsh
-# zplug "plugins/command-not-found", from:oh-my-zsh
-# zplug "zsh-users/zsh-completions", from:github
-# zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+# "zsh-users/zsh-syntax-highlighting", from:github
+# "zsh-users/zsh-autosuggestions", from:github
+# "plugins/git", from:oh-my-zsh
+# "plugins/sudo", from:oh-my-zsh
+# "plugins/command-not-found", from:oh-my-zsh
+# "zsh-users/zsh-completions", from:github
+# "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 
-# zplug "zsh-users/zsh-docker", from:github
-# zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
+# "zsh-users/zsh-docker", from:github
+# sindresorhus/pure, use:pure.zsh, from:github, as:theme
 
 # Set name of the theme to load
 ZSH_THEME=zhann

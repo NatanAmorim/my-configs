@@ -38,6 +38,10 @@ alias la='ls -A --group-directories-first'
 alias cp="cp -i" # confirm before overwriting something
 alias df='df -h' # human-readable sizes
 
+# CpuPower
+alias performance-mode='sudo cpupower frequency-set --governor performance'
+alias powersave-mode='sudo cpupower frequency-set --governor powersave'
+
 # !Paste the following lines in ".bashrc" and uncomment to load these aliases!
 # !Paste the following lines in ".zshrc" and uncomment to load these aliases!
 
