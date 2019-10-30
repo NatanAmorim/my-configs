@@ -14,3 +14,6 @@
 - Firefox Developer
 - vlc + licenses
 - Android Studio + Android SDK
+- Postman
+- PGmodeler
+- DBbeaver
