@@ -26,7 +26,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) | `code --install-extension usernamehw.errorlens` |
 | [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) | `code --install-extension ritwickdey.LiveServer` |
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` |
-| [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) | `code --install-extension vscjava.vscode-java-pack` |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
 | [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) | `code --install-extension MS-vsliveshare.vsliveshare` |
