@@ -1,8 +1,6 @@
 # myconfig
 
 - [About](#about)
-- [Quick Start](#quick-start)
-- [TODO](#todo)
 - [Pull Requests](#pull-requests)
 - [Fixing Bugs](#fixing-bugs)
 - [Others](#others)
@@ -12,16 +10,10 @@
 This repository is for sharing my personal setup.
 Ideas and patches are appreciated, but keep it simple.
 
-## Quick Start
-
-Here's evething I use to configure:
-* Windows 10
-* Ubuntu (19.04)
-
 ## Pull Requests
 
 1. Clearly describe what you aim to add or fix.
-3. Try to minimize code changes and use existing style/functions.
+2. Try to minimize code changes and use existing style/functions.
 
 ## Fixing Bugs
 
