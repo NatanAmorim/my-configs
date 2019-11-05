@@ -41,3 +41,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-
 # Cleaning
 sudo apt autoremove
 
+# Performance
+sudo systemctl disable ondemand
+sudo apt install linux-tools-common linux-tools-generic
