@@ -30,6 +30,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
 | [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) | `code --install-extension MS-vsliveshare.vsliveshare` |
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `code --install-extension EditorConfig.EditorConfig` |
+| [Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides) | `code --install-extension ext install spywhere.guides` |
+
 
 ## Fonts
 
