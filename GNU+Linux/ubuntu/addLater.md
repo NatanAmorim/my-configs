@@ -17,3 +17,7 @@
 - Postman
 - PGmodeler
 - DBbeaver
+- Intellij Idea Community
+- SceneBuilder 11 Gluon
+- Peltoche lsd
+- yarn

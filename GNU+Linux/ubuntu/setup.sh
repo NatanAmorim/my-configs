@@ -22,13 +22,14 @@ sudo apt install breeze-cursor-theme breeze-icon-theme
 
 # Fonts
 sudo apt install fonts-ubuntu fonts-roboto
-sudo apt install fonts-hack fonts-poweline fonts-firacode
+sudo apt install fonts-hack fonts-poweline
+sudo apt install fonts-firacode
 
 # Java
-sudo apt install openjdk-11-jdk openjfx
+sudo apt install openjdk-11-jdk
 
 # Others
-sudo apt install gparted firefox chromium-browser spyder3 aptitude vifm ranger neofetch
+sudo apt install gparted firefox chromium-browser spyder3 aptitude vifm ranger neofetch lolcat
 
 # Vim Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

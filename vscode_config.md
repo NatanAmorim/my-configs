@@ -43,20 +43,20 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 ```
 {
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Darcula",
-
+  "workbench.colorTheme": "Dracula",
+  
   "editor.fontSize": 14,
   "editor.fontFamily": "Fira Code",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
-
+  
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
-
+  
   "editor.rulers": [90,120],
   "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
-
+  
   "eslint.autoFixOnSave": true,
   "eslint.validate": [
     {
@@ -75,6 +75,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
       "language": "typescriptreact",
       "autoFix": true
     }
-  ]
+  ],
+  "editor.renderIndentGuides": false
 }
 ```
