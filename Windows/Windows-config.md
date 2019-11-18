@@ -17,9 +17,7 @@ Here's a list of everything I install in my Windows machine.
 * [OpenJDK](https://jdk.java.net/archive/)
 * [Java JDK 11 LTS](https://oracle.com/technetwork/java/javase/downloads/)
 * [Anaconda3](https://anaconda.com/distribution/)
-* [Git for windows](https://git-scm.com/downloads)
 * [Github Desktop](https://desktop.github.com/)
-* [Cmder](https://cmder.net)
 * [Docker](https://docs.docker.com/install/)
 
 ## Editing
@@ -29,14 +27,19 @@ Here's a list of everything I install in my Windows machine.
 * [Audacity](https://audacityteam.org/download/)
 * [kdenlive](https://kdenlive.org/en/download/)
 
+
 ## Others
+* [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
 * [Mozilla Thunderbird](https://thunderbird.net)
 * [Google Chrome Browser](https://google.com/intl/en/chrome/)
+* [Discord](https://discordapp.com/download)
 * [7zip](https://7-zip.org)
 
 ## CLI
+* [Yarn](https://yarnpkg.com/en/docs/install)
 * [node.js](https://https://nodejs.org/en/download/)
 * [Git Bash](https://git-scm.com/downloads)
+* [chocolatey](https://chocolatey.org/install)
 
 ## Microsoft Store Apps
 * Trello
@@ -45,6 +48,5 @@ Here's a list of everything I install in my Windows machine.
 * Spotify
 * Debian (Windows Subsystem for Linux)
 * Netflix
-* CrunchyRoll
 * Microsoft Sticky Notes
 * Windows Terminal
