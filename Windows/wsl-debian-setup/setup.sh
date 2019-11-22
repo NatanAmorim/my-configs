@@ -15,7 +15,7 @@ sudo apt install gcc make cmake build-essential autoconf automake python3-minima
 sudo apt install vim git zsh tmux tldr-py vifm aptitude ranger
 
 # File compression
-sudo apt install tar zip gzip unzip lrzip unrar p7zip unace
+sudo apt install tar zip gzip unzip lrzip p7zip
 
 # Vim Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
