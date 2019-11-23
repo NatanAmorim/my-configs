@@ -11,8 +11,7 @@ alias update='sudo apt update && sudo apt upgrade'
 alias autoremove='sudo apt autoremove'
 # Lsd (https://github.com/Peltoche/lsd)
 alias lsd="lsd -h --group-dirs first"
-alias lad="lsd -A --group-dirs first"
-alias lld="lsd -aFl --group-dirs first"
+alias ld="lsd -h --group-dirs first"
 
 # Diff with VSCODE
 alias diff='code --diff '
