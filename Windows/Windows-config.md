@@ -1,13 +1,13 @@
 # Windows
 Here's a list of everything I install in my Windows machine.
 
-## Office
+## Documentation
 * [Heimer](https://github.com/juzzlin/Heimer/releases/)
+* [LibreOffice](https://www.libreoffice.org/discover/libreoffice/)
 
 ## IDE
 * [VSCODE](https://code.visualstudio.com/Download)
 * [Eclipse](https://eclipse.org/downloads/)
-* [Spyder](https://docs.spyder-ide.org/installation.html)
 * [Rstudio](https://rstudio.com/products/rstudio/download/)
 * [IntelliJ IDEA](https://jetbrains.com/idea/download/)
 * [Pycharm](https://jetbrains.com/pycharm/download/)
@@ -16,7 +16,6 @@ Here's a list of everything I install in my Windows machine.
 * [R](https://cran.r-project.org)
 * [OpenJDK](https://jdk.java.net/archive/)
 * [Java JDK 11 LTS](https://oracle.com/technetwork/java/javase/downloads/)
-* [Anaconda3](https://anaconda.com/distribution/)
 * [Github Desktop](https://desktop.github.com/)
 * [Docker](https://docs.docker.com/install/)
 * [Insomnia](https://insomnia.rest/download/)
@@ -24,8 +23,6 @@ Here's a list of everything I install in my Windows machine.
 
 ## Editing
 * [Gimp](https://gimp.org/downloads/)
-* [InkScape](https://inkscape.org/)
-* [Darktable](https://darktable.org/install/)
 * [Audacity](https://audacityteam.org/download/)
 * [kdenlive](https://kdenlive.org/en/download/)
 
@@ -33,15 +30,14 @@ Here's a list of everything I install in my Windows machine.
 ## Others
 * [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
 * [Mozilla Thunderbird](https://thunderbird.net)
-* [Google Chrome Browser](https://google.com/intl/en/chrome/)
 * [Discord](https://discordapp.com/download)
+* [Google Chrome Browser](https://google.com/intl/en/chrome/)
 * [7zip](https://7-zip.org)
 
 ## CLI
 * [Yarn](https://yarnpkg.com/en/docs/install)
 * [node.js](https://https://nodejs.org/en/download/)
 * [Git Bash](https://git-scm.com/downloads)
-* [chocolatey](https://chocolatey.org/install)
 
 ## Microsoft Store Apps
 * Trello

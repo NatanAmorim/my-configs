@@ -8,7 +8,6 @@
 
 - GitHub Destkop
 - Insomnia
-- Eclipse JEE
 - Robot3t
 - Docker
 - Firefox Developer
@@ -18,6 +17,5 @@
 - PGmodeler
 - DBbeaver
 - Intellij Idea Community
-- SceneBuilder 11 Gluon
 - Peltoche lsd
 - yarn
