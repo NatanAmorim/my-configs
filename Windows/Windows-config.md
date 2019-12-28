@@ -15,7 +15,7 @@ Here's a list of everything I install in my Windows machine.
 
 ## Development 
 * [OpenJDK](https://jdk.java.net/archive/)
-* [Java JDK 11 LTS](https://oracle.com/technetwork/java/javase/downloads/)
+* [Java JDK LTS](https://oracle.com/technetwork/java/javase/downloads/)
 * [Github Desktop](https://desktop.github.com/)
 * [Docker](https://docs.docker.com/install/)
 * [Insomnia](https://insomnia.rest/download/)
@@ -25,6 +25,7 @@ Here's a list of everything I install in my Windows machine.
 * [Gimp](https://gimp.org/downloads/)
 * [Audacity](https://audacityteam.org/download/)
 * [kdenlive](https://kdenlive.org/en/download/)
+* [Krita](https://krita.org/en/download/krita-desktop/)
 
 
 ## Others
