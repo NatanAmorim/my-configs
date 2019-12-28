@@ -31,6 +31,7 @@ Here's a list of everything I install in my Windows machine.
 ## Others
 * [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
 * [Google Chrome Browser](https://google.com/intl/en/chrome/)
+* [FileZilla ](https://filezilla-project.org/)
 * [Discord](https://discordapp.com/download)
 * [7zip](https://7-zip.org)
 
