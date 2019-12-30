@@ -4,9 +4,6 @@ Here's a list of everything I install in my Windows machine.
 ## Documentation
 * [Heimer](https://github.com/juzzlin/Heimer/releases/)
 * [LibreOffice](https://www.libreoffice.org/discover/libreoffice/)
-* [Mendeley](https://www.mendeley.com/download-desktop/)
-* [Mendeley Citation Plugin](https://www.mendeley.com/guides/using-citation-editor/01-installing-citation-plugin)
-
 
 ## IDE
 * [VSCODE](https://code.visualstudio.com/Download)
@@ -43,8 +40,6 @@ Here's a list of everything I install in my Windows machine.
 ## Microsoft Store Apps
 * Trello
 * Slack
-* WhatsApp
+* WhatsApp web
 * Spotify
 * Debian (Windows Subsystem for Linux)
-* Netflix
-* Windows Terminal (preview)
