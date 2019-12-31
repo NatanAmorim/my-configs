@@ -13,7 +13,7 @@ This is for sharing the Python 3 libraries I use.
 
 | Extension | Installation |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip3 install pip3 install jupyter` |
+| [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip3 install jupyter` |
 | [Matplotlib](https://pypi.org/project/matplotlib/) | `pip3 install matplotlib` |
 | [Seaborn](https://pypi.org/project/seaborn/) | `pip3 install seaborn` |
 | [Bokeh](https://pypi.org/project/bokeh/) | `pip3 install bokeh` |
@@ -21,7 +21,7 @@ This is for sharing the Python 3 libraries I use.
 | [pandas](https://pypi.org/project/pandas/) | `pip3 install pandas` |
 | [Scipy](https://pypi.org/project/scipy/) | `pip3 install scipy` |
 | [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) | `pip3 install SQLAlchemy` |
-| [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | `pip3 install pip install beautifulsoup4` |
+| [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | `pip3 installbeautifulsoup4` |
 | [npyscreen](https://pypi.org/project/npyscreen/) | `pip3 install npyscreen` |
 | [pythondialog](https://pypi.org/project/pythondialog/) | `pip3 install pythondialog` |
 | [urllib3](https://pypi.org/project/urllib3/) | `pip3 install urllib3` |
