@@ -17,6 +17,7 @@ Here's a list of everything I install in my Windows machine.
 * [Docker](https://docs.docker.com/install/)
 * [Insomnia](https://insomnia.rest/download/)
 * [Postman](https://www.getpostman.com/downloads/)
+* [Anaconda](https://www.anaconda.com/distribution/)
 
 ## Editing
 * [Gimp](https://gimp.org/downloads/)
