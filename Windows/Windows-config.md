@@ -32,7 +32,7 @@ Here's a list of everything I install in my Windows machine.
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [FileZilla](https://filezilla-project.org/)
 * [Discord](https://discordapp.com/download)
-* [Steam](
+* [Steam](https://store.steampowered.com/about/)
 * [7zip](https://7-zip.org)
 
 ## CLI
