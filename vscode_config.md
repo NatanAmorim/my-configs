@@ -48,23 +48,35 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 {
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Dracula",
-  
   "editor.fontSize": 14,
   "editor.fontFamily": "Fira Code",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
-  
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
-  
-  "editor.rulers": [90,120],
+  "editor.rulers": [
+    90,
+    120
+  ],
   "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
-  
+  "editor.renderIndentGuides": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
   "eslint.autoFixOnSave": true,
   "eslint.validate": [
     {
-      "language" : "javascript",
+      "language": "javascript",
       "autoFix": true
     },
     {
@@ -80,6 +92,5 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
       "autoFix": true
     }
   ],
-  "editor.renderIndentGuides": false
 }
 ```
