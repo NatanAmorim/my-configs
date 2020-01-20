@@ -53,3 +53,5 @@ function precmd() {
     fi
 }
 
+# add yarn to global path
+export PATH="$(yarn global bin):$PATH"
