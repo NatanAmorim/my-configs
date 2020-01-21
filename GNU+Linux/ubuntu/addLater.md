@@ -16,6 +16,5 @@
 - Postman
 - PGmodeler
 - DBbeaver
-- Intellij Idea Community
 - Peltoche lsd
 - yarn
