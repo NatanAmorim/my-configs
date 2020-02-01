@@ -13,7 +13,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 | Extension | Installation |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) | `code --install-extension vscjava.vscode-java-pack` |
 | [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | `code --install-extension ms-python.python` |
 | [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) | `code --install-extension dracula-theme.theme-dracula` |
 | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `code --install-extension vscode-icons-team.vscode-icons` |
@@ -32,7 +31,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | `code --install-extension esbenp.prettier-vscode` |
 | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 | [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) | `code --install-extension wix.vscode-import-cost` |
-| [Spring Initializr Java Support](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr) | `code --install-extension vscjava.vscode-spring-initializr` |
 | [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
 -->
 
