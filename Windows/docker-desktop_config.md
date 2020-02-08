@@ -15,6 +15,11 @@ This is for sharing the Docker containers I use on windows.
 * `docker pull mongo`  
 * `docker run --name mongodb -p 27017:27017 -d mongo`
 
+### Remote connection MongoDB (Default values).
+
+  host: 127.0.0.1  
+  port: 27017   
+
 ## PostgreSQL
 
 ### Localhost PostgreSQL test server
@@ -26,7 +31,7 @@ This is for sharing the Docker containers I use on windows.
 
 * `docker inspect postgresql`  
 
-### Remote connection (Default values).
+### Remote connection PostgreSQL (Default values).
 
   host: 127.0.0.1  
   port: 5432  
