@@ -13,11 +13,15 @@ Here's a list of everything I install in my Windows machine.
 ## Development 
 * [OpenJDK](https://jdk.java.net/archive/)
 * [Java JDK LTS](https://oracle.com/technetwork/java/javase/downloads/)
+* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Github Desktop](https://desktop.github.com/)
 * [Docker](https://docs.docker.com/install/)
 * [Insomnia](https://insomnia.rest/download/)
 * [Postman](https://www.getpostman.com/downloads/)
 * [Anaconda](https://www.anaconda.com/distribution/)
+* [Robo 3T](https://robomongo.org/download)
+* [DBeaver Community](https://dbeaver.io/download/)
+* [Jaspersoft Studio](https://community.jaspersoft.com/project/jaspersoft-studio)
 
 ## Editing
 * [Gimp](https://gimp.org/downloads/)
