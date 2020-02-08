@@ -29,5 +29,6 @@ This is for sharing the fonts I use.
 
 ## Others
 
-* Microsoft Fonts on Ubuntu (Arial, Times New Roman...): `sudo apt install ttf-mscorefonts-installer`
+* Microsoft Fonts on Ubuntu (Arial, Times New Roman...):  
+`sudo apt install ttf-mscorefonts-installer`
 

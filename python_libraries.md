@@ -9,7 +9,8 @@ This is for sharing the Python 3 libraries I use.
 
 ## Extensions
 
-- Remenber to keep your pip updated `pip3 install --upgrade pip`
+- Remenber to keep your pip updated  
+`pip3 install --upgrade pip`
 
 | Extension | Installation |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
