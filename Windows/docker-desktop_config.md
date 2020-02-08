@@ -10,7 +10,7 @@ This is for sharing the Docker containers I use on windows.
 
 ## MongoDB
 
-* Localhost MongoDB test server.
+### Localhost MongoDB test server.
 
 `docker pull mongo`
 `docker run --name mongodb -p 27017:27017 -d mongo`
@@ -32,7 +32,7 @@ or
 
 {
   host: "127.0.0.1",
-  port: "5432"
+  port: "5432",
   username: "postgres",
   password: "postgres"
 }
@@ -40,5 +40,5 @@ or
 ### PSQL
 
 `docker pull governmentpaas/psql`
-change IP to your local postgres IP
+* change IP to your local postgres IP
 `docker run -it --rm postgres psql -h postgres-IP -p 5432 -U postgres`
