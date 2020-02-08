@@ -25,20 +25,16 @@ This is for sharing the Docker containers I use on windows.
 - get the IP address with
 
 `docker inspect postgresql`  
-or  
-`docker inspect postgresql | grep IP`
 
 - Remote connection (Default values).
 
-{
-  host: "127.0.0.1",  
-  port: "5432",  
-  username: "postgres",  
-  password: "postgres"  
-}
+  host: 127.0.0.1  
+  port: 5432  
+  username: postgres  
+  password: postgres  
 
 ### PSQL
 
-`docker pull governmentpaas/psql`  
-* change IP to your local postgres IP  
+`docker pull governmentpaas/psql`
+* to run psql (change IP to your local postgres IP)
 `docker run -it --rm postgres psql -h postgres-IP -p 5432 -U postgres`
