@@ -22,8 +22,6 @@ This is for sharing the Docker containers I use on windows.
 
 ## PostgreSQL
 
-### Localhost PostgreSQL test server
-
 * `docker pull postgres`
 * `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 
@@ -41,5 +39,5 @@ This is for sharing the Docker containers I use on windows.
 ### PSQL
 
 * `docker pull governmentpaas/psql`
-To run psql (change IP to your local postgres IP)
+To run psql (change IP to your local postgres IP)  
 * `docker run -it --rm postgres psql -h postgres-IP -p 5432 -U postgres`
