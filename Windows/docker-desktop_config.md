@@ -21,7 +21,7 @@ This is for sharing the Docker containers I use on windows.
 ## PostgreSQL
 
 * `docker pull postgres`
-* `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
+* `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 3333:5432 -d postgres`
 
 ###### get the IP address with
 
@@ -30,7 +30,7 @@ This is for sharing the Docker containers I use on windows.
 ###### Remote connection PostgreSQL (Default values).
 
   host: 127.0.0.1  
-  port: 5432  
+  port: 3333  
   username: postgres  
   password: postgres  
 
