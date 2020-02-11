@@ -21,7 +21,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) | `code --install-extension usernamehw.errorlens` |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
-| [XML Language Support](https://marketplace.visualstudio.com/items?itemName=IBM.XMLLanguageSupport) | `code --install-extension IBM.XMLLanguageSupport` |
 | [Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides) | `code --install-extension spywhere.guides` |
 | [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer) | `code --install-extension IBM.output-colorizer` |
 <!--
@@ -32,6 +31,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 | [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) | `code --install-extension wix.vscode-import-cost` |
 | [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
+| [XML Language Support](https://marketplace.visualstudio.com/items?itemName=IBM.XMLLanguageSupport) | `code --install-extension IBM.XMLLanguageSupport` |
 -->
 
 ## Fonts
