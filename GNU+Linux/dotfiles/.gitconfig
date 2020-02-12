@@ -11,10 +11,6 @@
     cmd = code --wait $MERGED
 
 [diff]
-	tool = vimdiff
-
-[difftool]
-	prompt = false
-	
-[alias]
-	d = difftool
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
