@@ -25,7 +25,7 @@ This is for sharing the Docker containers I use on windows.
 
 ###### get the IP address with
 
-* `docker inspect postgresql`  
+* `docker inspect postgresql | findstr "IPAddress"`  
 
 ###### Remote connection PostgreSQL (Default values).
 
@@ -36,6 +36,6 @@ This is for sharing the Docker containers I use on windows.
 
 ###### PSQL
 
-* `docker pull governmentpaas/psql`
-To run psql (change IP to your local postgres IP)  
-* `docker run -it --rm postgres psql -h postgres-IP -p 5432 -U postgres`
+* `docker pull governmentpaas/psql`  
+* `docker run -it --rm postgres psql -h postgres-IP -p 5432 -U postgres`  
+(change postgres-IP to the postgres IP you want to connect)    
