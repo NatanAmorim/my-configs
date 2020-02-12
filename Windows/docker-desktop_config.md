@@ -38,4 +38,4 @@ This is for sharing the Docker containers I use on windows.
 
 * `docker pull governmentpaas/psql`  
 * `docker run -it --rm postgres psql -h postgres-IP -p 5432 -U postgres`  
-(change IP to your local postgres IP)    
+(change postgres-IP to the postgres IP you want to connect)    
