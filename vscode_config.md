@@ -4,6 +4,7 @@
 - [Extensions](#extensions)
 - [Fonts](#fonts)
 - [Settings.json](#settings.json)
+- [Formating](#formating)
 
 ## About
 
@@ -91,3 +92,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   ],
 }
 ```
+
+## Settings.json
+
+You can format your JSON document using `Shift+Alt+F` or **Format Document** from the context menu.
+(Helps with formating "one line" JSON files)
