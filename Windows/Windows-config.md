@@ -29,13 +29,13 @@ Here's a list of everything I install in my Windows machine.
 * [kdenlive](https://kdenlive.org/en/download/)
 * [Krita](https://krita.org/en/download/krita-desktop/)
 
-
 ## Others
 * [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
 * [Google Chrome Browser](https://google.com/intl/en/chrome/)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [FileZilla](https://filezilla-project.org/)
 * [Discord](https://discordapp.com/download)
+* [Etcher](https://www.balena.io/etcher/)
 * [Steam](https://store.steampowered.com/about/)
 * [7zip](https://7-zip.org)
 
