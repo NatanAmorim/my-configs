@@ -41,7 +41,7 @@ Here's a list of everything I install in my Windows machine.
 
 ## CLI
 * [Yarn](https://yarnpkg.com/en/docs/install)
-* [node.js](https://https://nodejs.org/en/download/)
+* [node.js](https://nodejs.org/en/download/)
 * [Git Bash](https://git-scm.com/downloads)
 
 ## Microsoft Store Apps
