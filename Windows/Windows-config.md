@@ -27,6 +27,8 @@ Here's a list of everything I install in my Windows machine.
 ## Others
 * [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
 * [Google Chrome Browser](https://google.com/intl/en/chrome/)
+* [Mozilla Firefox](https://www.mozilla.org/firefox/new/)
+* [Mozilla Thunderbird ](https://www.thunderbird.net/pt-BR/)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [FileZilla](https://filezilla-project.org/)
 * [Discord](https://discordapp.com/download)
@@ -40,9 +42,8 @@ Here's a list of everything I install in my Windows machine.
 * [Git Bash](https://git-scm.com/downloads)
 
 ## Microsoft Store Apps
-* Trello
 * Slack
 * WhatsApp web
 * Spotify
-* Debian (Windows Subsystem for Linux)
-* Windows Terminal (Preview)
+* Debian (Windows Subsystem for Linux 2) -> https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel
+* Windows Terminal
