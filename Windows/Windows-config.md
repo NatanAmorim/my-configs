@@ -7,12 +7,8 @@ Here's a list of everything I install in my Windows machine.
 
 ## IDE
 * [VSCODE](https://code.visualstudio.com/Download)
-* [Eclipse](https://eclipse.org/downloads/)
-* [IntelliJ IDEA](https://jetbrains.com/idea/download/)
 
 ## Development 
-* [OpenJDK](https://jdk.java.net/archive/)
-* [Java JDK LTS](https://oracle.com/technetwork/java/javase/downloads/)
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Github Desktop](https://desktop.github.com/)
 * [Docker](https://docs.docker.com/install/)
@@ -27,7 +23,6 @@ Here's a list of everything I install in my Windows machine.
 * [Gimp](https://gimp.org/downloads/)
 * [Audacity](https://audacityteam.org/download/)
 * [kdenlive](https://kdenlive.org/en/download/)
-* [Krita](https://krita.org/en/download/krita-desktop/)
 
 ## Others
 * [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
