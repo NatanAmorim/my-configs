@@ -24,15 +24,15 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides) | `code --install-extension spywhere.guides` |
 | [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer) | `code --install-extension IBM.output-colorizer` |
+| [XML Language Support](https://marketplace.visualstudio.com/items?itemName=IBM.XMLLanguageSupport) | `code --install-extension IBM.XMLLanguageSupport` |
+| [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) | `code --install-extension wix.vscode-import-cost` |
 <!--
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `code --install-extension EditorConfig.EditorConfig` |
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` |
 | [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) | `code --install-extension HookyQR.beautify` |
 | [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | `code --install-extension esbenp.prettier-vscode` |
 | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
-| [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) | `code --install-extension wix.vscode-import-cost` |
 | [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
-| [XML Language Support](https://marketplace.visualstudio.com/items?itemName=IBM.XMLLanguageSupport) | `code --install-extension IBM.XMLLanguageSupport` |
 -->
 
 ## Fonts
@@ -45,22 +45,23 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 ```
 {
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Dracula",
-  "editor.fontSize": 14,
-  "editor.fontFamily": "Fira Code",
-  "editor.tabSize": 2,
-  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
+  "editor.fontLigatures": true,
   "editor.rulers": [
     90,
     120
   ],
-  "editor.formatOnSave": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.renderIndentGuides": false,
-  "vsicons.dontShowNewVersionMessage": true,
   "editor.suggestSelection": "first",
+  "editor.renderLineHighlight": "gutter",
+  "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "python.jediEnabled": false,
   "extensions.ignoreRecommendations": true,
@@ -90,6 +91,11 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
       "autoFix": true
     }
   ],
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": true,
+  "workbench.colorTheme": "Dracula",
 }
 ```
 
