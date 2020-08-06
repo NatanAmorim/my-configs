@@ -54,7 +54,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "terminal.integrated.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.rulers": [
-    90,
     120
   ],
   "editor.fontFamily": "Fira Code",
