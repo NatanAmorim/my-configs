@@ -1,4 +1,4 @@
-# VSCODE Extensions
+# Google Chrome Extensions
 
 - [About](#about)
 - [Extensions](#extensions )
