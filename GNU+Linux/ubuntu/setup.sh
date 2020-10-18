@@ -22,7 +22,7 @@ sudo apt install breeze-cursor-theme breeze-icon-theme
 
 # Fonts
 sudo apt install fonts-ubuntu fonts-roboto
-sudo apt install fonts-hack fonts-poweline
+sudo apt install fonts-hack fonts-powerline
 sudo apt install fonts-firacode
 
 # Java
