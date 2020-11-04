@@ -9,6 +9,7 @@ sudo apt update && sudo apt upgrade && sudo apt install flatpak && sudo flatpak 
 # >>>Open-Source>>>
 
 # Office & Documentation
+ flatpak install flathub com.microsoft.Teams
  flatpak install flathub org.gnome.Evince #Evince (PDF document viewer)
  flatpak install flathub org.libreoffice.LibreOffice #LibreOffice
 # flatpak install flathub org.remmina.Remmina #Remmina
@@ -20,15 +21,13 @@ sudo apt update && sudo apt upgrade && sudo apt install flatpak && sudo flatpak 
 # flatpak install flathub com.jetbrains.PyCharm-Community #Pycharm
 # flatpak install flathub cc.arduino.arduinoide #Arduino IDE
 
-# General purpose tools
- flatpak install flathub com.jgraph.drawio.desktop #Draw.io (Create diagrams)
+# Other purpose tools
  flatpak install flathub org.filezillaproject.Filezilla #Filezilla
 
 # Graphics & Photography
  flatpak install flathub org.darktable.Darktable #Darktable
  flatpak install flathub org.inkscape.Inkscape #Inkscape
  flatpak install flathub org.gimp.GIMP #GIMP
- flatpak install flathub org.gnome.zbrown.Palette #Colour Palette
 # flatpak install flathub org.kde.krita #Kirita
 
 # Audio & Video
