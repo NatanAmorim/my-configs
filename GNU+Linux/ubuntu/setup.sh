@@ -21,9 +21,7 @@ sudo apt install tar zip gzip unzip lrzip unrar p7zip unace
 sudo apt install breeze-cursor-theme breeze-icon-theme
 
 # Fonts
-sudo apt install fonts-ubuntu fonts-roboto
-sudo apt install fonts-hack fonts-powerline
-sudo apt install fonts-firacode
+sudo apt install fonts-ubuntu fonts-roboto fonts-hack fonts-powerline fonts-firacode
 
 # Java
 sudo apt install openjdk-11-jdk
@@ -45,3 +43,6 @@ sudo apt autoremove
 # Performance
 sudo systemctl disable ondemand
 sudo apt install linux-tools-common linux-tools-generic
+
+# Flatpak
+sudo apt update && sudo apt upgrade && sudo apt install flatpak && sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo

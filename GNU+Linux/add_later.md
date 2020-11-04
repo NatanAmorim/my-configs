@@ -1,8 +1,8 @@
-# addLater
+# Add Later
 
 ## About
 
-  Here are some programs harder to install that i havent created a script for installing it yet.
+Here are some programs harder to install that i havent created a script for installing it yet.
   
 ## Programs
 

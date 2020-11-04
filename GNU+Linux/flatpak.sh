@@ -3,17 +3,11 @@
 
 # You may need to "sudo chmod +x flatpak.sh" 
 
-#installing flatpak
-sudo apt update && sudo apt upgrade && sudo apt install flatpak && sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-# >>>Open-Source>>>
-
 # Office & Documentation
  flatpak install flathub com.microsoft.Teams # (Microsoft Teams for Linux)
  flatpak install flathub org.gnome.Evince # Evince (PDF document viewer)
  flatpak install flathub org.libreoffice.LibreOffice # LibreOffice
  flatpak install flathub org.remmina.Remmina # Remmina
-
 
 # Programming & IDE's (Integrated Development Environments)
  flatpak install flathub org.godotengine.Godot # Godot (Game Engine)
