@@ -15,6 +15,7 @@ This is for sharing the Python 3 libraries I use.
 | Extension | Installation |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
 | [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip3 install jupyter` |
+| [OpenCV](https://pypi.org/project/opencv-python/) | `pip3 install opencv-python` |
 | [Matplotlib](https://pypi.org/project/matplotlib/) | `pip3 install matplotlib` |
 | [Seaborn](https://pypi.org/project/seaborn/) | `pip3 install seaborn` |
 | [Bokeh](https://pypi.org/project/bokeh/) | `pip3 install bokeh` |
