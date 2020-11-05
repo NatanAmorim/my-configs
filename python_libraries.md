@@ -24,12 +24,10 @@ This is for sharing the Python 3 libraries I use.
 | [Scipy](https://pypi.org/project/scipy/) | `pip3 install scipy` |
 | [Scikit Image](https://pypi.org/project/scikit-image/) | `pip3 install scikit-image` |
 | [Imutils](https://pypi.org/project/imutils/) | `pip3 install imutils` |
-<!--
-| [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) | `pip3 install SQLAlchemy` |
--->
 | [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | `pip3 install beautifulsoup4` |
 | [npyscreen](https://pypi.org/project/npyscreen/) | `pip3 install npyscreen` |
 | [pythondialog](https://pypi.org/project/pythondialog/) | `pip3 install pythondialog` |
 | [urllib3](https://pypi.org/project/urllib3/) | `pip3 install urllib3` |
 | [requests](https://pypi.org/project/requests/) | `pip3 install requests` |
 | [Sphinx](https://pypi.org/project/Sphinx/) | `pip3 install Sphinx` |
+| [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) | `pip3 install SQLAlchemy` |
