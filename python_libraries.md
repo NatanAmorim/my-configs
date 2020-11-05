@@ -22,7 +22,11 @@ This is for sharing the Python 3 libraries I use.
 | [Numpy](https://pypi.org/project/numpy/) | `pip3 install numpy` |
 | [pandas](https://pypi.org/project/pandas/) | `pip3 install pandas` |
 | [Scipy](https://pypi.org/project/scipy/) | `pip3 install scipy` |
+| [Scikit Image](https://pypi.org/project/scikit-image/) | `pip3 install scikit-image` |
+| [Imutils](https://pypi.org/project/imutils/) | `pip3 install imutils` |
+<!--
 | [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) | `pip3 install SQLAlchemy` |
+-->
 | [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | `pip3 install beautifulsoup4` |
 | [npyscreen](https://pypi.org/project/npyscreen/) | `pip3 install npyscreen` |
 | [pythondialog](https://pypi.org/project/pythondialog/) | `pip3 install pythondialog` |
