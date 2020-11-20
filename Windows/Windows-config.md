@@ -43,6 +43,7 @@ Here's a list of everything I install in my Windows machine.
 
 ## Microsoft Store Apps
 * Slack
+* Okular (PDF reader)
 * WhatsApp web
 * Spotify
 * Debian (Windows Subsystem for Linux 2) -> https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel
