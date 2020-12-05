@@ -26,13 +26,15 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer) | `code --install-extension IBM.output-colorizer` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) | `code --install-extension docsmsft.docs-markdown` |
+| [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) | `code --install-extension donjayamanne.githistory` |
 <!--
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `code --install-extension EditorConfig.EditorConfig` |
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` | 
 | [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` | 
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
 | [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | `code --install-extension aaron-bond.better-comments` |
-| [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | `code --install-extension aaron-bond.better-comments` |
+| [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
+| [Android iOS Emulator](https://marketplace.visualstudio.com/items?itemName=DiemasMichiels.emulate) | `code --install-extension DiemasMichiels.emulate` |
 -->
 
 ## Fonts
