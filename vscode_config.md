@@ -25,8 +25,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer) | `code --install-extension IBM.output-colorizer` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
-| [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) | `code --install-extension docsmsft.docs-markdown` |
-| [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) | `code --install-extension donjayamanne.githistory` |
 <!--
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `code --install-extension EditorConfig.EditorConfig` |
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` | 
