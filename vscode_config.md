@@ -107,9 +107,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   },
 }
 ```
-## Utils
 
-### Formatting
+## Utils
 
 You can format your JSON document using `Shift+Alt+F` or **Format Document** from the context menu.  
 (Helps with formating "one line" JSON files)
