@@ -1,11 +1,11 @@
-# Google Chrome Extensions
+# Google Chrome/Chromium Extensions
 
 - [About](#about)
 - [Extensions](#extensions )
 
 ## About
 
-This is for sharing the Google Chrome Extensions I use.
+This is for sharing the Google Chrome/Chromium Extensions I use.
 
 ## Extensions
 
