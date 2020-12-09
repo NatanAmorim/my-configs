@@ -8,14 +8,9 @@ Here are some programs harder to install that i havent created a script for inst
 
 - GitHub Destkop
 - Insomnia
-- Robot3t
-- DBbeaver
 - Beekeeper Studio
 - Docker
 - PGmodeler
-
-- vlc + licenses
 - Android Studio + Android SDK
-
 - Peltoche lsd
-- yarn
+- Flutter
