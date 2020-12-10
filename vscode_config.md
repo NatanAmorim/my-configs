@@ -66,7 +66,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.parameterHints.enabled": false,
   "workbench.editor.labelFormat": "short",
   "extensions.ignoreRecommendations": true,
-  "vsicons.dontShowNewVersionMessage": true,
   "window.zoomLevel": 0,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
