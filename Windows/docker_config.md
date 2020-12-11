@@ -37,5 +37,5 @@ This is for sharing the Docker containers I use on windows.
 ###### PSQL
 
 * `docker pull governmentpaas/psql`  
-* `docker run -it --rm postgres psql -h postgres-IP -p 5432 -U postgres`  
-(change postgres-IP to the postgres IP you want to connect)    
+* `docker run -it --rm postgres psql -h <Postgres-IP> -p 5432 -U postgres`  
+(change <Postgres-IP> to the IP you want to connect)    
