@@ -29,11 +29,11 @@ This is for sharing the Docker containers I use.
 
 - `docker inspect postgresql | findstr "IPAddress"`  
 
-#### Ubuntu
+#### Linux
 
 - `docker inspect postgresql | grep "IPAddress"`  
 
-#### Remote connection PostgreSQL (Default values).
+#### Remote connection PostgreSQL
 
   host: 127.0.0.1  
   port: 3333  
