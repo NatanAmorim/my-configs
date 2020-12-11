@@ -11,13 +11,14 @@ This is for sharing the Docker containers I use with simple examples.
 
 ## NodeJS
 
-### Build a docker node.js image for server use
+### Build a docker image for a node.js server
 
 #### Using NPM
 
-- First create a `dockerfile`
+- Create a **`dockerfile`**
 
 ```dockerfile
+
 FROM node:alpine
 
 WORKDIR /usr/app
@@ -32,8 +33,30 @@ EXPOSE 3000
 
 CMD ["npm", "start"]
 ```
+#### Using Yarn
 
-- Secondly create a `.dockerignore`
+- Create a **`dockerfile`**
+
+```dockerfile
+
+FROM node:alpine
+
+WORKDIR /usr/app
+
+COPY package.json ./
+
+RUN yarn install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["yarn", "start"]
+```
+
+### Ignore node_modules on your docker image
+
+- create a **`.dockerignore`**
 
 ```dockerignore
 node_modules
@@ -43,14 +66,15 @@ node_modules
 
 - Finally let's build the container using [docker-compose](https://docs.docker.com/compose/).
 
-`docker build -t <username>/dockernode .`  
+- `docker build -t <username>/dockernode .`  
 
-**_NOTE:_** you should change `<username>` to your username.
+**_NOTE!_** you should change `<username>` to your username.
 
 ### Running the container
 
-- `docker run -p 3000:3000 -d <username>/dockernode`
-**_NOTE:_** you should change `<username>` to your username.
+- `docker run -p 3000:3000 -d <username>/dockernode`  
+
+**_NOTE!_** you should change `<username>` to your username.
 
 ## MongoDB
 
@@ -66,8 +90,8 @@ node_modules
 ## PostgreSQL
 
 - `docker pull postgres`
-- `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 3333:5432 -d postgres`  
-**_NOTE:_** change the username and password.
+- `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`  
+**_NOTE!_** change the username and password.
 
 ### get the IP address with
 
@@ -82,10 +106,10 @@ node_modules
 #### Remote connection to PostgreSQL on Docker
 
 - host: `127.0.0.1`
-- port: `3333`
+- port: `5432`
   
 #### PSQL
 
 - `docker pull governmentpaas/psql`  
 - `docker run -it --rm postgres psql -h <Postgres-IP> -p 5432 -U postgres`  
-**_NOTE:_** change `<Postgres-IP>` to the IP you want to connect.
+**_NOTE!_** change `<Postgres-IP>` to the IP you want to connect.
