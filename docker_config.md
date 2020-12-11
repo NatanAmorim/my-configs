@@ -11,7 +11,47 @@ This is for sharing the Docker containers I use with simple examples.
 
 ## NodeJS
 
- - LOL
+### Build a docker node.js image for server use
+
+#### Using NPM
+
+- First create a `dockerfile`
+
+```dockerfile
+FROM node:alpine
+
+WORKDIR /usr/app
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+```
+
+- Secondly create a `.dockerignore`
+
+```dockerignore
+node_modules
+```
+
+### Building the container
+
+- Finally let's build the container using [docker-compose](https://docs.docker.com/compose/).
+
+`docker build -t <username>/dockernode .`  
+
+**_NOTE:_** you should change `<username>` to your username.
+
+### Running the container
+
+- `docker run -p 3000:3000 -d <username>/dockernode`
+**_NOTE:_** you should change `<username>` to your username.
+
 ## MongoDB
 
 - `docker pull mongo`  
@@ -19,13 +59,15 @@ This is for sharing the Docker containers I use with simple examples.
 
 ### Remote connection to MongoDB on Docker
 
-  host: 127.0.0.1  
-  port: 27017
+- host: `127.0.0.1`
+- port: `27017`
+
 
 ## PostgreSQL
 
 - `docker pull postgres`
-- `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 3333:5432 -d postgres`
+- `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 3333:5432 -d postgres`  
+**_NOTE:_** change the username and password.
 
 ### get the IP address with
 
@@ -39,13 +81,11 @@ This is for sharing the Docker containers I use with simple examples.
 
 #### Remote connection to PostgreSQL on Docker
 
-  host: 127.0.0.1  
-  port: 3333  
-  username: postgres  
-  password: postgres  
-
+- host: `127.0.0.1`
+- port: `3333`
+  
 #### PSQL
 
 - `docker pull governmentpaas/psql`  
 - `docker run -it --rm postgres psql -h <Postgres-IP> -p 5432 -U postgres`  
-(change `<Postgres-IP>` to the IP you want to connect)
+**_NOTE:_** change `<Postgres-IP>` to the IP you want to connect.
