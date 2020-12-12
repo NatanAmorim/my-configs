@@ -9,16 +9,18 @@
 
 This is for sharing the Docker containers I use with simple examples.
 
+- installation on [Windows](https://docs.docker.com/docker-for-windows/install/) (i recomend using [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel))
+- installation on [Linux](https://docs.docker.com/engine/install/ubuntu/)
+
 ## NodeJS
 
-### Build a docker image for a node.js server
-
-#### Using NPM
+### Build a docker image for a NodeJS
 
 - Create a **`dockerfile`**
 
-```dockerfile
+#### Using NPM
 
+```dockerfile
 FROM node:alpine
 
 WORKDIR /usr/app
@@ -31,14 +33,12 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["npm", "dev"]
 ```
+
 #### Using Yarn
 
-- Create a **`dockerfile`**
-
 ```dockerfile
-
 FROM node:alpine
 
 WORKDIR /usr/app
@@ -51,7 +51,7 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["yarn", "start"]
+CMD ["yarn", "dev"]
 ```
 
 ### Ignore node_modules on your docker image
@@ -113,3 +113,4 @@ node_modules
 - `docker pull governmentpaas/psql`  
 - `docker run -it --rm postgres psql -h <Postgres-IP> -p 5432 -U postgres`  
 **_NOTE!_** change `<Postgres-IP>` to the IP you want to connect.
+
