@@ -99,7 +99,7 @@ yarn-error.log
 
 - `docker build -t <username>/<app_name> .`  
 
-*NOTE:* in `<username>` you should use your Hub username and .
+*NOTE:* in `<username>` you should use the username of your image Hub of preference.
 
 ### Running the container
 
