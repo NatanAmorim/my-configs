@@ -99,7 +99,7 @@ yarn-error.log
 
 - `docker build -t <username>/<app_name> .`  
 
-**_NOTE!_** in `<username>`  you should use your Hub username and .
+*NOTE:* in `<username>` you should use your Hub username and .
 
 ### Running the container
 
@@ -117,12 +117,10 @@ or
 - host: `127.0.0.1`
 - port: `27017`
 
-
 ## PostgreSQL
 
 - `docker pull postgres`
-- `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`  
-**_NOTE!_** change the username and password.
+- `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d <password>`
 
 ### get the IP address with
 
@@ -139,9 +137,8 @@ or
 - host: `127.0.0.1`
 - port: `5432`
   
-#### PSQL
+#### PSQL on Docker
 
 - `docker pull governmentpaas/psql`  
-- `docker run -it --rm postgres psql -h <Postgres-IP> -p 5432 -U postgres`  
-**_NOTE!_** change `<Postgres-IP>` to the IP you want to connect.
+- `docker run -it --rm postgres psql -h <postgres-ip> -p 5432 -U postgres`
 
