@@ -1,4 +1,4 @@
-# VSCODE Extensions
+# Python 3 Extensions
 
 - [About](#about)
 - [Libraries](#libraries )
