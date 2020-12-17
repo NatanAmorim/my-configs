@@ -14,19 +14,20 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 | Extension | Installation |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) | `code --install-extension Dart-Code.flutter` |
-| [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) | `code --install-extension Dart-Code.dart-code` |
-| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | `code --install-extension ms-python.python` |
-| [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
 | [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) | `code --install-extension dracula-theme.theme-dracula` |
 | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) | `code --install-extension PKief.material-icon-theme` |
 | [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) | `code --install-extension CoenraadS.bracket-pair-colorizer-2` |
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `code --install-extension christian-kohler.path-intellisense` |
+| [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) | `code --install-extension Dart-Code.flutter` |
+| [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) | `code --install-extension Dart-Code.dart-code` |
+| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | `code --install-extension ms-python.python` |
+| [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer) | `code --install-extension IBM.output-colorizer` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
-| [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` | 
+| [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
+| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 | [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | `code --install-extension aaron-bond.better-comments` |
 <!--
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `code --install-extension EditorConfig.EditorConfig` |
@@ -35,8 +36,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ## Fonts
 
-* [Fira Code](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip)
-* [Hack (Nerd Fonts)](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/Hack.zip)
+- [Fira Code](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip)
+- [Hack (Nerd Fonts)](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/Hack.zip)
 
 ## Settings.json
 
@@ -45,7 +46,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
   "editor.fontFamily": "Fira Code",
@@ -58,24 +59,25 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   ],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.renderIndentGuides": false,
+  "editor.renderIndentGuides": true,
   "editor.suggestSelection": "first",
   "editor.renderLineHighlight": "gutter",
   "editor.parameterHints.enabled": false,
-  "workbench.editor.labelFormat": "short",
-  "extensions.ignoreRecommendations": true,
-  "window.zoomLevel": 0,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "window.zoomLevel": 0,
+  // Don't show theses files
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true,
-    "node_modules": true
+    "**/.DS_Store": true
   },
+  // Material icon theme
   "material-icon-theme.folders.associations": {
     "infra": "app",
     "entities": "class",
@@ -97,6 +99,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "tsconfig.json": "tune",
     "*.proto": "3d"
   },
+  // Flutter + Dart
+  "dart.openDevTools": "flutter",
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -109,11 +113,12 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "dart.openDevTools": "flutter",
+  // TypeScript
   "typescript.tsserver.log": "verbose",
-  "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
+  // Javascript
+  "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
 }
 ```
