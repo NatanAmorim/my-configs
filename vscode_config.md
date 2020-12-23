@@ -44,7 +44,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ```json
 {
-  "workbench.colorTheme": "omni",
+  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
@@ -103,12 +103,12 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   },
   // Flutter + Dart
   "dart.openDevTools": "flutter",
+  "dart.previewFlutterUiGuides": true,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [
-      80,
-      120
+      80
     ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
