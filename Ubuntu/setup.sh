@@ -12,7 +12,7 @@ sudo apt install wget curl htop
 sudo apt install gcc make cmake build-essential autoconf automake
 
 # Terminal workflow
-sudo apt install vim git zsh tldr-py neofetch
+sudo apt install vim git zsh tldr-py neofetch ncdu
 
 # File compression
 sudo apt install tar zip gzip unzip lrzip unrar p7zip unace
