@@ -5,7 +5,6 @@
 
 # Programming & IDE's (Integrated Development Environments)
  flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community # IntelliJ-IDEA
- flatpak install flathub com.github.artemanufrij.regextester # Regex Tester (test regular expressions)
 
 # Other purpose tools
  flatpak install flathub org.filezillaproject.Filezilla # Filezilla
