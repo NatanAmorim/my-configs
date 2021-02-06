@@ -14,3 +14,4 @@ Here are some programs harder to install that i havent created a script for inst
 - Android Studio + Android SDK
 - Peltoche lsd
 - Flutter
+- Robo 3T
