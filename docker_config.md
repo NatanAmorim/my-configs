@@ -12,7 +12,7 @@ This is for sharing the Docker containers I use with simple examples.
 
 ## Install
 
-- installation on [Windows](https://docs.docker.com/docker-for-windows/install/) (i recomend using [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel))
+- installation on [Windows](https://docs.docker.com/docker-for-windows/install/) (i recomend to use [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel))
 - installation on [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
 ## NodeJS
