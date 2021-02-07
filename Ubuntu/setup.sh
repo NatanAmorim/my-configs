@@ -23,6 +23,9 @@ sudo apt install tar zip gzip unzip lrzip unrar p7zip unace
 # Breeze Theme
 sudo apt install breeze-cursor-theme breeze-icon-theme
 
+# Email
+sudo apt install geary
+
 # Fonts
 sudo apt install fonts-roboto fonts-firacode fonts-powerline ttf-mscorefonts-installer
 
