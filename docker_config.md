@@ -103,9 +103,9 @@ yarn-error.log
 
 ### Running the container
 
-- `docker run -p 3000:3000 -d <username>/<app_name>`  
+- `docker run -p 3000:3000 -d <username>/<app_name> .`  
 or
-- `docker run -p 3000:3000 <image_id>`
+- `docker run -p 3000:3000 <image_id> .`
 
 ## MongoDB
 
