@@ -24,9 +24,9 @@ This is for sharing the Docker containers I use with simple examples.
 #### Using NPM
 
 ```dockerfile
-# Use the official lightweight Node.js 12 image.
+# Use the official lightweight Node.js 14 image.
 # https://hub.docker.com/_/node
-FROM node:12-slim
+FROM node:14-slim
 
 # Create and change to the app directory.WORKDIR /usr/app
 WORKDIR /usr/app
@@ -54,9 +54,9 @@ CMD ["npm", "dev"]
 #### Using Yarn
 
 ```dockerfile
-# Use the official lightweight Node.js 12 image.
+# Use the official lightweight Node.js 14 image.
 # https://hub.docker.com/_/node
-FROM node:12-slim
+FROM node:14-slim
 
 # Create and change to the app directory.
 WORKDIR /usr/app
