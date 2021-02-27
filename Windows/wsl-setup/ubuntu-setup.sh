@@ -7,7 +7,7 @@ sudo apt install htop wget curl
 # Compilers & Interpreters
 sudo apt install gcc make cmake build-essential autoconf automake python3-minimal
 # Terminal workflow
-sudo apt install vim git zsh tmux tldr-py vifm aptitude ranger neofetch lolcat
+sudo apt install vim git zsh tmux tldr-py aptitude ranger neofetch ncdu ripgrep 
 # File compression
 sudo apt install tar zip gzip unzip lrzip p7zip unrar-free
 # Java
