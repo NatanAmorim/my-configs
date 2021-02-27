@@ -6,7 +6,7 @@ CASE_SENSITIVE="false"
 HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_UPDATE="false"
 DISABLE_AUTO_TITLE="true"
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 HIST_STAMPS="dd/mm/yyyy"
 COMPLETION_WAITING_DOTS="true"
 
@@ -27,8 +27,9 @@ zsh-syntax-highlighting
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
-export LANG=pt_BR.UTF-8
 export TERM=xterm-256color
 
 # Load personal aliases, for a full list of active aliases, run `alias`
