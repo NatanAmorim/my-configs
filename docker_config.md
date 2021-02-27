@@ -28,23 +28,23 @@ This is for sharing the Docker containers I use with simple examples.
 # https://hub.docker.com/_/node
 FROM node:14-slim
 
-# Create and change to the app directory.WORKDIR /usr/app
-WORKDIR /usr/app
+# Set working directory. Paths will be relative this WORKDIR
+WORKDIR /usr/src/app
 
 # Copy application dependency manifests to the container image.
-# Copying this first prevents re-running yarn install on every code change.
-COPY package.json ./
+# Copying this first prevents re-running npm install on every code change.
+COPY package*.json ./
 
-# Install production dependencies.
-RUN npm install --only=production
+# Install dependencies
+RUN npm install
 
-# Copy local code to the container image.
+# Copy source files from host computer to the container
 COPY . .
 
-# Enviroment variable
+# Set enviroment variable
 ENV PORT=3000
 
-# Expose port
+# Specify port app runs on
 EXPOSE 3000
 
 # Run the web service on container startup.
@@ -58,23 +58,23 @@ CMD ["npm", "dev"]
 # https://hub.docker.com/_/node
 FROM node:14-slim
 
-# Create and change to the app directory.
-WORKDIR /usr/app
+# Set working directory. Paths will be relative this WORKDIR
+WORKDIR /usr/src/app
 
 # Copy application dependency manifests to the container image.
 # Copying this first prevents re-running yarn install on every code change.
-COPY package.json ./
+COPY package*.json ./
 
-# Install production dependencies.
-RUN yarn install --only=production
+# Install dependencies
+RUN yarn install
 
-# Copy local code to the container image.
+# Copy source files from host computer to the container
 COPY . .
 
-# Enviroment variable
+# Set enviroment variable
 ENV PORT=3000
 
-# Expose port
+# Specify port app runs on
 EXPOSE 3000
 
 # Run the web service on container startup.
