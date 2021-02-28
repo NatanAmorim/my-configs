@@ -34,8 +34,6 @@ alias cp="cp -i" # confirm before overwriting something
 alias df='df -h' # human-readable sizes
 # Windows 10
 alias windows="cd /mnt/c/Users/natan"
-alias dev="cd /mnt/c/Users/natan/Development"
-alias development="cd /mnt/c/Users/natan/Development"
 # !Paste the following lines in ".bashrc" and uncomment to load these aliases!
 # !Paste the following lines in ".zshrc" and uncomment to load these aliases!
 # Load personal aliases, overriding existing ones
