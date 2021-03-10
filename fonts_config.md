@@ -18,6 +18,7 @@
 - [Rajdhani](https://fonts.google.com/download?family=Rajdhani)
 - [Inter](https://fonts.google.com/download?family=Inter)
 - [Lato](https://fonts.google.com/download?family=Lato)
+- [Poppins](https://fonts.google.com/download?family=Poppins)
 
 ### Terminal Fonts
 
