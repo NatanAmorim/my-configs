@@ -21,15 +21,16 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `code --install-extension christian-kohler.path-intellisense` |
 | [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) | `code --install-extension Dart-Code.flutter` |
 | [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) | `code --install-extension Dart-Code.dart-code` |
-| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | `code --install-extension ms-python.python` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
-| [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer) | `code --install-extension IBM.output-colorizer` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
-| [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
 | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 | [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | `code --install-extension aaron-bond.better-comments` |
+| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
+| [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 <!--
+| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | `code --install-extension ms-python.python` |
+| [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
 | [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) | `code --install-extension dracula-theme.theme-dracula` |
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `code --install-extension EditorConfig.EditorConfig` |
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` | 
@@ -46,6 +47,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 {
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.fontFamily": "Hack Nerd Font",
@@ -71,6 +73,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "window.zoomLevel": 0,
+  "window.menuBarVisibility": "toggle",
   // Don't show theses files
   "files.exclude": {
     "**/.git": true,
@@ -80,9 +83,11 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "**/.DS_Store": true
   },
   // Material icon theme
+  "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
     "infra": "app",
     "entities": "class",
+    "domain": "class",
     "schemas": "class",
     "typeorm": "database",
     "repositories": "mappings",
@@ -94,12 +99,21 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "fakes": "mock",
     "websockets": "pipe",
     "protos": "pipe",
-    "grpc": "pipe"
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
   },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
-    "*.proto": "3d"
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
   },
   // Flutter + Dart
   "dart.openDevTools": "flutter",
@@ -127,6 +141,33 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
+  // Code Spell Checker
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt",
+  "cSpell.userWords": [
+    "chakra",
+    "middlewares",
+    "prefetch",
+    "rocketseat"
+  ],
 }
 ```
 
