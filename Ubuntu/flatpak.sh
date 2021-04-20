@@ -18,7 +18,7 @@
  flatpak install flathub org.audacityteam.Audacity # Audacity
  flatpak install flathub com.obsproject.Studio # OBS - Open Broadcaster Software
 
-# Universal Database (DB) Tool
+# Universal Database (DB) Manager
  flatpak install flathub io.dbeaver.DBeaverCommunity # DBeaver Community Edition
 
 ## Good programs that i don't use
