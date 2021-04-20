@@ -5,6 +5,7 @@
 - [NodeJS](#nodejs)
 - [MongoDB](#MongoDB)
 - [PostgreSQL](#PostgreSQL)
+- [MS SQL](#MS_SQL)
 
 ## About
 
@@ -142,3 +143,16 @@ or
 - `docker pull governmentpaas/psql`  
 - `docker run -it --rm postgres psql -h <postgres-ip> -p 5432 -U postgres`
 
+## MS SQL
+
+- Remember that you **MUST** use a strong password, otherwise the process will exit with status 1.
+
+### Microsoft SQL 2017
+
+- `docker pull mcr.microsoft.com/mssql/server:2017-latest`
+- `docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<password>' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest`
+
+### Microsoft SQL 2019
+
+- `docker pull mcr.microsoft.com/mssql/server:2019-latest`
+- `docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<password>' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest`
