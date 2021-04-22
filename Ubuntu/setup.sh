@@ -11,14 +11,11 @@ sudo apt install wget curl htop
 # Compilers & Interpreters
 sudo apt install gcc make cmake build-essential autoconf automake
 
-# KVM
-sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils cpu-checker
-
 # Terminal workflow
 sudo apt install vim git zsh tldr-py neofetch ncdu ripgrep 
 
 # File compression
-sudo apt install tar zip gzip unzip lrzip unrar p7zip unace
+sudo apt install tar zip gzip unzip lrzip unrar p7zip-full unace
 
 # Breeze Theme
 sudo apt install breeze-cursor-theme breeze-icon-theme
