@@ -15,3 +15,9 @@ Here are some programs harder to install that i havent created a script for inst
 - Peltoche lsd
 - Flutter
 - Robo 3T
+
+## Saytime
+
+i use it to tell the time in voice each hour
+- ```sudo apt-get install saytime```
+- ```saytime -r 3600 -f %P%l```
