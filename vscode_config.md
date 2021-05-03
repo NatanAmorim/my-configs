@@ -25,17 +25,29 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
-| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 | [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | `code --install-extension aaron-bond.better-comments` |
+
+
+## Extensions i am testing
+
+| [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | `code --install-extension kisstkondoros.vscode-gutter-preview` |
+| [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | `code --install-extension esbenp.prettier-vscode` | 
+
+| [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | `code --install-extension redhat.vscode-yaml` | 
+| [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` | 
+| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
+| [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) | `code --install-extension quicktype.quicktype` |
+| [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets) | `code --install-extension gNash.awesome-flutter-snippets` |
+| [bloc](https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc) | `code --install-extension FelixAngelov.bloc` | 
+| [[FF] Flutter Files](https://marketplace.visualstudio.com/items?itemName=gornivv.vscode-flutter-files) | `code --install-extension gornivv.vscode-flutter-files` | 
+| [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | `code --install-extension kisstkondoros.vscode-gutter-preview` |
+| [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker) | `code --install-extension deerawan.vscode-faker` |
+| [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) | `code --install-extension usernamehw.errorlens` |
+| [Error Lens](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | `code --install-extension kisstkondoros.vscode-gutter-preview` |
+| [GitHub Pull Requests and Issues (Preview)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
+| [GitHub Pull Requests and Issues (Preview)](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | `code --install-extension VisualStudioExptTeam.vscodeintellicode` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
-<!--
-| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | `code --install-extension ms-python.python` |
-| [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) | `code --install-extension mikestead.dotenv` |
-| [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) | `code --install-extension dracula-theme.theme-dracula` |
-| [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `code --install-extension EditorConfig.EditorConfig` |
-| [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` | 
--->
 
 ## Fonts
 
