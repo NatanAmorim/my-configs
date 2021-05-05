@@ -5,6 +5,7 @@
 - [Fonts](#fonts)
 - [Settings.json](#settings.json)
 - [Utils](#utils)
+- [Multiple Fonts](#multiple-fonts)
 
 ## About
 
@@ -187,3 +188,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 You can format your JSON document using `Shift+Alt+F` or **Format Document** from the context menu.  
 (Helps with formating "one line" JSON files)
+
+## Multiple Fonts
+
+- [Customize Visual Studio Code for Multiple Fonts and styles.](https://razvanpredescu.medium.com/customize-visual-studio-code-for-multiple-fonts-and-styles-96f83562af58)
+- [Operator Mono Ligatures](https://github.com/kiliman/operator-mono-lig)
