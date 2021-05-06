@@ -195,8 +195,9 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ## Utils
 
-You can format your JSON document using `Shift+Alt+F` or **Format Document** from the context menu.  
-(Helps with formating "one line" JSON files)
+- Reload VS code with the `Developer: Reload Window` command. Simply type that in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` It will clear the error. It's like refreshing VS Code.
+
+- You can format your JSON document using `Shift+Alt+F` or simply type **Format Document** in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` in the context menu. Helps with formating JSON files that comes in only one line.
 
 ## Multiple Fonts
 
