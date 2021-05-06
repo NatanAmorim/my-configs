@@ -62,7 +62,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 {
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.fontFamily": "Hack Nerd Font",
@@ -174,14 +173,22 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "!restructuredtext",
     "!rust",
     "!scala",
-    "!scss"
+    "!scss",
+    "dart"
   ],
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
     "chakra",
     "middlewares",
     "prefetch",
-    "rocketseat"
+    "roboto",
+    "cupertino"
+  ],
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
   ],
 }
 ```
