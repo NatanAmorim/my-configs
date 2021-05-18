@@ -1,15 +1,10 @@
 # Windows
 Here's a list of everything I install in my Windows machine.
 
-## Documentation
-* [Heimer](https://github.com/juzzlin/Heimer/releases/)
-* [LibreOffice](https://www.libreoffice.org/discover/libreoffice/)
-
-## IDE
-* [VSCODE](https://code.visualstudio.com/Download)
-
 ## Development 
+* [VSCODE](https://code.visualstudio.com/Download)
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+* [Git Bash](https://git-scm.com/downloads)
 * [Github Desktop](https://desktop.github.com/)
 * [Docker](https://docs.docker.com/install/)
 * [Insomnia](https://insomnia.rest/download/)
@@ -23,9 +18,9 @@ Here's a list of everything I install in my Windows machine.
 * [Gimp](https://gimp.org/downloads/)
 * [Audacity](https://audacityteam.org/download/)
 * [kdenlive](https://kdenlive.org/en/download/)
+* [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
 
 ## Others
-* [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
 * [Google Chrome Browser](https://google.com/intl/en/chrome/)
 * [Mozilla Firefox](https://www.mozilla.org/firefox/new/)
 * [Mozilla Thunderbird ](https://www.thunderbird.net/pt-BR/)
@@ -36,15 +31,9 @@ Here's a list of everything I install in my Windows machine.
 * [Steam](https://store.steampowered.com/about/)
 * [7zip](https://7-zip.org)
 
-## CLI
-* [Yarn](https://yarnpkg.com/en/docs/install)
-* [node.js](https://nodejs.org/en/download/)
-* [Git Bash](https://git-scm.com/downloads)
-
 ## Microsoft Store Apps
-* Slack
-* Okular (PDF reader)
-* WhatsApp web
+* MS Teams
+* WhatsApp Web
 * Spotify
-* Debian (Windows Subsystem for Linux 2) -> https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel
+* Ubuntu (Windows Subsystem for Linux 2) -> https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel
 * Windows Terminal
