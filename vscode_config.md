@@ -50,6 +50,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 | [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) | `code --install-extension be5invis.vscode-custom-css` |
 | [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) | `code --install-extension ms-vscode-remote.remote-wsl` |
+| [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) | `code --install-extension jebbs.plantuml` |
 
 ## Fonts
 
