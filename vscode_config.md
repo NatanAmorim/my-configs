@@ -38,7 +38,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` |
 | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 | [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets) | `code --install-extension gNash.awesome-flutter-snippets` |
-| [bloc](https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc) | `code --install-extension FelixAngelov.bloc` |
+| [GetX Snippets](https://marketplace.visualstudio.com/items?itemName=get-snippets.get-snippets) | `code --install-extension get-snippets.get-snippets` |
 | [[FF] Flutter Files](https://marketplace.visualstudio.com/items?itemName=gornivv.vscode-flutter-files) | `code --install-extension gornivv.vscode-flutter-files` |
 | [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | `code --install-extension kisstkondoros.vscode-gutter-preview` |
 | [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker) | `code --install-extension deerawan.vscode-faker` |
