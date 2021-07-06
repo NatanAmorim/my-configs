@@ -18,7 +18,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Omni](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni) | `code --install-extension rocketseat.theme-omni` |
 | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) | `code --install-extension PKief.material-icon-theme` |
 | [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) | `code --install-extension CoenraadS.bracket-pair-colorizer-2` |
-| [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `code --install-extension christian-kohler.path-intellisense` |
 | [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) | `code --install-extension Dart-Code.flutter` |
 | [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) | `code --install-extension Dart-Code.dart-code` |
@@ -26,6 +25,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) | `code --install-extension waderyan.gitblame` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [Highlight](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight) | `code --install-extension fabiospampinato.vscode-highlight` |
+| [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) | `code --install-extension usernamehw.errorlens` |
 
 ## Extensions i am testing
@@ -39,15 +39,12 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 | [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets) | `code --install-extension gNash.awesome-flutter-snippets` |
 | [GetX Snippets](https://marketplace.visualstudio.com/items?itemName=get-snippets.get-snippets) | `code --install-extension get-snippets.get-snippets` |
-| [[FF] Flutter Files](https://marketplace.visualstudio.com/items?itemName=gornivv.vscode-flutter-files) | `code --install-extension gornivv.vscode-flutter-files` |
-| [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | `code --install-extension kisstkondoros.vscode-gutter-preview` |
 | [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker) | `code --install-extension deerawan.vscode-faker` |
 | [GitHub Pull Requests and Issues (Preview)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
 | [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | `code --install-extension VisualStudioExptTeam.vscodeintellicode` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 | [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) | `code --install-extension be5invis.vscode-custom-css` |
-| [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) | `code --install-extension ms-vscode-remote.remote-wsl` |
 | [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) | `code --install-extension jebbs.plantuml` |
 
 ## Fonts
