@@ -10,11 +10,12 @@ This is for sharing the Python 3 libraries I use.
 ## Extensions
 
 - Remenber to keep your pip updated  
-`pip3 install --upgrade pip`
+`pip install --upgrade pip`
 
 | Extension | Installation |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip install jupyter` |
+| [CMake](https://pypi.org/project/cmake/) | `pip install cmake` |
 | [OpenCV](https://pypi.org/project/opencv-python/) | `pip install opencv-python` |
 | [Imutils](https://pypi.org/project/imutils/) | `pip install imutils` |
 | [Matplotlib](https://pypi.org/project/matplotlib/) | `pip install matplotlib` |
@@ -32,3 +33,4 @@ This is for sharing the Python 3 libraries I use.
 | [SQLite](https://pypi.org/project/pysqlite3/) | `pip install pysqlite3` |
 | [Unidecode](https://pypi.org/project/Unidecode/) | `pip install Unidecode` |
 | [Natural Language Toolkit (NLTK)](https://pypi.org/project/nltk/) | `pip install nltk` |
+| [Dlib](https://pypi.org/project/dlib/) | `pip install dlib` |
