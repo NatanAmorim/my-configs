@@ -14,20 +14,21 @@ This is for sharing the Python 3 libraries I use.
 
 | Extension | Installation |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip3 install jupyter` |
-| [OpenCV](https://pypi.org/project/opencv-python/) | `pip3 install opencv-python` |
-| [Matplotlib](https://pypi.org/project/matplotlib/) | `pip3 install matplotlib` |
-| [Seaborn](https://pypi.org/project/seaborn/) | `pip3 install seaborn` |
-| [Bokeh](https://pypi.org/project/bokeh/) | `pip3 install bokeh` |
-| [Numpy](https://pypi.org/project/numpy/) | `pip3 install numpy` |
-| [pandas](https://pypi.org/project/pandas/) | `pip3 install pandas` |
-| [Scipy](https://pypi.org/project/scipy/) | `pip3 install scipy` |
-| [Scikit Image](https://pypi.org/project/scikit-image/) | `pip3 install scikit-image` |
-| [Imutils](https://pypi.org/project/imutils/) | `pip3 install imutils` |
-| [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | `pip3 install beautifulsoup4` |
-| [npyscreen](https://pypi.org/project/npyscreen/) | `pip3 install npyscreen` |
-| [pythondialog](https://pypi.org/project/pythondialog/) | `pip3 install pythondialog` |
-| [urllib3](https://pypi.org/project/urllib3/) | `pip3 install urllib3` |
-| [requests](https://pypi.org/project/requests/) | `pip3 install requests` |
-| [Sphinx](https://pypi.org/project/Sphinx/) | `pip3 install Sphinx` |
-| [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) | `pip3 install SQLAlchemy` |
+| [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip install jupyter` |
+| [OpenCV](https://pypi.org/project/opencv-python/) | `pip install opencv-python` |
+| [Imutils](https://pypi.org/project/imutils/) | `pip install imutils` |
+| [Matplotlib](https://pypi.org/project/matplotlib/) | `pip install matplotlib` |
+| [Seaborn](https://pypi.org/project/seaborn/) | `pip install seaborn` |
+| [Bokeh](https://pypi.org/project/bokeh/) | `pip install bokeh` |
+| [Numpy](https://pypi.org/project/numpy/) | `pip install numpy` |
+| [pandas](https://pypi.org/project/pandas/) | `pip install pandas` |
+| [Scipy](https://pypi.org/project/scipy/) | `pip install scipy` |
+| [Scikit Image](https://pypi.org/project/scikit-image/) | `pip install scikit-image` |
+| [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) | `pip install beautifulsoup4` |
+| [npyscreen](https://pypi.org/project/npyscreen/) | `pip install npyscreen` |
+| [pythondialog](https://pypi.org/project/pythondialog/) | `pip install pythondialog` |
+| [requests](https://pypi.org/project/requests/) | `pip install requests` |
+| [Sphinx](https://pypi.org/project/Sphinx/) | `pip install Sphinx` |
+| [SQLite](https://pypi.org/project/pysqlite3/) | `pip install pysqlite3` |
+| [Unidecode](https://pypi.org/project/Unidecode/) | `pip install Unidecode` |
+| [Natural Language Toolkit (NLTK)](https://pypi.org/project/nltk/) | `pip install nltk` |
