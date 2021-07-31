@@ -11,6 +11,7 @@ Here's a list of everything I install in my Windows machine.
 - [Github Desktop](https://desktop.github.com/)
 - [Docker](https://docs.docker.com/install/)
 - [Insomnia](https://insomnia.rest/download/)
+- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - [Robo 3T](https://robomongo.org/download)
 - [DBeaver Community](https://dbeaver.io/download/)
 - [Android Studio](https://developer.android.com/studio)
