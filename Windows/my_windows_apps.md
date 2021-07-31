@@ -18,6 +18,7 @@ Here's a list of everything I install in my Windows machine.
 - [Node.js LTS](https://nodejs.org/en/download/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 - [Python](https://www.python.org/downloads/)
+- [Flutter](https://flutter.dev/docs/get-started/install/windows)
 <!--
 - [Postman](https://www.getpostman.com/downloads/)
 - [Anaconda](https://www.anaconda.com/distribution/)
