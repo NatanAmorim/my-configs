@@ -4,7 +4,8 @@ Here's a list of everything I install in my Windows machine.
 
 ## Development 
 
-- [VSCODE](https://code.visualstudio.com/Download)
+- [VS Code](https://code.visualstudio.com/Download)
+- [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/)
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Git Bash](https://git-scm.com/downloads)
 - [Github Desktop](https://desktop.github.com/)
@@ -12,6 +13,10 @@ Here's a list of everything I install in my Windows machine.
 - [Insomnia](https://insomnia.rest/download/)
 - [Robo 3T](https://robomongo.org/download)
 - [DBeaver Community](https://dbeaver.io/download/)
+- [Android Studio](https://developer.android.com/studio)
+- [Node.js LTS](https://nodejs.org/en/download/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- [Python](https://www.python.org/downloads/)
 <!--
 - [Postman](https://www.getpostman.com/downloads/)
 - [Anaconda](https://www.anaconda.com/distribution/)
