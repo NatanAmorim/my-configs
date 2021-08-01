@@ -43,6 +43,8 @@ Here's a list of everything I install in my Windows machine.
 - [Etcher](https://www.balena.io/etcher/)
 - [Steam](https://store.steampowered.com/about/)
 - [7zip](https://7-zip.org)
+- [Voicemeeter](https://vb-audio.com/Voicemeeter/)
+- [Voicemod](https://www.voicemod.net/)
 <!--
  - [Mozilla Thunderbird ](https://www.thunderbird.net/pt-BR/)
 -->
