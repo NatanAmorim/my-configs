@@ -24,6 +24,10 @@ Here's a list of everything I install in my Windows machine.
 - [Anaconda](https://www.anaconda.com/distribution/)
 -->
 
+## UI Design
+
+-[Figma](https://www.figma.com/downloads/)
+
 ## Editing
 
 - [Gimp](https://gimp.org/downloads/)
