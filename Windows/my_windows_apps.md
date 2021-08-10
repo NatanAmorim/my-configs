@@ -26,7 +26,7 @@ Here's a list of everything I install in my Windows machine.
 
 ## UI Design
 
--[Figma](https://www.figma.com/downloads/)
+- [Figma](https://www.figma.com/downloads/)
 
 ## Editing
 
