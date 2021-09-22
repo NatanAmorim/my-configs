@@ -121,7 +121,7 @@ or
 ## PostgreSQL
 
 - `docker pull postgres`
-- `docker run --name postgresql -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d <password>`
+- `docker run --name postgresql -e POSTGRES_PASSWORD=<password> -p 5432:5432 -d postgres`
 
 ### get the IP address with
 
