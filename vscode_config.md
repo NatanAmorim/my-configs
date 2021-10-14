@@ -31,15 +31,12 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | Extension | Installation |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Stream Deck for VS Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck) | `code --install-extension nicollasr.vscode-streamdeck` |
+| [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets) | `code --install-extension gNash.awesome-flutter-snippets` |
 | [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets) | `code --install-extension robert-brunhage.flutter-riverpod-snippets` |
 | [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | `code --install-extension kisstkondoros.vscode-gutter-preview` |
-| [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | `code --install-extension esbenp.prettier-vscode` |
 | [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | `code --install-extension redhat.vscode-yaml` |
 | [MongoDB for VS Code (PREVIEW)](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) | `code --install-extension mongodb.mongodb-vscode` |
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` |
-| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
-| [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets) | `code --install-extension gNash.awesome-flutter-snippets` |
-| [GetX Snippets](https://marketplace.visualstudio.com/items?itemName=get-snippets.get-snippets) | `code --install-extension get-snippets.get-snippets` |
 | [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker) | `code --install-extension deerawan.vscode-faker` |
 | [GitHub Pull Requests and Issues (Preview)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
 | [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | `code --install-extension VisualStudioExptTeam.vscodeintellicode` |
