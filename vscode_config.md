@@ -69,12 +69,10 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
-    80,
-    120
+    120,
   ],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.renderIndentGuides": true,
   "editor.suggestSelection": "first",
   "editor.renderLineHighlight": "gutter",
   "editor.parameterHints.enabled": false,
@@ -82,6 +80,9 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "source.fixAll.eslint": true
   },
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "window.menuBarVisibility": "toggle",
@@ -134,7 +135,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [
-      80
+      120
     ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -143,7 +144,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.wordBasedSuggestions": false
   },
   // TypeScript
-  "typescript.tsserver.log": "verbose",
+  "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
   // Javascript
