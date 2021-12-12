@@ -51,7 +51,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ```json
 {
-  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
@@ -129,7 +128,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [
-      120
+      140
     ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -249,6 +248,9 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "jupyter-notebook": "left"
   },
   "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "workbench.colorTheme": "Omni",
 }
 ```
 
