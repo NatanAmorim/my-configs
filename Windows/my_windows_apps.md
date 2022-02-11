@@ -15,15 +15,9 @@ Here's a list of everything I install in my Windows machine.
 - [Robo 3T](https://robomongo.org/download)
 - [DBeaver Community](https://dbeaver.io/download/)
 - [Android Studio](https://developer.android.com/studio)
-- [Node.js LTS](https://nodejs.org/en/download/)
-- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 - [Python](https://www.python.org/downloads/)
 - [Flutter](https://flutter.dev/docs/get-started/install/windows)
 - [Inno Setup](https://jrsoftware.org/isdl.php#stable)
-<!--
-- [Postman](https://www.getpostman.com/downloads/)
-- [Anaconda](https://www.anaconda.com/distribution/)
--->
 
 ## UI Design
 
@@ -45,9 +39,10 @@ Here's a list of everything I install in my Windows machine.
 - [Etcher](https://www.balena.io/etcher/)
 - [Steam](https://store.steampowered.com/about/)
 - [7zip](https://7-zip.org)
-- [Voicemeeter](https://vb-audio.com/Voicemeeter/)
-- [Voicemod](https://www.voicemod.net/)
 - [AutoHotkey](https://www.autohotkey.com/)
+<!--
+- [Voicemod](https://www.voicemod.net/)
+-->
 
 ## Microsoft Store Apps
 
