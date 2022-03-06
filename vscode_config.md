@@ -44,6 +44,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
 | [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
 | [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut) | `code --install-extension albert.TabOut` |
+| [.NET Watch Attach](https://marketplace.visualstudio.com/items?itemName=Trottero.dotnetwatchattach) | `code --install-extension Trottero.dotnetwatchattach` |
 
 
 ## Fonts
