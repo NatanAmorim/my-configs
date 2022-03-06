@@ -40,7 +40,11 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 | [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) | `code --install-extension be5invis.vscode-custom-css` |
-| [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) | `code --install-extension jebbs.plantuml` |
+| [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
+| [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
+| [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
+| [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut) | `code --install-extension albert.TabOut` |
+
 
 ## Fonts
 
