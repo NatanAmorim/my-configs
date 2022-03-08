@@ -46,6 +46,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut) | `code --install-extension albert.TabOut` |
 | [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align) | `code --install-extension yo1dog.cursor-align` |
 | [Cursor Trim](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-trim) | `code --install-extension yo1dog.cursor-trim` |
+| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
 | [.NET Watch Attach](https://marketplace.visualstudio.com/items?itemName=Trottero.dotnetwatchattach) | `code --install-extension Trottero.dotnetwatchattach` |
 
 ## Fonts
