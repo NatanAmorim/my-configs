@@ -74,7 +74,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 {
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
   "workbench.colorCustomizations": {
     "sash.hoverBorder": "#a66abd",
@@ -88,11 +88,43 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "titleBar.inactiveBackground": "#8f4baa99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
@@ -106,6 +138,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.indentation": true,
@@ -162,7 +195,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [
-      140
+      80
     ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -378,15 +411,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     },
     {
       "name": "Orange",
-      "value": "#ff9800"
-    },
-    {
-      "name": "Blood Orange",
       "value": "#ff5722"
-    },
-    {
-      "name": "Sunflower",
-      "value": "#f1c40f"
     },
     {
       "name": "Yellow",
@@ -411,11 +436,11 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     {
       "name": "Brown",
       "value": "#795548"
-    },
+    }
   ],
   "peacock.remoteColor": "#61dafb",
   "peacock.vslsJoinColor": "#009688",
-  "peacock.vslsShareColor": "#e74c3c",
+  "peacock.vslsShareColor": "#e74c3c"
 }
 ```
 
@@ -427,5 +452,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ## Multiple Fonts
 
-- [Customize Visual Studio Code for Multiple Fonts and styles.](https://razvanpredescu.medium.com/customize-visual-studio-code-for-multiple-fonts-and-styles-96f83562af58)
-- [Operator Mono Ligatures](https://github.com/kiliman/operator-mono-lig)
+- [FiraCode iScript font](https://github.com/kencrocken/FiraCodeiScript)
+- [How to enable semantic highlighting in VS Code](https://www.stefanjudis.com/today-i-learned/how-to-enable-semantic-highlighting-in-vs-code/)
+- [How to enable beautiful cursive fonts in your VS Code theme](https://www.stefanjudis.com/blog/how-to-enable-beautiful-cursive-fonts-in-your-vs-code-theme/)
+- [How do I get Visual Studio Code to display italic fonts in formatted code?](https://stackoverflow.com/questions/41320848/how-do-i-get-visual-studio-code-to-display-italic-fonts-in-formatted-code)
+
