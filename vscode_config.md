@@ -25,28 +25,26 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [Highlight](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight) | `code --install-extension fabiospampinato.vscode-highlight` |
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
+| [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) | `code --install-extension mongodb.mongodb-vscode` |
+| [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
+| [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
+| [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
+| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
 
 ## Extensions i am testing
 | Extension | Installation |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Stream Deck for VS Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck) | `code --install-extension nicollasr.vscode-streamdeck` |
 | [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets) | `code --install-extension robert-brunhage.flutter-riverpod-snippets` |
-| [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) | `code --install-extension redhat.vscode-yaml` |
-| [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) | `code --install-extension mongodb.mongodb-vscode` |
 | [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) | `code --install-extension Prisma.vscode-graphql` |
 | [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker) | `code --install-extension deerawan.vscode-faker` |
-| [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
-| [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | `code --install-extension VisualStudioExptTeam.vscodeintellicode` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 | [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) | `code --install-extension be5invis.vscode-custom-css` |
-| [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
-| [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
 | [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
 | [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut) | `code --install-extension albert.TabOut` |
 | [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align) | `code --install-extension yo1dog.cursor-align` |
 | [Cursor Trim](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-trim) | `code --install-extension yo1dog.cursor-trim` |
-| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
 | [.NET Watch Attach](https://marketplace.visualstudio.com/items?itemName=Trottero.dotnetwatchattach) | `code --install-extension Trottero.dotnetwatchattach` |
 
 ## Fonts
@@ -58,9 +56,22 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ```json
 {
+  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#a66abd",
+    "statusBar.background": "#8f4baa",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#a66abd",
+    "statusBarItem.remoteBackground": "#8f4baa",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#8f4baa",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#8f4baa99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
   "editor.fontFamily": "Fira Code",
@@ -69,7 +80,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
-    120,
+    80,
   ],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -143,17 +154,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  // TypeScript
-  "typescript.tsserver.log": "off",
-  "typescript.suggest.autoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  // Javascript
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  // Git Lens
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
   // Code Spell Checker
   "cSpell.enableFiletypes": [
     "!asciidoc",
@@ -173,7 +173,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "!rust",
     "!scala",
     "!scss",
-    "dart"
+    "!dart"
   ],
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
@@ -249,15 +249,157 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     }
   },
   "editor.inlineSuggest.enabled": true,
-  "window.zoomLevel": -1,
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
   },
   "dart.showInspectorNotificationsForWidgetErrors": false,
-  "dart.debugExternalPackageLibraries": false,
+  "dart.debugExternalPackageLibraries": true,
   "dart.debugSdkLibraries": false,
-  "workbench.colorTheme": "Omni",
+  "thunder-client.codeSnippetLanguage": "cs-httpclient",
+  "peacock.affectActivityBar": false,
+  "peacock.elementAdjustments": {
+    "activityBar": "lighten",
+    "statusBar": "none",
+    "titleBar": "none"
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "Turqoise",
+      "value": "#1abc9c"
+    },
+    {
+      "name": "GreenSea",
+      "value": "#16a085"
+    },
+    {
+      "name": "Emerald",
+      "value": "#2ecc71"
+    },
+    {
+      "name": "Nephritis",
+      "value": "#27ae60"
+    },
+    {
+      "name": "Green",
+      "value": "#4caf50"
+    },
+    {
+      "name": "Light Green",
+      "value": "#8bc34a"
+    },
+    {
+      "name": "Lime",
+      "value": "#cddc39"
+    },
+    {
+      "name": "River",
+      "value": "#3498db"
+    },
+    {
+      "name": "Blue",
+      "value": "#2196f3"
+    },
+    {
+      "name": "Light Blue",
+      "value": "#03a9f4"
+    },
+    {
+      "name": "Cyan",
+      "value": "#00bcd4"
+    },
+    {
+      "name": "Teal",
+      "value": "#009688"
+    },
+    {
+      "name": "Alizarin",
+      "value": "#e74c3c"
+    },
+    {
+      "name": "Red",
+      "value": "#f44336"
+    },
+    {
+      "name": "Carrot",
+      "value": "#e67e22"
+    },
+    {
+      "name": "Pumpkin",
+      "value": "#d35400"
+    },
+    {
+      "name": "Dull Orange",
+      "value": "#f39c12"
+    },
+    {
+      "name": "Orange",
+      "value": "#ff9800"
+    },
+    {
+      "name": "Blood Orange",
+      "value": "#ff5722"
+    },
+    {
+      "name": "Sunflower",
+      "value": "#f1c40f"
+    },
+    {
+      "name": "Yellow",
+      "value": "#ffeb3b"
+    },
+    {
+      "name": "Amethyst",
+      "value": "#9b59b6"
+    },
+    {
+      "name": "Deep Purple",
+      "value": "#673ab7"
+    },
+    {
+      "name": "Pink",
+      "value": "#e91e63"
+    },
+    {
+      "name": "Indigo",
+      "value": "#3f51b5"
+    },
+    {
+      "name": "Brown",
+      "value": "#795548"
+    },
+  ],
+  "peacock.remoteColor": "#61dafb",
+  "peacock.vslsJoinColor": "#009688",
+  "peacock.vslsShareColor": "#e74c3c",
 }
 ```
 
