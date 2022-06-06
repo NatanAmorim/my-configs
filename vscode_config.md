@@ -61,6 +61,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Cursor Trim](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-trim) | `code --install-extension yo1dog.cursor-trim` |
 | [.NET Watch Attach](https://marketplace.visualstudio.com/items?itemName=Trottero.dotnetwatchattach) | `code --install-extension Trottero.dotnetwatchattach` |
 | [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) | `code --install-extension GitHub.remotehub` |
+| [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer) | `code --install-extension hbenl.vscode-test-explorer` |
 
 ## Fonts
 
