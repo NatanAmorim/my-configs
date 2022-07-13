@@ -96,41 +96,9 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   },
   "terminal.integrated.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
-  "editor.fontFamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          //following will be in italic (=FlottFlott)
-          "comment",
-          "entity.name.type.class", //class names
-          "keyword", //import, export, return…
-          "constant", //String, Number, Boolean…, this, super
-          "storage.modifier", //static keyword
-          "storage.type.class.js", //class keyword
-        ],
-        "settings": {
-          "fontStyle": "italic bold"
-        }
-      },
-      {
-        "scope": [
-          //following will be excluded from italics (VSCode has some defaults for italics)
-          "invalid",
-          "keyword.operator",
-          "constant.numeric.css",
-          "keyword.other.unit.px.css",
-          "constant.numeric.decimal.js",
-          "constant.numeric.json"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
@@ -141,9 +109,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.suggestSelection": "first",
   "editor.renderLineHighlight": "gutter",
   "editor.parameterHints.enabled": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -160,39 +125,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true
-  },
-  // Material icon theme
-  "material-icon-theme.activeIconPack": "nest",
-  "material-icon-theme.folders.associations": {
-    "infra": "app",
-    "entities": "class",
-    "domain": "class",
-    "schemas": "class",
-    "typeorm": "database",
-    "repositories": "mappings",
-    "http": "container",
-    "migrations": "tools",
-    "modules": "components",
-    "implementations": "core",
-    "dtos": "typescript",
-    "fakes": "mock",
-    "websockets": "pipe",
-    "protos": "pipe",
-    "grpc": "pipe",
-    "providers": "include",
-    "subscribers": "messages",
-    "useCases": "controller",
-    "kafka": "scripts",
-    "mappers": "meta",
-    "_shared": "shared",
-    "eslint-config": "tools",
-    "kube": "kubernetes"
-  },
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune",
-    "*.proto": "3d",
-    "*.webpack.js": "webpack"
   },
   // Flutter + Dart
   "dart.openDevTools": "flutter",
@@ -309,7 +241,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "jupyter-notebook": "left"
   },
   "dart.showInspectorNotificationsForWidgetErrors": false,
-  "dart.debugExternalPackageLibraries": true,
+  "dart.debugExternalPackageLibraries": false,
   "dart.debugSdkLibraries": false,
   "thunder-client.codeSnippetLanguage": "cs-httpclient",
   "peacock.affectActivityBar": false,
