@@ -55,9 +55,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker) | `code --install-extension deerawan.vscode-faker` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
-| [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) | `code --install-extension be5invis.vscode-custom-css` |
-| [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
-| [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut) | `code --install-extension albert.TabOut` |
 | [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align) | `code --install-extension yo1dog.cursor-align` |
 | [Cursor Trim](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-trim) | `code --install-extension yo1dog.cursor-trim` |
 | [.NET Watch Attach](https://marketplace.visualstudio.com/items?itemName=Trottero.dotnetwatchattach) | `code --install-extension Trottero.dotnetwatchattach` |
@@ -67,7 +64,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document) | `code --install-extension mintlify.document` |
 | [New Relic CodeStream](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream) | `code --install-extension CodeStream.codestream` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
-| [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | `code --install-extension GitHub.copilot` |
+| [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl) |
 
 ## Fonts
 
@@ -83,22 +80,129 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
   "workbench.colorCustomizations": {
-    "sash.hoverBorder": "#a66abd",
-    "statusBar.background": "#8f4baa",
+    "sash.hoverBorder": "#606fc7",
+    "statusBar.background": "#3f51b5",
     "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#a66abd",
-    "statusBarItem.remoteBackground": "#8f4baa",
+    "statusBarItem.hoverBackground": "#606fc7",
+    "statusBarItem.remoteBackground": "#3f51b5",
     "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#8f4baa",
+    "titleBar.activeBackground": "#3f51b5",
     "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#8f4baa99",
+    "titleBar.inactiveBackground": "#3f51b599",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "terminal.integrated.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
+  "editor.experimental.stickyScroll.enabled": true,
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic
+          "comment",
+          "emphasis",
+          "entity.name.method.js",
+          "entity.name.class.js",
+          "entity.name.tag.doctype",
+          "entity.other.attribute-name",
+          "entity.other.attribute-name.tag.jade",
+          "entity.other.attribute-name.tag.pug",
+          "keyword",
+          "keyword.control",
+          "keyword.operator.comparison",
+          "keyword.control.flow.js",
+          "keyword.control.flow.ts",
+          "keyword.control.flow.tsx",
+          "keyword.control.ruby",
+          "keyword.control.module.ruby",
+          "keyword.control.class.ruby",
+          "keyword.control.def.ruby",
+          "keyword.control.loop.js",
+          "keyword.control.loop.ts",
+          "keyword.control.import.js",
+          "keyword.control.import.ts",
+          "keyword.control.import.tsx",
+          "keyword.control.from.js",
+          "keyword.control.from.ts",
+          "keyword.control.from.tsx",
+          "keyword.operator.expression.delete",
+          "keyword.operator.new",
+          "keyword.operator.expression",
+          "keyword.operator.cast",
+          "keyword.operator.relational",
+          "keyword.operator.sizeof",
+          "keyword.operator.logical.python",
+          "italic",
+          "markup.italic",
+          "markup.quote",
+          "markup.changed",
+          "markup.italic.markdown",
+          "markup.quote.markdown",
+          "markup.deleted.diff",
+          "markup.inserted.diff",
+          "meta.delimiter.period",
+          "meta.diff.header.git",
+          "meta.diff.header.from-file",
+          "meta.diff.header.to-file",
+          "meta.tag.sgml.doctype",
+          "meta.var.expr",
+          "meta.class meta.method.declaration meta.var.expr storage.type.js",
+          "meta.decorator punctuation.decorator",
+          "meta.selector",
+          "punctuation.accessor",
+          "punctuation.definition.comment",
+          "punctuation.definition.template-expression.begin",
+          "punctuation.definition.template-expression.end",
+          "punctuation.section.embedded",
+          "quote",
+          "source.js constant.other.object.key.js string.unquoted.label.js",
+          "source.go keyword.package.go",
+          "source.go keyword.import.go",
+          "source.go keyword.function.go",
+          "source.go keyword.type.go",
+          "source.go keyword.struct.go",
+          "source.go keyword.interface.go",
+          "source.go keyword.const.go",
+          "source.go keyword.var.go",
+          "source.go keyword.map.go",
+          "source.go keyword.channel.go",
+          "source.go keyword.control.go",
+          "storage",
+          "storage.type",
+          "storage.modifier",
+          "storage.type.property.js",
+          "storage.type.property.ts",
+          "storage.type.property.tsx",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js",
+          "text.html.basic entity.other.attribute-name.html",
+          "text.html.basic entity.other.attribute-name",
+          "variable.language",
+          "variable.other.object.property"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
@@ -126,6 +230,39 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "**/CVS": true,
     "**/.DS_Store": true
   },
+  // Material icon theme
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
   // Flutter + Dart
   "dart.openDevTools": "flutter",
   "dart.previewFlutterUiGuides": true,
@@ -141,6 +278,13 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
+  // TypeScript
+  "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  // Javascript
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
   // Code Spell Checker
   "cSpell.enableFiletypes": [
     "!asciidoc",
@@ -378,7 +522,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   ],
   "peacock.remoteColor": "#61dafb",
   "peacock.vslsJoinColor": "#009688",
-  "peacock.vslsShareColor": "#e74c3c"
+  "peacock.vslsShareColor": "#e74c3c",
 }
 ```
 
