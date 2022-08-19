@@ -12,10 +12,8 @@ Here's a list of everything I install in my Windows machine.
 - [Docker](https://docs.docker.com/install/)
 - [Insomnia](https://insomnia.rest/download/)
 - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
-- [Robo 3T](https://robomongo.org/download)
 - [DBeaver Community](https://dbeaver.io/download/)
 - [Android Studio](https://developer.android.com/studio)
-- [Python](https://www.python.org/downloads/)
 - [Flutter](https://flutter.dev/docs/get-started/install/windows)
 - [Inno Setup](https://jrsoftware.org/isdl.php#stable)
 
@@ -40,6 +38,7 @@ Here's a list of everything I install in my Windows machine.
 - [Steam](https://store.steampowered.com/about/)
 - [7zip](https://7-zip.org)
 - [AutoHotkey](https://www.autohotkey.com/)
+- [WinDirStat](https://windirstat.net/download.html)
 <!--
 - [Voicemod](https://www.voicemod.net/)
 -->
