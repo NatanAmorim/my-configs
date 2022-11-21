@@ -93,121 +93,18 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   },
   "terminal.integrated.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
-  "editor.experimental.stickyScroll.enabled": true,
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          //following will be in italic
-          "comment",
-          "emphasis",
-          "entity.name.method.js",
-          "entity.name.class.js",
-          "entity.name.tag.doctype",
-          "entity.other.attribute-name",
-          "entity.other.attribute-name.tag.jade",
-          "entity.other.attribute-name.tag.pug",
-          "keyword",
-          "keyword.control",
-          "keyword.operator.comparison",
-          "keyword.control.flow.js",
-          "keyword.control.flow.ts",
-          "keyword.control.flow.tsx",
-          "keyword.control.ruby",
-          "keyword.control.module.ruby",
-          "keyword.control.class.ruby",
-          "keyword.control.def.ruby",
-          "keyword.control.loop.js",
-          "keyword.control.loop.ts",
-          "keyword.control.import.js",
-          "keyword.control.import.ts",
-          "keyword.control.import.tsx",
-          "keyword.control.from.js",
-          "keyword.control.from.ts",
-          "keyword.control.from.tsx",
-          "keyword.operator.expression.delete",
-          "keyword.operator.new",
-          "keyword.operator.expression",
-          "keyword.operator.cast",
-          "keyword.operator.relational",
-          "keyword.operator.sizeof",
-          "keyword.operator.logical.python",
-          "italic",
-          "markup.italic",
-          "markup.quote",
-          "markup.changed",
-          "markup.italic.markdown",
-          "markup.quote.markdown",
-          "markup.deleted.diff",
-          "markup.inserted.diff",
-          "meta.delimiter.period",
-          "meta.diff.header.git",
-          "meta.diff.header.from-file",
-          "meta.diff.header.to-file",
-          "meta.tag.sgml.doctype",
-          "meta.var.expr",
-          "meta.class meta.method.declaration meta.var.expr storage.type.js",
-          "meta.decorator punctuation.decorator",
-          "meta.selector",
-          "punctuation.accessor",
-          "punctuation.definition.comment",
-          "punctuation.definition.template-expression.begin",
-          "punctuation.definition.template-expression.end",
-          "punctuation.section.embedded",
-          "quote",
-          "source.js constant.other.object.key.js string.unquoted.label.js",
-          "source.go keyword.package.go",
-          "source.go keyword.import.go",
-          "source.go keyword.function.go",
-          "source.go keyword.type.go",
-          "source.go keyword.struct.go",
-          "source.go keyword.interface.go",
-          "source.go keyword.const.go",
-          "source.go keyword.var.go",
-          "source.go keyword.map.go",
-          "source.go keyword.channel.go",
-          "source.go keyword.control.go",
-          "storage",
-          "storage.type",
-          "storage.modifier",
-          "storage.type.property.js",
-          "storage.type.property.ts",
-          "storage.type.property.tsx",
-          "tag.decorator.js entity.name.tag.js",
-          "tag.decorator.js",
-          "text.html.basic entity.other.attribute-name.html",
-          "text.html.basic entity.other.attribute-name",
-          "variable.language",
-          "variable.other.object.property"
-        ],
-        "settings": {
-          "fontStyle": "italic bold"
-        }
-      },
-      {
-        "scope": [
-          //following will be excluded from italics (VSCode has some defaults for italics)
-          "invalid",
-          "keyword.operator",
-          "constant.numeric.css",
-          "keyword.other.unit.px.css",
-          "constant.numeric.decimal.js",
-          "constant.numeric.json"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
+  "editor.stickyScroll.enabled": true,
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
-    80,
+    120
   ],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.suggestSelection": "first",
@@ -270,7 +167,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [
-      80
+      120
     ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -394,132 +291,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "statusBar": "none",
     "titleBar": "none"
   },
-  "peacock.favoriteColors": [
-    {
-      "name": "Angular Red",
-      "value": "#dd0531"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#61dafb"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    },
-    {
-      "name": "Turqoise",
-      "value": "#1abc9c"
-    },
-    {
-      "name": "GreenSea",
-      "value": "#16a085"
-    },
-    {
-      "name": "Emerald",
-      "value": "#2ecc71"
-    },
-    {
-      "name": "Nephritis",
-      "value": "#27ae60"
-    },
-    {
-      "name": "Green",
-      "value": "#4caf50"
-    },
-    {
-      "name": "Light Green",
-      "value": "#8bc34a"
-    },
-    {
-      "name": "Lime",
-      "value": "#cddc39"
-    },
-    {
-      "name": "River",
-      "value": "#3498db"
-    },
-    {
-      "name": "Blue",
-      "value": "#2196f3"
-    },
-    {
-      "name": "Light Blue",
-      "value": "#03a9f4"
-    },
-    {
-      "name": "Cyan",
-      "value": "#00bcd4"
-    },
-    {
-      "name": "Teal",
-      "value": "#009688"
-    },
-    {
-      "name": "Alizarin",
-      "value": "#e74c3c"
-    },
-    {
-      "name": "Red",
-      "value": "#f44336"
-    },
-    {
-      "name": "Carrot",
-      "value": "#e67e22"
-    },
-    {
-      "name": "Pumpkin",
-      "value": "#d35400"
-    },
-    {
-      "name": "Dull Orange",
-      "value": "#f39c12"
-    },
-    {
-      "name": "Orange",
-      "value": "#ff5722"
-    },
-    {
-      "name": "Yellow",
-      "value": "#ffeb3b"
-    },
-    {
-      "name": "Amethyst",
-      "value": "#9b59b6"
-    },
-    {
-      "name": "Deep Purple",
-      "value": "#673ab7"
-    },
-    {
-      "name": "Pink",
-      "value": "#e91e63"
-    },
-    {
-      "name": "Indigo",
-      "value": "#3f51b5"
-    },
-    {
-      "name": "Brown",
-      "value": "#795548"
-    }
-  ],
   "peacock.remoteColor": "#61dafb",
   "peacock.vslsJoinColor": "#009688",
   "peacock.vslsShareColor": "#e74c3c",
