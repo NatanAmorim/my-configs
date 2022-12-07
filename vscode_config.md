@@ -75,42 +75,32 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ```json
 {
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
-  "workbench.colorCustomizations": {
-    "sash.hoverBorder": "#606fc7",
-    "statusBar.background": "#3f51b5",
-    "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#606fc7",
-    "statusBarItem.remoteBackground": "#3f51b5",
-    "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#3f51b5",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#3f51b599",
-    "titleBar.inactiveForeground": "#e7e7e799"
-  },
   "terminal.integrated.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
+  "editor.stickyScroll.enabled": true,
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.stickyScroll.enabled": true,
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
-    120
+    80,
   ],
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "editor.suggestSelection": "first",
   "editor.renderLineHighlight": "gutter",
+  "editor.inlineSuggest.enabled": true,
   "editor.parameterHints.enabled": false,
-  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticHighlighting.enabled": false, // Never turn this on, it sucks
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.indentation": true,
@@ -127,47 +117,17 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "**/CVS": true,
     "**/.DS_Store": true
   },
-  // Material icon theme
-  "material-icon-theme.activeIconPack": "nest",
-  "material-icon-theme.folders.associations": {
-    "infra": "app",
-    "entities": "class",
-    "domain": "class",
-    "schemas": "class",
-    "typeorm": "database",
-    "repositories": "mappings",
-    "http": "container",
-    "migrations": "tools",
-    "modules": "components",
-    "implementations": "core",
-    "dtos": "typescript",
-    "fakes": "mock",
-    "websockets": "pipe",
-    "protos": "pipe",
-    "grpc": "pipe",
-    "providers": "include",
-    "subscribers": "messages",
-    "useCases": "controller",
-    "kafka": "scripts",
-    "mappers": "meta",
-    "_shared": "shared",
-    "eslint-config": "tools",
-    "kube": "kubernetes"
-  },
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune",
-    "*.proto": "3d",
-    "*.webpack.js": "webpack"
-  },
   // Flutter + Dart
   "dart.openDevTools": "flutter",
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
   "dart.previewFlutterUiGuides": true,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [
-      120
+      80
     ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -211,9 +171,15 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "roboto",
     "cupertino"
   ],
+  // Jupyter Notebook
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
+  // Highlight comments: TODO, FIX, OPTIMIZE, IDEA, ETC...
   "highlight.regexes": {
     "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
       "filterFileRegex": ".*(?<!CHANGELOG.md)$",
@@ -276,24 +242,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
       ]
     }
   },
-  "editor.inlineSuggest.enabled": true,
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
-  "dart.showInspectorNotificationsForWidgetErrors": false,
-  "dart.debugExternalPackageLibraries": false,
-  "dart.debugSdkLibraries": false,
+  // Thunder Client
   "thunder-client.codeSnippetLanguage": "cs-httpclient",
-  "peacock.affectActivityBar": false,
-  "peacock.elementAdjustments": {
-    "activityBar": "lighten",
-    "statusBar": "none",
-    "titleBar": "none"
-  },
-  "peacock.remoteColor": "#61dafb",
-  "peacock.vslsJoinColor": "#009688",
-  "peacock.vslsShareColor": "#e74c3c",
 }
 ```
 
