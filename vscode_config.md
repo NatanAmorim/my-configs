@@ -36,7 +36,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) | `code --install-extension johnpapa.vscode-peacock` |
 | [Winter is Coming Theme](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming) | `code --install-extension johnpapa.winteriscoming` |
-| [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) | `code --install-extension PKief.material-icon-theme` |
+| [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `code --install-extension vscode-icons-team.vscode-icons` |
 
 ### Programming languages
 
