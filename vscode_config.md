@@ -73,10 +73,10 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ## Settings.json
 
-```json
-{
+```json{
+  "audioCues.onDebugBreak": "on",
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
@@ -88,7 +88,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
-    80,
+    120,
   ],
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
