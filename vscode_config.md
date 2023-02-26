@@ -62,7 +62,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document) | `code --install-extension mintlify.document` |
 | [New Relic CodeStream](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream) | `code --install-extension CodeStream.codestream` |
 | [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) | `code --install-extension mtxr.sqltools` |
-| [Window Colors](https://marketplace.visualstudio.com/items?itemName=stuart.unique-window-colors) | `code --install-extension stuart.unique-window-colors` |
 | [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
 
 ## Fonts
