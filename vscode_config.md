@@ -69,7 +69,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 - [Fira Code](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip)
 - [Hack (Nerd Fonts)](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/Hack.zip)
 
-## User Settings
+## User Settings (JSON)
 
 ```json
 {
@@ -87,7 +87,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.tabSize": 2,
   "editor.lineHeight": 26,
   "editor.rulers": [
-    120,
+    80,
   ],
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
@@ -124,7 +124,11 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "dart.previewFlutterUiGuides": true,
   "[dart]": {
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.formatOnType": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": false,
+    },
     "editor.rulers": [
       80
     ],
@@ -178,71 +182,15 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  // Highlight comments: TODO, FIX, OPTIMIZE, IDEA, ETC...
-  "highlight.regexes": {
-    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
-      "decorations": [
-        {
-          "overviewRulerColor": "#ffcc00",
-          "backgroundColor": "#ffcc00",
-          "color": "#1f1f1f",
-          "fontWeight": "bold"
-        },
-        {
-          "backgroundColor": "#ffcc00",
-          "color": "#1f1f1f"
-        }
-      ]
-    },
-    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
-      "decorations": [
-        {
-          "overviewRulerColor": "#cc0000",
-          "backgroundColor": "#cc0000",
-          "color": "#1f1f1f",
-          "fontWeight": "bold"
-        },
-        {
-          "backgroundColor": "#cc0000",
-          "color": "#1f1f1f"
-        }
-      ]
-    },
-    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
-      "decorations": [
-        {
-          "overviewRulerColor": "#00ccff",
-          "backgroundColor": "#00ccff",
-          "color": "#1f1f1f",
-          "fontWeight": "bold"
-        },
-        {
-          "backgroundColor": "#00ccff",
-          "color": "#1f1f1f"
-        }
-      ]
-    },
-    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
-      "decorations": [
-        {
-          "overviewRulerColor": "#cc00cc",
-          "backgroundColor": "#cc00cc",
-          "color": "#1f1f1f",
-          "fontWeight": "bold"
-        },
-        {
-          "backgroundColor": "#cc00cc",
-          "color": "#1f1f1f"
-        }
-      ]
-    }
-  },
   // Thunder Client
   "thunder-client.codeSnippetLanguage": "cs-httpclient",
+  "git.openRepositoryInParentFolders": "always",
+  "peacock.affectActivityBar": false,
+  "peacock.elementAdjustments": {
+    "activityBar": "lighten",
+    "statusBar": "none",
+    "titleBar": "none"
+  },
 }
 ```
 
