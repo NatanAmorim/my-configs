@@ -74,6 +74,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 ```json
 {
   "audioCues.onDebugBreak": "on",
+  "editor.cursorBlinking": "expand",
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
@@ -191,6 +192,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "statusBar": "none",
     "titleBar": "none"
   },
+  "workbench.editor.untitled.hint": "hidden",
 }
 ```
 
