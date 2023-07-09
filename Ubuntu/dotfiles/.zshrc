@@ -43,12 +43,3 @@ function precmd() {
 
 # Flutter SDK export
 export PATH="$PATH:$HOME/flutter/bin"
-
-# To install Firebase CLI click link below
-# https://firebase.google.com/docs/cli#install_the_firebase_cli
-# login with `firebase login`
-# update with `curl -sL https://firebase.tools | upgrade=true bash`
-
-# To install flutterfire_cli run the following command
-# `dart pub global activate flutterfire_cli`
-export PATH="$PATH":"$HOME/.pub-cache/bin"
