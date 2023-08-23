@@ -24,7 +24,9 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) | `code --install-extension mongodb.mongodb-vscode` |
-| [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) | `code --install-extension ms-mssql.mssql` |
+| [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.sql-database-projects-vscode | `code --install-extension ms-mssql.sql-database-projects-vscode` |
+| [SQL Database Project](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) | `code --install-extension ms-mssql.mssql` |
+| [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) | `code --install-extension mtxr.sqltools` |
 | [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
 | [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) | `code --install-extension GitHub.remotehub` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
@@ -53,6 +55,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Stream Deck for VS Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck) | `code --install-extension nicollasr.vscode-streamdeck` |
 | [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) | `code --install-extension Postman.postman-for-vscode` |
+| [.NET MAUI](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui) | `code --install-extension ms-dotnettools.dotnet-maui` |
 | [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets) | `code --install-extension robert-brunhage.flutter-riverpod-snippets` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
@@ -62,7 +65,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) | `code --install-extension ms-playwright.playwright` |
 | [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document) | `code --install-extension mintlify.document` |
 | [New Relic CodeStream](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream) | `code --install-extension CodeStream.codestream` |
-| [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) | `code --install-extension mtxr.sqltools` |
 | [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
 
 ## Fonts
