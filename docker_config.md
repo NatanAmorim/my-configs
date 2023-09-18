@@ -25,9 +25,9 @@ This is for sharing the Docker containers I use with simple examples.
 #### Using NPM
 
 ```dockerfile
-# Use the official lightweight Node.js 14 image.
+# Use the official lightweight Node.js 18 image.
 # https://hub.docker.com/_/node
-FROM node:14-slim
+FROM node:18-slim
 
 # Set working directory. Paths will be relative this WORKDIR
 WORKDIR /usr/src/app
@@ -55,9 +55,9 @@ CMD ["npm", "dev"]
 #### Using Yarn
 
 ```dockerfile
-# Use the official lightweight Node.js 14 image.
+# Use the official lightweight Node.js 18 image.
 # https://hub.docker.com/_/node
-FROM node:14-slim
+FROM node:18-slim
 
 # Set working directory. Paths will be relative this WORKDIR
 WORKDIR /usr/src/app
@@ -160,9 +160,4 @@ or
 ### Microsoft SQL 2022
 
 - `docker pull mcr.microsoft.com/mssql/server:2022-latest`
-- ```bash
-  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>" \
-   -p 1433:1433 --name sql1 --hostname sql1 \
-   -d \
-   mcr.microsoft.com/mssql/server:2022-latest
-   ```
+- `docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest`
