@@ -2,14 +2,13 @@
 
 Here's a list of everything I install in my Windows machine.
 
-## Development 
+## Development
 
 - [VS Code](https://code.visualstudio.com/Download)
 - [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/)
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Git Bash](https://git-scm.com/downloads)
 - [Github Desktop](https://desktop.github.com/)
-- [Docker](https://docs.docker.com/install/)
 - [Insomnia](https://insomnia.rest/download/)
 - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - [DBeaver Community](https://dbeaver.io/download/)
@@ -39,9 +38,10 @@ Here's a list of everything I install in my Windows machine.
 - [7zip](https://7-zip.org)
 - [AutoHotkey](https://www.autohotkey.com/)
 - [WinDirStat](https://windirstat.net/download.html)
-<!--
+
+## Testing
+
 - [Voicemod](https://www.voicemod.net/)
--->
 
 ## Microsoft Store Apps
 

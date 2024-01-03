@@ -21,33 +21,24 @@
 # Universal Database (DB) Manager
  flatpak install flathub io.dbeaver.DBeaverCommunity # DBeaver Community Edition
 
-## Good programs that i don't use
+# Others
 
-# flatpak install flathub io.lmms.LMMS # LMMS (A music production application)
+flatpak install flathub io.lmms.LMMS # LMMS (A music production application)
 
-# flatpak install flathub com.github.libresprite.LibreSprite # LibreSprite (Animated sprite editor and pixel art tool)
+flatpak install flathub com.github.libresprite.LibreSprite # LibreSprite (Animated sprite editor and pixel art tool)
 
-# flatpak install flathub org.synfig.SynfigStudio # SynfigStudio (2D animations and compositions)
+flatpak install flathub org.synfig.SynfigStudio # SynfigStudio (2D animations and compositions)
 
-# flatpak install flathub io.github.OpenToonz # OpenToonz (2D animations)
+flatpak install flathub org.pencil2d.Pencil2D # Pencil2D (2D animations)
 
-# flatpak install flathub org.pencil2d.Pencil2D # Pencil2D (2D animations)
+flatpak install flathub org.blender.Blender # Blender (3D animations)
 
-# flatpak install flathub org.blender.Blender # Blender (3D animations)
+flatpak install flathub org.kde.krita # Krita (Digital Painting)
 
-# flatpak install flathub org.kde.krita # Kirita (Digital Painting)
+flatpak install flathub org.libreoffice.LibreOffice # LibreOffice (Office Suite)
 
-# flatpak install flathub org.remmina.Remmina # Remmina (Remote Desktop)
+flatpak install flathub org.darktable.Darktable # Darktable (Raw Photo editor)
 
-# flatpak install flathub org.libreoffice.LibreOffice # LibreOffice (Office Suite)
+flatpak install flathub org.godotengine.Godot # Godot (Game Engine)
 
-# flatpak install flathub org.darktable.Darktable # Darktable (Raw Photo editor)
-
-# flatpak install flathub org.godotengine.Godot # Godot (Game Engine)
-
-# flatpak install flathub ch.openboard.OpenBoard # OpenBoard (Interactive whiteboard)
-
-## I don't know if it is safe yet
-# flatpak install flathub com.ulduzsoft.Birdtray
-# flatpak install flathub im.gitter.Gitter
-# flatpak install flathub com.gigitux.gtkwhats
+flatpak install flathub ch.openboard.OpenBoard # OpenBoard (Interactive whiteboard)

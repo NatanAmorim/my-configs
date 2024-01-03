@@ -50,12 +50,11 @@
 - [Neucha](https://fonts.google.com/download?family=Neucha)
 - [Sacramento](https://fonts.google.com/download?family=Sacramento)
 
-
 ## Repositories
 
 - [Powerline Fonts](https://github.com/powerline/fonts)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
-## Microsoft Fonts on Ubuntu
+## Microsoft Fonts on Ubuntu (like Arial and Times New Roman)
 
 - `sudo apt install ttf-mscorefonts-installer`

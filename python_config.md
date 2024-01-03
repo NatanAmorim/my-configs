@@ -1,18 +1,18 @@
 # Python 3 Extensions
 
 - [About](#about)
-- [Libraries](#libraries )
+- [Libraries](#libraries)
 
 ## About
 
 This is for sharing the Python 3 libraries I use.
 
-## Extensions
+## Libraries
 
-- Remenber to keep your pip updated  
+- Remenber to keep your pip updated
 `pip install --upgrade pip`
 
-| Extension | Installation |
+| Link | Installation terminal command |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip install jupyter` |
 | [CMake](https://pypi.org/project/cmake/) | `pip install cmake` |
