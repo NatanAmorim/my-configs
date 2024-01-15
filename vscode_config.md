@@ -52,10 +52,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | Extension | Installation |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Stream Deck for VS Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck) | `code --install-extension nicollasr.vscode-streamdeck` |
-| [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) | `code --install-extension Postman.postman-for-vscode` |
 | [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets) | `code --install-extension robert-brunhage.flutter-riverpod-snippets` |
 | [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) | `code --install-extension ms-playwright.playwright` |
-| [New Relic CodeStream](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream) | `code --install-extension CodeStream.codestream` |
 | [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
 
 ## Fonts
