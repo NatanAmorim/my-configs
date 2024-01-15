@@ -16,19 +16,19 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) | `code --install-extension MS-vsliveshare.vsliveshare` |
 | [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) | `code --install-extension rangav.vscode-thunder-client` |
-| [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) | `code --install-extension waderyan.gitblame` |
 | [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
+| [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) | `code --install-extension GitHub.remotehub` |
 | [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `code --install-extension christian-kohler.path-intellisense` |
-| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) | `code --install-extension mongodb.mongodb-vscode` |
 | [SQL Database Projects](https://marketplace.visualstudio.com/items?itemName=ms-mssql.sql-database-projects-vscode) | `code --install-extension ms-mssql.sql-database-projects-vscode` |
 | [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) | `code --install-extension ms-mssql.mssql` |
 | [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
-| [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) | `code --install-extension GitHub.remotehub` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
+| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
+| [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 <!--
 | []() | `code --install-extension ` |
 -->
@@ -53,15 +53,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Stream Deck for VS Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck) | `code --install-extension nicollasr.vscode-streamdeck` |
 | [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode) | `code --install-extension Postman.postman-for-vscode` |
-| [.NET MAUI](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui) | `code --install-extension ms-dotnettools.dotnet-maui` |
 | [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets) | `code --install-extension robert-brunhage.flutter-riverpod-snippets` |
-| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
-| [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
-| [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align) | `code --install-extension yo1dog.cursor-align` |
-| [Cursor Trim](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-trim) | `code --install-extension yo1dog.cursor-trim` |
-| [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer) | `code --install-extension hbenl.vscode-test-explorer` |
 | [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) | `code --install-extension ms-playwright.playwright` |
-| [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document) | `code --install-extension mintlify.document` |
 | [New Relic CodeStream](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream) | `code --install-extension CodeStream.codestream` |
 | [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
 
@@ -75,24 +68,25 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 ```json
 {
   "audioCues.onDebugBreak": "on",
-  "editor.cursorBlinking": "expand",
+  "workbench.startupEditor": "none",
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
-  "terminal.integrated.fontFamily": "'Hack Nerd Font', Consolas, 'Courier New', monospace",
+  "workbench.editor.empty.hint": "hidden",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
-  "editor.stickyScroll.enabled": true,
-  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "editor.lineHeight": 26,
+  "editor.lineHeight": 1.6,
   "editor.rulers": [
     80,
+    120
   ],
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -106,9 +100,17 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.guides.bracketPairs": true,
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": true,
+  "editor.stickyScroll.enabled": true,
   "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "breadcrumbs.enabled": false,
   "extensions.ignoreRecommendations": true,
-  "window.menuBarVisibility": "toggle",
   "files.trimTrailingWhitespace": true,
   // Don't show theses files
   "files.exclude": {
@@ -128,8 +130,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.formatOnSave": true,
     "editor.formatOnType": false,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true,
-      "source.fixAll": false,
+      "source.organizeImports": "explicit",
+      "source.fixAll": "never"
     },
     "editor.rulers": [
       80
@@ -138,43 +140,83 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   // TypeScript
   "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   // Javascript
   "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   // Code Spell Checker
+  "cSpell.language": "en,pt",
+  /// Display the spell checker status on the status bar.
+  "cSpell.showStatus": true,
+  /// Enable / Disable compound words like 'errormessage'
+  "cSpell.allowCompoundWords": false,
+  /// Specify file types to spell check.
   "cSpell.enableFiletypes": [
     "!asciidoc",
     "!c",
     "!cpp",
-    "!csharp",
-    "!go",
     "!handlebars",
     "!haskell",
     "!jade",
-    "!java",
     "!latex",
-    "!php",
     "!pug",
-    "!python",
     "!restructuredtext",
-    "!rust",
     "!scala",
     "!scss",
-    "!dart"
   ],
-  "cSpell.language": "en,pt",
+  /// User words to add to dictionary
   "cSpell.userWords": [
+    "bootcamp",
     "chakra",
     "middlewares",
+    "monaco",
+    "nestjs",
+    "omni",
+    "onboarded",
+    "mssql",
+    "mysql",
+    "postgres",
+    "postgresql",
     "prefetch",
     "roboto",
-    "cupertino"
+    "skylab",
+    "sqlite",
+    "sympla",
+    "tailwindcss",
+    "textblock",
+    "tiptap",
+    "unfollow",
+    "unform",
+    "unmark",
+    "upsert"
+  ],
+  /// Specify paths/files to ignore.
+  "cSpell.ignorePaths": [
+    "node_modules", // this will ignore anything the node_modules directory
+    "**/node_modules", // the same for this one
+    "**/node_modules/**", // the same for this one
+    "node_modules/**", // Doesn't currently work due to how the current working directory is determined.
+    "vscode-extension", //
+    "*.json", // Ignore all .json files.
+    ".git", // Ignore the .git directory
+    "*.dll", // Ignore all .dll files.
+    "**/*.dll" // Ignore all .dll files
   ],
   // Jupyter Notebook
   "notebook.cellToolbarLocation": {
@@ -184,21 +226,13 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  // Thunder Client
-  "thunder-client.codeSnippetLanguage": "cs-httpclient",
+  // Others
   "git.openRepositoryInParentFolders": "always",
-  "peacock.affectActivityBar": false,
-  "peacock.elementAdjustments": {
-    "activityBar": "lighten",
-    "statusBar": "none",
-    "titleBar": "none"
-  },
-  "workbench.editor.untitled.hint": "hidden",
+  "dart.flutterSdkPath": "/Users/nate/flutter",
 }
 ```
 
 ## Utils
 
 - Reload VS code with the `Developer: Reload Window` command. Simply type that in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` It will clear the error. It's like refreshing VS Code.
-
 - You can format your JSON document using `Shift+Alt+F` or simply type **Format Document** in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` in the context menu. Helps with formating JSON files that comes in only one line.
