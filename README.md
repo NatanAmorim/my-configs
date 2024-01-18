@@ -1,4 +1,4 @@
-# myconfig
+# README
 
 ## About
 

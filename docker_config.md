@@ -13,7 +13,7 @@ This is for sharing the Docker containers I use with simple examples.
 
 ## Install
 
-- installation on [Windows](https://docs.docker.com/docker-for-windows/install/) (i recomend to use [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel))
+- installation on [Windows](https://docs.docker.com/docker-for-windows/install/) (i recommend to use [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel))
 - installation on [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
 ## NodeJS
@@ -40,7 +40,7 @@ RUN npm install
 # Copy source files from host computer to the container
 COPY . .
 
-# Set enviroment variable
+# Set environment variable
 ENV PORT=3000
 
 # Specify port app runs on
@@ -58,8 +58,6 @@ CMD ["npm", "dev"]
 node_modules
 
 npm-debug.log
-yarn-debug.log
-yarn-error.log
 ```
 
 ### Building the container

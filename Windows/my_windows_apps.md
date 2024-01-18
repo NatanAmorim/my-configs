@@ -5,11 +5,10 @@ Here's a list of everything I install in my Windows machine.
 ## Development
 
 - [VS Code](https://code.visualstudio.com/Download)
-- [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/)
+- [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Git Bash](https://git-scm.com/downloads)
 - [Github Desktop](https://desktop.github.com/)
-- [Insomnia](https://insomnia.rest/download/)
 - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - [DBeaver Community](https://dbeaver.io/download/)
 - [Android Studio](https://developer.android.com/studio)
@@ -24,8 +23,9 @@ Here's a list of everything I install in my Windows machine.
 
 - [Gimp](https://gimp.org/downloads/)
 - [Audacity](https://audacityteam.org/download/)
+- [Inkscape](https://inkscape.org/release/)
 - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
-- [Open Broadcaster Software - OBS](https://obsproject.com/pt-br/download)
+- [Open Broadcaster Software - OBS](https://obsproject.com/download)
 
 ## Others
 
@@ -47,11 +47,12 @@ Here's a list of everything I install in my Windows machine.
 
 - MS Teams
 - WhatsApp Web
-- Spotify
 - Ubuntu ([Windows Subsystem for Linux 2](https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel))
 - Windows Terminal
 
-## 7zip better contex menu
+## Configurations
+
+### 7zip better context menu
 
 1. Open the 7-Zip File Manager with Administrator Rights from your start menu
 2. Go to the tools menu and select options

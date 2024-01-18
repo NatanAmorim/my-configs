@@ -4,10 +4,6 @@ alias ..="cd .."
 alias ...="cd ..; cd .."
 alias dir-type="ls -la --color | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\" %0o \",k);print}'"
 alias h='history -t'
-# sup == system_update
-alias sup='sudo apt update && sudo apt upgrade'
-alias update='sudo apt update && sudo apt upgrade'
-alias autoremove='sudo apt autoremove'
 # Lsd (https://github.com/Peltoche/lsd)
 alias lsd="lsd -h"
 alias ld="lsd -h"
@@ -20,7 +16,6 @@ alias push='git push -u origin master'
 alias pull='git pull'
 alias log='git log'
 #alias made to improve commands
-alias vi='vim'
 alias wget='wget -c '
 alias tmux='tmux -u'
 alias grep='grep  --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn} '
@@ -32,8 +27,6 @@ alias ll='ls -alF --color=auto --group-directories-first'
 alias la='ls -A --group-directories-first'
 alias cp="cp -i" # confirm before overwriting something
 alias df='df -h' # human-readable sizes
-# Windows 10
-alias windows="cd /mnt/c/Users/natan"
 
 # !Paste the following lines in ".bashrc" or ".zshrc" and uncomment to load these aliases!
 # Load personal aliases, overriding existing ones

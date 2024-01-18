@@ -5,11 +5,11 @@
 
 ## About
 
-This is for sharing the Python 3 libraries I use.
+This is for sharing the Python 3 libraries I used to use (warning: haven't programmed in python for years now...).
 
 ## Libraries
 
-- Remenber to keep your pip updated
+- Remember to keep your pip updated
 `pip install --upgrade pip`
 
 | Link | Installation terminal command |

@@ -27,6 +27,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) | `code --install-extension ms-mssql.mssql` |
 | [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
+| [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 <!--
@@ -180,29 +181,37 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   ],
   /// User words to add to dictionary
   "cSpell.userWords": [
+    "autofocus",
+    "autovalidate",
     "bootcamp",
     "chakra",
+    "cnpj",
+    "dotnet",
+    "grey",
     "middlewares",
     "monaco",
+    "mssql",
+    "mysql",
     "nestjs",
     "omni",
     "onboarded",
-    "mssql",
-    "mysql",
     "postgres",
     "postgresql",
     "prefetch",
     "roboto",
+    "Serilog",
     "skylab",
     "sqlite",
     "sympla",
     "tailwindcss",
     "textblock",
     "tiptap",
+    "unfocus",
     "unfollow",
     "unform",
     "unmark",
-    "upsert"
+    "upsert",
+    "vsync"
   ],
   /// Specify paths/files to ignore.
   "cSpell.ignorePaths": [
@@ -226,7 +235,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   },
   // Others
   "git.openRepositoryInParentFolders": "always",
-  "dart.flutterSdkPath": "/Users/nate/flutter",
 }
 ```
 

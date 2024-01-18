@@ -1,7 +1,7 @@
 #!/bin/bash
-# basics.sh
+# setup.sh
 
-# You may need to "sudo chmod +x basics.sh"
+# You may need to "sudo chmod +x setup.sh"
 
 sudo apt update && sudo apt upgrade
 
@@ -24,9 +24,12 @@ sudo apt install breeze-cursor-theme breeze-icon-theme
 sudo apt install fonts-roboto fonts-firacode fonts-powerline ttf-mscorefonts-installer
 
 # zsh config
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # oh-my-zsh
-chsh -s $(which zsh) # change default zsh
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting # Syntax Highlights plugin
+## oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+## change default zsh
+chsh -s $(which zsh)
+## Syntax Highlights plugin
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 # Flatpak
 sudo apt update && sudo apt upgrade && sudo apt install flatpak && sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo

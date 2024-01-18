@@ -1,4 +1,4 @@
-export ZSH="/home/nate/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export UPDATE_ZSH_DAYS=7
 
 ZSH_THEME="zhann"
@@ -17,7 +17,7 @@ plugins=(
 sudo
 extract
 github
-docker  
+docker
 colored-man-pages
 python
 yarn
