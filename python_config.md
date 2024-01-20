@@ -5,7 +5,7 @@
 
 ## About
 
-This is for sharing the Python 3 libraries I used to use (warning: haven't programmed in python for years now...).
+This is for sharing the Python 3 libraries I used to use (warning: I haven't programmed in python for years now...).
 
 ## Libraries
 
