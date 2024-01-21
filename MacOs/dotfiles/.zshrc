@@ -1,5 +1,8 @@
 # Flutter SDK
 export PATH="$PATH:$HOME/flutter/bin"
+## Dart Protoc plugin
+## See https://github.com/google/protobuf.dart/tree/master/protoc_plugin
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 # .NET Core SDK tools
 export PATH="$PATH:$HOME/.dotnet/tools"
 

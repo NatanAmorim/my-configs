@@ -1,6 +1,6 @@
 # MacOS
 
-Here's a list of everything I install in my Mac.
+Here's a list of everything I install on my Mac.
 
 ## Mac UX improvements
 
@@ -27,6 +27,54 @@ Here's a list of everything I install in my Mac.
 - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
 - [DaVinci Resolve (AppStore)](https://apps.apple.com/br/app/davinci-resolve/id571213070?l=en-GB&mt=12)
 - [Open Broadcaster Software - OBS](https://obsproject.com/download)
+
+## Homebrew
+
+Homebrew installs the stuff you need that Apple didn’t. See more in [Homebrew](https://brew.sh).
+
+- To install Homebrew paste that in a macOS Terminal or Linux shell prompt.
+
+```sh
+/bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
+```
+
+### Everything I install with Homebrew
+
+```sh
+brew install git
+```
+
+```sh
+brew install cocoapods
+```
+
+```sh
+brew install ruby
+```
+
+```sh
+brew install htop
+```
+
+```sh
+brew install lsd
+```
+
+```sh
+brew install neofetch
+```
+
+```sh
+brew install neovim
+```
+
+```sh
+brew install alt-tab
+```
+
+```sh
+brew install protobuf
+```
 
 ## Others
 
