@@ -2,10 +2,11 @@
 
 Here's a list of everything I install on my Mac.
 
-## Mac UX improvements
+## Mac UI and UX improvements
 
-- [AltTab (Github)](https://github.com/lwouis/alt-tab-macos)
 - [Rectangle (Github)](https://github.com/rxhanson/Rectangle)
+- [AltTab (Github)](https://github.com/lwouis/alt-tab-macos)
+- [lsd (Github)](https://github.com/Peltoche/lsd)
 
 ## Development
 
@@ -14,6 +15,7 @@ Here's a list of everything I install on my Mac.
 - [Github Desktop](https://desktop.github.com/)
 - [Android Studio](https://developer.android.com/studio)
 - [Flutter](https://docs.flutter.dev/get-started/install/macos)
+- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 ## UI Design
 

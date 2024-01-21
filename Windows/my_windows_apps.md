@@ -1,6 +1,6 @@
 # Windows
 
-Here's a list of everything I install in my Windows machine.
+Here's a list of everything I install on my Windows machine.
 
 ## Development
 
@@ -12,8 +12,9 @@ Here's a list of everything I install in my Windows machine.
 - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - [DBeaver Community](https://dbeaver.io/download/)
 - [Android Studio](https://developer.android.com/studio)
-- [Flutter](https://flutter.dev/docs/get-started/install/windows)
 - [Inno Setup](https://jrsoftware.org/isdl.php#stable)
+- [Flutter](https://flutter.dev/docs/get-started/install/windows)
+- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 ## UI Design
 
@@ -38,6 +39,7 @@ Here's a list of everything I install in my Windows machine.
 - [7zip](https://7-zip.org)
 - [AutoHotkey](https://www.autohotkey.com/)
 - [WinDirStat](https://windirstat.net/download.html)
+- [lsd (Github)](https://github.com/Peltoche/lsd)
 
 ## Testing
 
