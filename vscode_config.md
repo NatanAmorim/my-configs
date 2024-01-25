@@ -3,7 +3,7 @@
 - [About](#about)
 - [Extensions](#extensions)
 - [Fonts](#fonts)
-- [User Settings (JSON)](#user-settings)
+- [User Settings (JSON)](#user-settings-json)
 - [Utils](#utils)
 
 ## About
@@ -25,6 +25,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
+| [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | `code --install-extension esbenp.prettier-vscode` |
 <!--
 | []() | `code --install-extension ` |
 -->
@@ -70,7 +71,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 - [Fira Code](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip)
 - [Hack (Nerd Fonts)](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/Hack.zip)
 
-## User Settings (JSON) {#user-settings}
+## User Settings (JSON)
 
 ```json
 {
@@ -154,9 +155,15 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "[TypeScript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // Javascript
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "files.associations": {
     ".env.*": "dotenv",
     ".prettierrc": "json",
@@ -196,25 +203,37 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "bootcamp",
     "chakra",
     "cnpj",
+    "cockroachdb",
     "cocoapods",
     "dotnet",
+    "dtos",
+    "excalidraw",
+    "findstr",
     "gitmodules",
     "grey",
     "inkscape",
+    "mariadb",
     "middlewares",
+    "mockito",
     "monaco",
+    "msix",
     "mssql",
     "mysql",
     "neofetch",
     "neovim",
     "nestjs",
+    "nginx",
     "omni",
     "onboarded",
+    "opensearch",
+    "pgadmin",
     "postgres",
     "postgresql",
     "prefetch",
     "protobuf",
     "protobufs",
+    "protoc",
+    "psql",
     "riverpod",
     "roboto",
     "serilog",
@@ -229,7 +248,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "unform",
     "unmark",
     "upsert",
-    "vsync"
+    "vsync",
+    "WORKDIR"
   ],
   /// Specify paths/files to ignore.
   "cSpell.ignorePaths": [
@@ -259,4 +279,4 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 ## Utils
 
 - Reload VS code with the `Developer: Reload Window` command. Simply type that in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` It will clear the error. It's like refreshing VS Code.
-- You can format your JSON document using `Shift+Alt+F` or simply type **Format Document** in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` in the context menu. Helps with formating JSON files that comes in only one line.
+- You can format your JSON document using `Shift+Alt+F` or simply type **Format Document** in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` in the context menu. Helps with formatting JSON files that comes in only one line.

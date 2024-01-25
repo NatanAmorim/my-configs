@@ -6,6 +6,7 @@
 - [MongoDB](#mongodb)
 - [PostgreSQL](#postgresql)
 - [Microsoft SQL](#mssql)
+- [Add later](#add-later)
 
 ## About
 
@@ -23,9 +24,9 @@ This is for sharing the Docker containers I use with simple examples.
 ### Build a docker image for a node.js Using NPM
 
 ```dockerfile
-# Use the official lightweight Node.js 18 image.
+# Use the official lightweight Node.js 20 image.
 # https://hub.docker.com/_/node
-FROM node:18-slim
+FROM node:20-slim
 
 # Set working directory. Paths will be relative this WORKDIR
 WORKDIR /usr/src/app
@@ -106,7 +107,7 @@ or
 
 ## MSSQL
 
-- Remember that you **MUST** use a strong password, otherwise the process will exit with status 1.
+- Remember that you **must use a strong password** , otherwise the process will exit with status 1.
 
 ### Microsoft SQL 2019
 
@@ -117,3 +118,25 @@ or
 
 - `docker pull mcr.microsoft.com/mssql/server:2022-latest`
 - `docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest`
+
+## Add later
+
+### Images
+
+- [redis](https://hub.docker.com/_/redis)
+- [mysql](https://hub.docker.com/_/mysql)
+- [mariadb](https://hub.docker.com/_/mariadb)
+- [elasticsearch](https://hub.docker.com/_/elasticsearch)
+- [opensearchproject/opensearch](https://hub.docker.com/r/opensearchproject/opensearch)
+- [nginx](https://hub.docker.com/_/nginx)
+- [nginxinc/nginx-unprivileged](https://hub.docker.com/r/nginxinc/nginx-unprivileged)
+- [cockroachdb/cockroach](https://hub.docker.com/r/cockroachdb/cockroach)
+- [elestio/pgadmin](https://hub.docker.com/r/elestio/pgadmin)
+
+### Extensions
+
+- [Open Source management tool for PostgreSQL](https://hub.docker.com/extensions/mochoa/pgadmin4-docker-extension)
+- [Excalidraw](https://hub.docker.com/extensions/ivancurkovic046/excalidraw-docker-extension)
+- [DockasaurusRX](https://hub.docker.com/extensions/dockasaurusrx/dockasaurusrx)
+- [Logs Explorer](https://hub.docker.com/extensions/docker/logs-explorer-extension)
+- [NGINX Development Center](https://hub.docker.com/extensions/nginx/docker-extension)
