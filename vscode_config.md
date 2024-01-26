@@ -21,11 +21,13 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
+| [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
 | [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 | [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | `code --install-extension esbenp.prettier-vscode` |
+| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 <!--
 | []() | `code --install-extension ` |
 -->
@@ -55,6 +57,12 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) | `code --install-extension GitHub.vscode-github-actions` |
 | [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) | `code --install-extension GitHub.remotehub` |
 | [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
+| [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) | `code --install-extension waderyan.gitblame` |
+| [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) | `code --install-extension ms-dotnettools.csdevkit` |
+| [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) | `code --install-extension johnpapa.vscode-peacock` |
+| [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
+| [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
+| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
 
 ### Testing
 
@@ -65,6 +73,15 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) | `code --install-extension ms-playwright.playwright` |
 | [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
 | [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
+| [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) | `code --install-extension yoavbls.pretty-ts-errors` |
+| [quick-lint-js](https://marketplace.visualstudio.com/items?itemName=quick-lint.quick-lint-js) | `code --install-extension quick-lint.quick-lint-js` |
+| [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) | `code --install-extension stkb.rewrap` |
+| [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) | `code --install-extension formulahendry.auto-rename-tag` |
+| [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) | `code --install-extension formulahendry.auto-close-tag` |
+| [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) | `code --install-extension redhat.vscode-xml` |
+| [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | `code --install-extension bradlc.vscode-tailwindcss` |
+| [Cloak](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-cloak) | `code --install-extension johnpapa.vscode-cloak` |
+| [C# to TypeScript](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.csharp-to-typescript) | `code --install-extension adrianwilczynski.csharp-to-typescript` |
 
 ## Fonts
 
@@ -89,10 +106,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.lineHeight": 1.6,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
@@ -141,10 +155,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
       "source.organizeImports": "explicit",
       "source.fixAll": "never"
     },
-    "editor.rulers": [
-      80,
-      80
-    ],
+    "editor.rulers": [80, 80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -193,7 +204,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "!pug",
     "!restructuredtext",
     "!scala",
-    "!scss",
+    "!scss"
   ],
   /// User words to add to dictionary
   "cSpell.userWords": [
@@ -234,6 +245,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "protobufs",
     "protoc",
     "psql",
+    "redhat",
     "riverpod",
     "roboto",
     "serilog",
@@ -243,6 +255,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "tailwindcss",
     "textblock",
     "tiptap",
+    "typesafe",
     "unfocus",
     "unfollow",
     "unform",
