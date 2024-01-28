@@ -127,7 +127,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    "tailwind.config*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
   },
@@ -218,8 +218,10 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "cocoapods",
     "dotnet",
     "dtos",
+    "echarts",
     "excalidraw",
     "findstr",
+    "fluentui",
     "gitmodules",
     "grey",
     "inkscape",
@@ -251,10 +253,12 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "serilog",
     "skylab",
     "sqlite",
+    "swashbuckle",
     "sympla",
     "tailwindcss",
     "textblock",
     "tiptap",
+    "typeahead",
     "typesafe",
     "unfocus",
     "unfollow",
@@ -285,7 +289,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "*.ipynb": "jupyter-notebook"
   },
   // Others
-  "git.openRepositoryInParentFolders": "always",
+  "git.openRepositoryInParentFolders": "always"
 }
 ```
 

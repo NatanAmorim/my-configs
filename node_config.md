@@ -48,14 +48,14 @@ This is for sharing the Node.js dependencies I use with NPM.
 
 [create-vite](https://vitejs.dev/guide/) is a tool to quickly start a project from a basic template for popular frameworks. Check out Awesome Vite for [community maintained templates](https://github.com/vitejs/awesome-vite#templates) that include other tools or target different frameworks. You can use a tool like [degit](https://github.com/Rich-Harris/degit) to scaffold your project with one of the templates.
 
-Scaffolding Your First Vite Project
+Scaffolding Your First Vite Project with React + Typescript:
 
 ```sh
 npm create vite@latest
 ```
 
 ```sh
-npm create vite@latest my-react-ts-app -- --template react-ts
+npm create vite@latest my-project -- --template react-ts
 ```
 
 You can use `.` for the project name to scaffold in the current directory.
@@ -72,3 +72,4 @@ npm run dev
 
 - Build your component library with [shadcn/ui](https://ui.shadcn.com).
 - [Astro](https://astro.build) a tool for building static websites with your favorite javascript frameworks, while shipping zero javascript to the browser.
+- [Slidev](https://sli.dev) Presentation Slides for Developers.
