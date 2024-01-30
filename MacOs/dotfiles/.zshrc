@@ -1,3 +1,6 @@
+# Fast Node Manager (fnm)
+export PATH="$HOME/Library/Application Support/fnm:$PATH"
+eval "`fnm env`"
 # Flutter SDK
 export PATH="$PATH:$HOME/flutter/bin"
 ## Dart Protoc plugin

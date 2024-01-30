@@ -12,7 +12,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ## Extensions
 
-### Using
+### Extensions I am using
 
 | Extension | Installation |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 <!--
 | []() | `code --install-extension ` |
 -->
-### Themes
+### Theme extensions
 
 | Extension | Installation |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
 | [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
 
-### Testing
+### Extensions I am testing
 
 | Extension | Installation |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
@@ -82,6 +82,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | `code --install-extension bradlc.vscode-tailwindcss` |
 | [Cloak](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-cloak) | `code --install-extension johnpapa.vscode-cloak` |
 | [C# to TypeScript](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.csharp-to-typescript) | `code --install-extension adrianwilczynski.csharp-to-typescript` |
+| [glean](https://marketplace.visualstudio.com/items?itemName=wix.glean) | `code --install-extension wix.glean` |
 
 ## Fonts
 
@@ -224,6 +225,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "fluentui",
     "gitmodules",
     "grey",
+    "hmac",
+    "HMACSHA",
     "inkscape",
     "mariadb",
     "middlewares",

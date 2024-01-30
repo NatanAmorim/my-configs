@@ -11,10 +11,17 @@
 
 This is for sharing the Node.js dependencies I use with NPM.
 
+### Tips
+
+- ``npm install` can be simplified to `npm i`.
+- ``npm install --save-dev ` can be simplified to `npm i -D`.
+
 ## Version manager
 
-- [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
+I use Fast Node Manager (fnm) but here are the options i know.
+
 - [Fast Node Manager (fnm)](https://github.com/Schniz/fnm)
+- [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
 
 ## dependencies
 
