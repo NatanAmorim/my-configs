@@ -76,13 +76,13 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) | `code --install-extension yoavbls.pretty-ts-errors` |
 | [quick-lint-js](https://marketplace.visualstudio.com/items?itemName=quick-lint.quick-lint-js) | `code --install-extension quick-lint.quick-lint-js` |
 | [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) | `code --install-extension stkb.rewrap` |
-| [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) | `code --install-extension formulahendry.auto-rename-tag` |
 | [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) | `code --install-extension formulahendry.auto-close-tag` |
 | [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) | `code --install-extension redhat.vscode-xml` |
 | [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | `code --install-extension bradlc.vscode-tailwindcss` |
 | [Cloak](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-cloak) | `code --install-extension johnpapa.vscode-cloak` |
 | [C# to TypeScript](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.csharp-to-typescript) | `code --install-extension adrianwilczynski.csharp-to-typescript` |
 | [glean](https://marketplace.visualstudio.com/items?itemName=wix.glean) | `code --install-extension wix.glean` |
+| [Inline fold](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold) | `code --install-extension moalamri.inline-fold` |
 
 ## Fonts
 
@@ -108,6 +108,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.tabSize": 2,
   "editor.lineHeight": 1.6,
   "editor.rulers": [80, 120],
+  "editor.linkedEditing": true, // Auto renames HTML tags like [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
@@ -269,7 +270,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "unmark",
     "upsert",
     "vsync",
-    "WORKDIR"
+    "WORKDIR",
+    "youtube"
   ],
   /// Specify paths/files to ignore.
   "cSpell.ignorePaths": [
@@ -294,6 +296,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   // Others
   "git.openRepositoryInParentFolders": "always"
 }
+
 ```
 
 ## Utils
