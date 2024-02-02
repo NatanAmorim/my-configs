@@ -2,7 +2,7 @@
 export PATH="$HOME/Library/Application Support/fnm:$PATH"
 eval "`fnm env`"
 # Flutter SDK
-export PATH="$PATH:$HOME/flutter/bin"
+export PATH="$PATH:$HOME/flutter/Development/bin"
 ## Dart Protoc plugin
 ## See https://github.com/google/protobuf.dart/tree/master/protoc_plugin
 export PATH="$PATH":"$HOME/.pub-cache/bin"
