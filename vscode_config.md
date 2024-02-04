@@ -108,7 +108,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.tabSize": 2,
   "editor.lineHeight": 1.6,
   "editor.rulers": [80, 120],
-  "editor.linkedEditing": true, // Auto renames HTML tags like [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+  "editor.linkedEditing": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
@@ -145,6 +145,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "**/.DS_Store": true
   },
   // Flutter + Dart
+  "dart.flutterSdkPath": "~/Development/flutter",
   "dart.openDevTools": "flutter",
   "dart.showInspectorNotificationsForWidgetErrors": false,
   "dart.debugExternalPackageLibraries": false,
@@ -210,6 +211,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   ],
   /// User words to add to dictionary
   "cSpell.userWords": [
+    "aseprite",
     "autofocus",
     "autovalidate",
     "bokeh",
@@ -221,15 +223,19 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "dotnet",
     "dtos",
     "echarts",
+    "Elgato",
     "excalidraw",
     "findstr",
     "fluentui",
     "gitmodules",
+    "godot",
     "grey",
     "hmac",
     "HMACSHA",
     "inkscape",
+    "jigglebones",
     "mariadb",
+    "metroidvania",
     "middlewares",
     "mockito",
     "monaco",
@@ -255,6 +261,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "riverpod",
     "roboto",
     "serilog",
+    "sketchfab",
     "skylab",
     "sqlite",
     "swashbuckle",
@@ -296,7 +303,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   // Others
   "git.openRepositoryInParentFolders": "always"
 }
-
 ```
 
 ## Utils
