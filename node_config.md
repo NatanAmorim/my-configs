@@ -33,6 +33,8 @@ I use Fast Node Manager (fnm) but here are the options i know.
 | [React Router](https://www.npmjs.com/package/react-router) | `npm install react-router` |
 | [React Query](https://www.npmjs.com/package/@tanstack/react-query) | `npm install @tanstack/react-query` |
 | [React Hook Form](https://www.npmjs.com/package/react-hook-form) | `npm install react-hook-form` |
+| [React ApexCharts](https://www.npmjs.com/package/react-apexcharts) | `npm install apexcharts react-apexcharts` |
+| [Zod](https://www.npmjs.com/package/zod) | `npm install zod` |
 | [Chart.js](https://www.npmjs.com/package/chart.js) | `npm install chart.js` |
 | [Moment.js](https://www.npmjs.com/package/moment) | `npm install moment` |
 | [Material Web](https://www.npmjs.com/package/@material/web) | `npm install @material/web` |
@@ -40,7 +42,10 @@ I use Fast Node Manager (fnm) but here are the options i know.
 | [AutoAnimate](https://www.npmjs.com/package/@formkit/auto-animate) | `npm install @formkit/auto-animate` |
 | [dnd kit](https://www.npmjs.com/package/@dnd-kit/core) | `npm install @dnd-kit/core` |
 | [tRPC client](https://www.npmjs.com/package/@trpc/client) | `npm install @trpc/client` |
-
+<!-- | [ApexCharts.js](https://www.npmjs.com/package/apexcharts) | `npm install apexcharts` | -->
+<!--
+| [](https://www.npmjs.com/package/placeholder) | `npm install placeholder` |
+-->
 ## Dev dependencies
 
 | Link | Installation terminal command |
@@ -50,7 +55,9 @@ I use Fast Node Manager (fnm) but here are the options i know.
 | [Vite](https://www.npmjs.com/package/vite) | `npm install vite --save-dev` |
 | [Vitest](https://www.npmjs.com/package/vitest) | `npm install vitest --save-dev` |
 | [Jest](https://www.npmjs.com/package/jest) | `npm install jest --save-dev` |
-
+<!--
+| [](https://www.npmjs.com/package/placeholder) | `npm install placeholder --save-dev` |
+-->
 ### create-vite
 
 [create-vite](https://vitejs.dev/guide/) is a tool to quickly start a project from a basic template for popular frameworks. Check out Awesome Vite for [community maintained templates](https://github.com/vitejs/awesome-vite#templates) that include other tools or target different frameworks. You can use a tool like [degit](https://github.com/Rich-Harris/degit) to scaffold your project with one of the templates.

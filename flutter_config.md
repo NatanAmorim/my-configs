@@ -47,6 +47,7 @@ This is for sharing the Flutter dependencies I use.
 | [geolocator](https://pub.dev/packages/geolocator) | `flutter pub add geolocator` |
 | [sign_in_with_apple](https://pub.dev/packages/sign_in_with_apple) | `flutter pub add sign_in_with_apple` |
 | [visibility_detector](https://pub.dev/packages/visibility_detector) | `flutter pub add visibility_detector` |
+| [location](https://pub.dev/packages/location) | `flutter pub add location` |
 | [flutter_box_transform](https://pub.dev/packages/flutter_box_transform) | `flutter pub add flutter_box_transform` |
 | [extended_image](https://pub.dev/packages/extended_image) | `flutter pub add extended_image` |
 | [expandable](https://pub.dev/packages/expandable) | `flutter pub add expandable` |
@@ -77,6 +78,7 @@ This is for sharing the Flutter dependencies I use.
 | [badges](https://pub.dev/packages/badges) | `flutter pub add badges` |
 | [flutter_slidable](https://pub.dev/packages/flutter_slidable) | `flutter pub add flutter_slidable` |
 | [confetti](https://pub.dev/packages/confetti) | `flutter pub add confetti` |
+| [async](https://pub.dev/packages/async) | `flutter pub add async` |
 | [device_preview](https://pub.dev/packages/device_preview) | `flutter pub add device_preview` |
 | [riverpod_annotation](https://pub.dev/packages/riverpod_annotation) | `flutter pub add riverpod_annotation` |
 | [freezed_annotation](https://pub.dev/packages/freezed_annotation) | `flutter pub add freezed_annotation` |
