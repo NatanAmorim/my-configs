@@ -80,6 +80,7 @@ This is for sharing the Flutter dependencies I use.
 | [confetti](https://pub.dev/packages/confetti) | `flutter pub add confetti` |
 | [async](https://pub.dev/packages/async) | `flutter pub add async` |
 | [device_preview](https://pub.dev/packages/device_preview) | `flutter pub add device_preview` |
+| [sliver_tools](https://pub.dev/packages/sliver_tools) | `flutter pub add sliver_tools` |
 | [riverpod_annotation](https://pub.dev/packages/riverpod_annotation) | `flutter pub add riverpod_annotation` |
 | [freezed_annotation](https://pub.dev/packages/freezed_annotation) | `flutter pub add freezed_annotation` |
 
