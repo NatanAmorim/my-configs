@@ -165,19 +165,21 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
+  // Prettier
+  "prettier.enable": true,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": false,
+  "prettier.semi": true,
+  "[html][css][scss][tailwindcss][javascript][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // TypeScript
   "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "[TypeScript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   // Javascript
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "files.associations": {
     ".env.*": "dotenv",
     ".prettierrc": "json",
