@@ -53,7 +53,7 @@ I use Fast Node Manager (fnm) but here are the options I know are good.
 - [Fast Node Manager (fnm)](https://github.com/Schniz/fnm)
 - [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
 
-### create-vite
+### Vite
 
 [create-vite](https://vitejs.dev/guide/) is a tool to quickly start a project from a basic template for popular frameworks. Check out Awesome Vite for [community maintained templates](https://github.com/vitejs/awesome-vite#templates) that include other tools or target different frameworks. You can use a tool like [degit](https://github.com/Rich-Harris/degit) to scaffold your project with one of the templates.
 
@@ -70,11 +70,11 @@ npm install
 npm run dev
 ```
 
-### Add Tailwind
+### Add Tailwind to a Vite project
 
-- For more/better details check the [official docs](https://tailwindcss.com/docs/installation).
+- For better details check the [Vite Guide](https://tailwindcss.com/docs/guides/vite) from the [Official Docs](https://tailwindcss.com/docs/installation).
 
-install tailwind in your project with:
+install tailwind in your vite project with:
 
 ```sh
 npm install -D tailwindcss postcss autoprefixer
@@ -106,6 +106,8 @@ And in the `src/index.css` file, you will need to add these three lines:
 @tailwind components;
 @tailwind utilities;
 ```
+
+That's all, your project will now work with tailwind.
 
 ### Others
 
