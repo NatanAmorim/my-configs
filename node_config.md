@@ -17,42 +17,32 @@ This is for sharing the Node.js dependencies I use with npm.
 
 - `npm install` can be simplified to `npm i`.
 
-| Link | Installation terminal command |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [Zod](https://www.npmjs.com/package/zod) | `npm install zod` |
-| [React](https://www.npmjs.com/package/react) | `npm install react` |
-| [React dom](https://www.npmjs.com/package/react-dom) | `npm install react-dom` |
-| [React Router](https://www.npmjs.com/package/react-router) | `npm install react-router` |
-| [React Query](https://www.npmjs.com/package/@tanstack/react-query) | `npm install @tanstack/react-query` |
-| [React Hook Form](https://www.npmjs.com/package/react-hook-form) | `npm install react-hook-form` |
-| [React ApexCharts](https://www.npmjs.com/package/react-apexcharts) | `npm install apexcharts react-apexcharts` |
-| [Zod](https://www.npmjs.com/package/zod) | `npm install zod` |
-| [Chart.js](https://www.npmjs.com/package/chart.js) | `npm install chart.js` |
-| [ECharts](https://www.npmjs.com/package/echarts) | `npm install echarts` |
-| [ApexCharts.js](https://www.npmjs.com/package/apexcharts) | `npm install apexcharts` |
-| [Moment.js](https://www.npmjs.com/package/moment) | `npm install moment` |
-| [Material Web](https://www.npmjs.com/package/@material/web) | `npm install @material/web` |
-| [AutoAnimate](https://www.npmjs.com/package/@formkit/auto-animate) | `npm install @formkit/auto-animate` |
-| [dnd kit](https://www.npmjs.com/package/@dnd-kit/core) | `npm install @dnd-kit/core` |
-| [tRPC client](https://www.npmjs.com/package/@trpc/client) | `npm install @trpc/client` |
-<!--
-| [placeholder](https://www.npmjs.com/package/placeholder) | `npm install placeholder` |
--->
+- [Zod](https://zod.dev)
+- [React](https://react.dev)
+- [React dom](https://legacy.reactjs.org/docs/react-dom.html)
+- [React Router](https://reactrouter.com/en/main)
+- [TanStack Query](https://tanstack.com/query/latest)
+- [React Hook Form](https://www.react-hook-form.com)
+- [React ApexCharts](https://tanstack.com/query/latest)
+- [Chart.js](https://www.chartjs.org)
+- [ECharts](https://echarts.apache.org/en/index.html)
+- [ApexCharts.js](https://apexcharts.com)
+- [Moment.js](https://momentjs.com)
+- [Material Web](https://material-web.dev/about/quick-start/)
+- [AutoAnimate](https://auto-animate.formkit.com)
+- [dnd kit](https://dndkit.com)
+- [tRPC client](https://trpc.io/docs/client/vanilla)
+
 ## Dev dependencies
 
 - `npm install --save-dev` can be simplified to `npm i -D`.
 
-| Link | Installation terminal command |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [Tailwind CSS](https://www.npmjs.com/package/tailwindcss) | `npm install tailwindcss --save-dev` |
-| [TypeScript](https://www.npmjs.com/package/typescript) | `npm install typescript --save-dev` |
-| [Eslint](https://www.npmjs.com/package/eslint) | `npm install eslint --save-dev` |
-| [Vite](https://www.npmjs.com/package/vite) | `npm install vite --save-dev` |
-| [Vitest](https://www.npmjs.com/package/vitest) | `npm install vitest --save-dev` |
-| [Jest](https://www.npmjs.com/package/jest) | `npm install jest --save-dev` |
-<!--
-| [placeholder](https://www.npmjs.com/package/placeholder) | `npm install placeholder --save-dev` |
--->
+- [Tailwind CSS](https://tailwindcss.com)
+- [TypeScript](https://www.typescriptlang.org)
+- [ESLint](https://eslint.org)
+- [Vite](https://vitejs.dev)
+- [Vitest](https://vitest.dev)
+- [Jest](https://jestjs.io)
 
 ## Tips
 
