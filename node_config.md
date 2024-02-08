@@ -11,11 +11,11 @@ This is for sharing the Node.js dependencies I use with npm.
 
 > [!NOTE]\
 > I'm using [npm](https://www.npmjs.com) since it's the most common package manager and I want something stable.\
-> Also should check out [Bun](https://bun.sh), [PnPm](https://pnpm.io) and [Yarn](https://yarnpkg.com) to see what's better for you.
+> Check out [Bun](https://bun.sh), [PnPm](https://pnpm.io) and [Yarn](https://yarnpkg.com) and see what's better for **you**.
 
 ## Dependencies
 
-- `npm install` can be simplified to `npm i`.
+`npm install` can be simplified to `npm i`
 
 - [Zod](https://zod.dev)
 - [React](https://react.dev)
@@ -35,7 +35,7 @@ This is for sharing the Node.js dependencies I use with npm.
 
 ## Dev dependencies
 
-- `npm install --save-dev` can be simplified to `npm i -D`.
+`npm install --save-dev` can be simplified to `npm i -D`
 
 - [Tailwind CSS](https://tailwindcss.com)
 - [TypeScript](https://www.typescriptlang.org)
@@ -72,7 +72,7 @@ npm run dev
 
 ### Add Tailwind
 
-- For more details check the [official docs](https://tailwindcss.com/docs/installation).
+- For more/better details check the [official docs](https://tailwindcss.com/docs/installation).
 
 install tailwind in your project with:
 
@@ -112,3 +112,4 @@ And in the `src/index.css` file, you will need to add these three lines:
 - Build your component library with [shadcn/ui](https://ui.shadcn.com).
 - [Astro](https://astro.build) a tool for building static websites with your favorite javascript frameworks, while shipping zero javascript to the browser.
 - [Slidev](https://sli.dev) Presentation Slides for Developers.
+- [Google Material Icons](https://fonts.google.com/icons) and [Google Fonts](https://fonts.google.com).
