@@ -4,7 +4,7 @@
 - [Extensions](#extensions)
 - [Fonts](#fonts)
 - [User Settings (JSON)](#user-settings-json)
-- [Utils](#utils)
+- [Useful Information](#useful-information)
 
 ## About
 
@@ -307,7 +307,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 }
 ```
 
-## Utils
+## Useful Information
 
-- Reload VS code with the `Developer: Reload Window` command. Simply type that in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` It will clear the error. It's like refreshing VS Code.
-- You can format your JSON document using `Shift+Alt+F` or simply type **Format Document** in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` in the context menu. Helps with formatting JSON files that comes in only one line.
+- You can reload/restart VS code with the `Developer: Reload Window` command. Simply type that in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` It will clear the error. It's like refreshing VS Code.
+- You can format your JSON document using `Shift+Alt+F` or simply type **Format Document** in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` in the context menu. Helps with formatting JSON files that comes in only one line, making them readable.

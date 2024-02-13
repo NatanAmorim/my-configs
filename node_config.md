@@ -109,9 +109,9 @@ And in the `src/index.css` file, you will need to add these three lines:
 
 That's all, your project will now work with tailwind.
 
-### Others
+### Useful Information
 
-- Build your component library with [shadcn/ui](https://ui.shadcn.com).
+- Build your component library with [shadcn/ui](https://ui.shadcn.com) and/or [Radix-UI](https://www.radix-ui.com).
 - [Astro](https://astro.build) a tool for building static websites with your favorite javascript frameworks, while shipping zero javascript to the browser.
 - [Slidev](https://sli.dev) Presentation Slides for Developers.
 - [Google Material Icons](https://fonts.google.com/icons) and [Google Fonts](https://fonts.google.com).

@@ -1,13 +1,9 @@
 # Fast Node Manager (fnm)
-export PATH="$HOME/Library/Application Support/fnm:$PATH"
+export PATH="$PATH:$HOME/Library/Application Support/fnm"
 eval "`fnm env`"
+
 # Flutter SDK
-export PATH="$PATH:$HOME/flutter/Development/bin"
-## Dart Protoc plugin
-## See https://github.com/google/protobuf.dart/tree/master/protoc_plugin
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-# .NET Core SDK tools
-export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="$PATH:$HOME/Development/flutter/bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
