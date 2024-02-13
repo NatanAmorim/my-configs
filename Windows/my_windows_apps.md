@@ -1,6 +1,6 @@
 # Windows
 
-Here's a list of everything I install on my Windows machine.
+Here's a list of everything I install on my Windows PC.
 
 ## Development
 

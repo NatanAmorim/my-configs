@@ -2,7 +2,7 @@
 	ui = auto
 
 [core]
-	editor = vim
+	editor = vscode
 
 [merge]
 	tool = vscode

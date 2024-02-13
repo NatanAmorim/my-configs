@@ -1,36 +1,42 @@
-export ZSH="$HOME/.oh-my-zsh"
-export UPDATE_ZSH_DAYS=7
+# Fast Node Manager (fnm)
+export PATH="$PATH:$HOME/Library/Application Support/fnm"
+eval "`fnm env`"
 
-ZSH_THEME="zhann"
+# Flutter SDK
+export PATH="$PATH:$HOME/Development/flutter/bin"
+
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Theme
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME=zhann
+
 CASE_SENSITIVE="false"
-HYPHEN_INSENSITIVE="true"
-DISABLE_AUTO_UPDATE="false"
+HYPHEN_INSENSITIVE="false"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="false"
 HIST_STAMPS="dd/mm/yyyy"
+
+# Change how often to auto-update (in days).
+export UPDATE_ZSH_DAYS=7
+
+# Display 001 dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
+# Plugins
+## Note that `zsh-syntax-highlighting` must be the last plugin sourced.
 plugins=(
+git
 sudo
 extract
 github
 docker
 colored-man-pages
-python
-yarn
 zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-
-export TERM=xterm-256color
 
 # Load personal aliases, for a full list of active aliases, run `alias`
 if [ -f $HOME/.aliases ]; then
