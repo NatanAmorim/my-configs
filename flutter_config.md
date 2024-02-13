@@ -76,6 +76,7 @@ This is for sharing the Flutter dependencies I use.
 | [package_info_plus](https://pub.dev/packages/package_info_plus) | `flutter pub add package_info_plus` |
 | [upgrader](https://pub.dev/packages/upgrader) | `flutter pub add upgrader` |
 | [badges](https://pub.dev/packages/badges) | `flutter pub add badges` |
+| [draggable_scrollbar](https://pub.dev/packages/draggable_scrollbar) | `dart pub add draggable_scrollbar` |
 | [flutter_slidable](https://pub.dev/packages/flutter_slidable) | `flutter pub add flutter_slidable` |
 | [confetti](https://pub.dev/packages/confetti) | `flutter pub add confetti` |
 | [async](https://pub.dev/packages/async) | `flutter pub add async` |

@@ -25,7 +25,6 @@ This is for sharing the Dart and Flutter libraries I use.
 | [very_good_analysis](https://pub.dev/packages/very_good_analysis) | `dart pub add very_good_analysis` |
 | [email_validator](https://pub.dev/packages/email_validator) | `dart pub add email_validator` |
 | [riverpod](https://pub.dev/packages/riverpod) | `dart pub add riverpod` |
-| [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) | `dart pub add flutter_launcher_icons` |
 | [dio](https://pub.dev/packages/dio) | `dart pub add dio` |
 | [googleapis](https://pub.dev/packages/googleapis) | `dart pub add googleapis` |
 | [built_value](https://pub.dev/packages/built_value) | `dart pub add built_value` |
