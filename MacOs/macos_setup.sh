@@ -1,7 +1,7 @@
 #!/bin/bash
-# setup.sh
+# macos_setup.sh
 
-# You may need to "sudo chmod +x setup.sh"
+# You may need to "sudo chmod +x macos_setup.sh"
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
