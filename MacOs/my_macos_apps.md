@@ -14,7 +14,7 @@ Here's a list of everything I install on my Mac.
 - [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/)
 - [Github Desktop](https://desktop.github.com/)
 - [Android Studio](https://developer.android.com/studio)
-- [DBeaver Community](https://dbeaver.io/download/)
+- [DBeaver Community Edition](https://dbeaver.io/download/)
 - [Flutter](https://docs.flutter.dev/get-started/install/macos)
 - [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 

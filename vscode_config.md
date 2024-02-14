@@ -170,7 +170,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "prettier.tabWidth": 2,
   "prettier.singleQuote": false,
   "prettier.semi": true,
-  "[html][css][scss][tailwindcss][javascript][typescript]": {
+  "[html][css][scss][tailwindcss][javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // TypeScript
@@ -225,7 +225,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "dotnet",
     "dtos",
     "echarts",
-    "Elgato",
+    "elgato",
     "excalidraw",
     "findstr",
     "fluentui",
