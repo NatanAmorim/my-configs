@@ -82,6 +82,8 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 | [sliver_tools](https://pub.dev/packages/sliver_tools) | `flutter pub add sliver_tools` |
 | [riverpod_annotation](https://pub.dev/packages/riverpod_annotation) | `flutter pub add riverpod_annotation` |
 | [freezed_annotation](https://pub.dev/packages/freezed_annotation) | `flutter pub add freezed_annotation` |
+| [realm](https://pub.dev/packages/realm) | `dart pub add realm` |
+| [sqflite](https://pub.dev/packages/sqflite) | `dart pub add sqflite` |
 
 ## Dev Dependencies
 

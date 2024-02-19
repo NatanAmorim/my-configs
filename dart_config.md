@@ -48,17 +48,15 @@ This is for sharing the Dart dependencies I use, also check my [Flutter](https:/
 
 | Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [build_runner](https://pub.dev/packages/build_runner) | `flutter pub add dev:build_runner` |
+| [build_runner](https://pub.dev/packages/build_runner) | `dart pub add dev:build_runner` |
 | [freezed](https://pub.dev/packages/freezed) | `dart pub add dev:freezed` |
-| [custom_lint](https://pub.dev/packages/custom_lint) | `flutter pub add dev:custom_lint` |
-| [riverpod_lint](https://pub.dev/packages/riverpod_lint) | `flutter pub add dev:riverpod_lint` |
-| [riverpod_generator](https://pub.dev/packages/riverpod_generator) | `flutter pub add dev:riverpod_generator` |
+| [custom_lint](https://pub.dev/packages/custom_lint) | `dart pub add dev:custom_lint` |
+| [riverpod_lint](https://pub.dev/packages/riverpod_lint) | `dart pub add dev:riverpod_lint` |
+| [riverpod_generator](https://pub.dev/packages/riverpod_generator) | `dart pub add dev:riverpod_generator` |
 
 ## Databases
 
 | Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [drift](https://pub.dev/packages/drift) | `flutter pub add drift` |
-| [sqflite](https://pub.dev/packages/sqflite) | `flutter pub add sqflite` |
-| [realm](https://pub.dev/packages/realm) | `flutter pub add realm` |
+| [drift](https://pub.dev/packages/drift) | `dart pub add drift` |
 | [isar](https://pub.dev/packages/isar) | `dart pub add isar` |
