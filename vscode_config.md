@@ -64,6 +64,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
 | [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
+| [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension) | `code --install-extension figma.figma-vscode-extension` |
 
 ### Extensions I am testing
 
@@ -228,6 +229,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "echarts",
     "elgato",
     "excalidraw",
+    "figma",
     "findstr",
     "fluentui",
     "gitmodules",

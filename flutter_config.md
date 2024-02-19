@@ -11,7 +11,6 @@
 - [Responsive Design](#responsive-design)
 - [Loading](#loading)
 - [Animation](#animation)
-- [Databases](#databases)
 - [Templates](#templates)
 - [Payments](#payments)
 - [AWS](#aws)
@@ -19,11 +18,11 @@
 
 ## About
 
-This is for sharing the Flutter dependencies I use.
+This is for sharing the Flutter dependencies I use, also check my [Dart](https://github.com/NatanAmorim/my-configs/blob/master/dart_config.md) dependencies.
 
 ## State Managers
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [flutter_riverpod](https://pub.dev/packages/flutter_riverpod) | `flutter pub add flutter_riverpod` |
 | [hooks_riverpod](https://pub.dev/packages/hooks_riverpod) | `flutter pub add hooks_riverpod` |
@@ -32,9 +31,8 @@ This is for sharing the Flutter dependencies I use.
 
 ## Dependencies
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [intl](https://pub.dev/packages/intl) | `flutter pub add intl` |
 | [flutter_svg](https://pub.dev/packages/flutter_svg) | `flutter pub add flutter_svg` |
 | [shared_preferences](https://pub.dev/packages/shared_preferences) | `flutter pub add shared_preferences` |
 | [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage) | `flutter pub add flutter_secure_storage` |
@@ -87,34 +85,35 @@ This is for sharing the Flutter dependencies I use.
 
 ## Dev Dependencies
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [build_runner](https://pub.dev/packages/build_runner) | `flutter pub add build_runner` |
-| [freezed](https://pub.dev/packages/freezed) | `flutter pub add freezed` |
-| [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) | `flutter pub add flutter_launcher_icons` |
-| [flutter_native_splash](https://pub.dev/packages/flutter_native_splash) | `flutter pub add flutter_native_splash` |
-| [custom_lint](https://pub.dev/packages/custom_lint) | `flutter pub add custom_lint` |
-| [flutter_lints](https://pub.dev/packages/flutter_lints) | `flutter pub add flutter_lints` |
-| [riverpod_lint](https://pub.dev/packages/riverpod_lint) | `flutter pub add riverpod_lint` |
-| [riverpod_generator](https://pub.dev/packages/riverpod_generator) | `flutter pub add riverpod_generator` |
+| [build_runner](https://pub.dev/packages/build_runner) | `flutter pub add dev:build_runner` |
+| [freezed](https://pub.dev/packages/freezed) | `flutter pub add dev:freezed` |
+| [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) | `flutter pub add dev:flutter_launcher_icons` |
+| [flutter_native_splash](https://pub.dev/packages/flutter_native_splash) | `flutter pub add dev:flutter_native_splash` |
+| [custom_lint](https://pub.dev/packages/custom_lint) | `flutter pub add dev:custom_lint` |
+| [flutter_lints](https://pub.dev/packages/flutter_lints) | `flutter pub add dev:flutter_lints` |
+| [riverpod_lint](https://pub.dev/packages/riverpod_lint) | `flutter pub add dev:riverpod_lint` |
+| [riverpod_generator](https://pub.dev/packages/riverpod_generator) | `flutter pub add dev:riverpod_generator` |
+| [msix](https://pub.dev/packages/msix) | `dart pub add dev:msix` |
 
 ## Charts
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [flutter_echarts](https://pub.dev/packages/flutter_echarts) | `flutter pub add flutter_echarts` |
 | [fl_chart](https://pub.dev/packages/fl_chart) | `flutter pub add fl_chart` |
 
 ## Fonts
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [google_fonts](https://pub.dev/packages/google_fonts) | `flutter pub add google_fonts` |
 | [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) | `flutter pub add font_awesome_flutter` |
 
 ## Icons
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [fluentui_system_icons](https://pub.dev/packages/fluentui_system_icons) | `flutter pub add fluentui_system_icons` |
 | [line_icons](https://pub.dev/packages/line_icons) | `flutter pub add line_icons` |
@@ -122,14 +121,14 @@ This is for sharing the Flutter dependencies I use.
 
 ## Design Systems
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [macos_ui](https://pub.dev/packages/macos_ui) | `flutter pub add macos_ui` |
 | [fluent_ui](https://pub.dev/packages/fluent_ui) | `flutter pub add fluent_ui` |
 
 ## Responsive Design
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [adaptive_navigation](https://pub.dev/packages/adaptive_navigation) | `flutter pub add adaptive_navigation` |
 | [adaptive_components](https://pub.dev/packages/adaptive_components) | `flutter pub add adaptive_components` |
@@ -140,14 +139,14 @@ This is for sharing the Flutter dependencies I use.
 
 ## Loading
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [loading_animation_widget](https://pub.dev/packages/loading_animation_widget) | `flutter pub add loading_animation_widget` |
 | [flutter_spinkit](https://pub.dev/packages/flutter_spinkit) | `flutter pub add flutter_spinkit` |
 
 ## Animation
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [flutter_animate](https://pub.dev/packages/flutter_animate) | `flutter pub add flutter_animate` |
 | [animate_do](https://pub.dev/packages/animate_do) | `flutter pub add animate_do` |
@@ -158,18 +157,9 @@ This is for sharing the Flutter dependencies I use.
 | [rive](https://pub.dev/packages/rive) | `flutter pub add rive` |
 | [animations](https://pub.dev/packages/animations) | `flutter pub add animations` |
 
-## Databases
-
-| Link | Installation terminal command |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [drift](https://pub.dev/packages/drift) | `flutter pub add drift` |
-| [realm](https://pub.dev/packages/realm) | `flutter pub add realm` |
-| [sqflite](https://pub.dev/packages/sqflite) | `flutter pub add sqflite` |
-| [hive_flutter](https://pub.dev/packages/hive_flutter) | `flutter pub add hive_flutter` |
-
 ## Templates
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [resizable_widget](https://pub.dev/packages/resizable_widget) | `flutter pub add resizable_widget` |
 | [multi_split_view](https://pub.dev/packages/multi_split_view) | `flutter pub add multi_split_view` |
@@ -208,13 +198,13 @@ This is for sharing the Flutter dependencies I use.
 
 ## Payments
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [pay](https://pub.dev/packages/pay) | `flutter pub add pay` |
 
 ## AWS
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [aws_signature_v4](https://pub.dev/packages/aws_signature_v4) | `flutter pub add aws_signature_v4` |
 | [amplify_api](https://pub.dev/packages/amplify_api) | `flutter pub add amplify_api` |
@@ -226,6 +216,6 @@ This is for sharing the Flutter dependencies I use.
 
 ## Artificial Intelligence
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [tflite_flutter](https://pub.dev/packages/tflite_flutter) | `flutter pub add tflite_flutter` |

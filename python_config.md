@@ -12,7 +12,7 @@ This is for sharing the Python 3 libraries I used to use (warning: I haven't pro
 - Remember to keep your pip updated
 `pip install --upgrade pip`
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip install jupyter` |
 | [CMake](https://pypi.org/project/cmake/) | `pip install cmake` |

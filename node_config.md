@@ -3,6 +3,7 @@
 - [About](#about)
 - [Dependencies](#dependencies)
 - [Dev dependencies](#dev-dependencies)
+- [React dependencies](#react-dependencies)
 - [Tips](#tips)
 
 ## About
@@ -15,34 +16,49 @@ This is for sharing the Node.js dependencies I use with npm.
 
 ## Dependencies
 
-`npm install` can be simplified to `npm i`
+> [!NOTE]\
+> `npm install` can be simplified to `npm i`.
 
-- [Zod](https://zod.dev)
-- [React](https://react.dev)
-- [React dom](https://legacy.reactjs.org/docs/react-dom.html)
-- [React Router](https://reactrouter.com/en/main)
-- [TanStack Query](https://tanstack.com/query/latest)
-- [React Hook Form](https://www.react-hook-form.com)
-- [React ApexCharts](https://tanstack.com/query/latest)
-- [Chart.js](https://www.chartjs.org)
-- [ECharts](https://echarts.apache.org/en/index.html)
-- [ApexCharts.js](https://apexcharts.com)
-- [Moment.js](https://momentjs.com)
-- [Material Web](https://material-web.dev/about/quick-start/)
-- [AutoAnimate](https://auto-animate.formkit.com)
-- [dnd kit](https://dndkit.com)
-- [tRPC client](https://trpc.io/docs/client/vanilla)
+| Link | Installing |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [Zod](https://zod.dev) | `npm install zod` |
+| [TanStack Query](https://tanstack.com/query/latest) | `npm install @tanstack/react-query @tanstack/react-query-devtools` |
+| [Chart.js](https://www.chartjs.org) | `npm install chart.js` |
+| [ECharts](https://echarts.apache.org/en/index.html) | `npm install echarts` |
+| [ApexCharts.js](https://apexcharts.com) | `npm install apexcharts` |
+| [Moment.js](https://momentjs.com) | `npm install moment` |
+| [Material Web](https://material-web.dev/about/quick-start/) | `npm install @material/web` |
+| [AutoAnimate](https://auto-animate.formkit.com) | `npm install @formkit/auto-animate` |
+| [dnd kit](https://dndkit.com) | `npm install @dnd-kit/core` |
+| [tRPC client](https://trpc.io/docs/client/vanilla) | `npm install @trpc/server@next @trpc/client@next @trpc/react-query@next @trpc/next@next @tanstack/react-query@latest @tanstack/react-query-devtools@latest` |
+<!--
+| []() | `npm install` |
+-->
 
 ## Dev dependencies
 
-`npm install --save-dev` can be simplified to `npm i -D`
+> [!NOTE]\
+> `npm install --save-dev` can be simplified to `npm i -D`.
 
-- [Tailwind CSS](https://tailwindcss.com)
-- [TypeScript](https://www.typescriptlang.org)
-- [ESLint](https://eslint.org)
-- [Vite](https://vitejs.dev)
-- [Vitest](https://vitest.dev)
-- [Jest](https://jestjs.io)
+| Link | Installing |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [Tailwind CSS](https://tailwindcss.com) | `npm install --save-dev tailwindcss` |
+| [TypeScript](https://www.typescriptlang.org) | `npm install --save-dev typescript` |
+| [ESLint](https://eslint.org) | `npm init @eslint/config` |
+| [Vite](https://vitejs.dev) | `npm install --save-dev vite` |
+| [Vitest](https://vitest.dev) | `npm install --save-dev vitest` |
+| [Jest](https://jestjs.io) | `npm install --save-dev jest` |
+| [ESLint Plugin Query](https://tanstack.com/query/v4/docs/eslint/eslint-plugin-query) | `npm install --save-dev @tanstack/eslint-plugin-query` |
+
+## React Dependencies
+
+| Link | Installing |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [React](https://react.dev) | `npm install react` |
+| [React dom](https://legacy.reactjs.org/docs/react-dom.html) | `npm install react-dom` |
+| [React Router](https://reactrouter.com/en/main) | `npm install react-router-dom` |
+| [React Hook Form](https://www.react-hook-form.com) | `npm install react-hook-form` |
+| [React ApexCharts](https://apexcharts.com/docs/react-charts/) | `npm install react-apexcharts apexcharts` |
 
 ## Tips
 

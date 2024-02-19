@@ -1,17 +1,24 @@
 # Dart
 
 - [About](#about)
-- [Libraries](#libraries)
+- [Dependencies](#dependencies)
+- [Dev Dependencies](#dev-dependencies)
+- [Databases](#databases)
 
 ## About
 
-This is for sharing the Dart and Flutter libraries I use.
+This is for sharing the Dart dependencies I use, also check my [Flutter](https://github.com/NatanAmorim/my-configs/blob/master/flutter_config.md) dependencies.
 
-## Libraries
+## Dependencies
 
-| Link | Installation terminal command |
+| Link | Installing |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [protobuf](https://pub.dev/packages/protobuf) | `https://pub.dev/packages/protobuf` |
+| [intl](https://pub.dev/packages/intl) | `dart pub add intl` |
+| [logging](https://pub.dev/packages/logging) | `dart pub add logging` |
+| [http](https://pub.dev/packages/http) | `dart pub add http` |
+| [http2](https://pub.dev/packages/http2) | `dart pub add http2` |
+| [web_socket_channel](https://pub.dev/packages/web_socket_channel) | `dart pub add web_socket_channel` |
+| [protobuf](https://pub.dev/packages/protobuf) | `dart pub add protobuf` |
 | [grpc](https://pub.dev/packages/grpc) | `dart pub add grpc` |
 | [neat_periodic_task](https://pub.dev/packages/neat_periodic_task) | `dart pub add neat_periodic_task` |
 | [characters](https://pub.dev/packages/characters) | `dart pub add characters` |
@@ -20,7 +27,6 @@ This is for sharing the Dart and Flutter libraries I use.
 | [fpdart](https://pub.dev/packages/fpdart) | `dart pub add fpdart` |
 | [pdf](https://pub.dev/packages/pdf) | `dart pub add pdf` |
 | [image](https://pub.dev/packages/image) | `dart pub add image` |
-| [logging](https://pub.dev/packages/logging) | `dart pub add logging` |
 | [jiffy](https://pub.dev/packages/jiffy) | `dart pub add jiffy` |
 | [very_good_analysis](https://pub.dev/packages/very_good_analysis) | `dart pub add very_good_analysis` |
 | [email_validator](https://pub.dev/packages/email_validator) | `dart pub add email_validator` |
@@ -29,15 +35,30 @@ This is for sharing the Dart and Flutter libraries I use.
 | [googleapis](https://pub.dev/packages/googleapis) | `dart pub add googleapis` |
 | [built_value](https://pub.dev/packages/built_value) | `dart pub add built_value` |
 | [sentry](https://pub.dev/packages/sentry) | `dart pub add sentry` |
-| [msix](https://pub.dev/packages/msix) | `dart pub add msix` |
 | [mockito](https://pub.dev/packages/mockito) | `dart pub add mockito` |
 | [drift](https://pub.dev/packages/drift) | `dart pub add drift` |
 | [os_detect](https://pub.dev/packages/os_detect) | `dart pub add os_detect` |
-| [http](https://pub.dev/packages/http) | `dart pub add http` |
-| [http2](https://pub.dev/packages/http2) | `dart pub add http2` |
 | [equatable](https://pub.dev/packages/equatable) | `dart pub add equatable` |
-| [freezed](https://pub.dev/packages/freezed) | `dart pub add freezed` |
 | [json_serializable](https://pub.dev/packages/json_serializable) | `dart pub add json_serializable` |
-| [intl](https://pub.dev/packages/intl) | `dart pub add intl` |
 | [bloc](https://pub.dev/packages/bloc) | `dart pub add bloc` |
 | [crypto](https://pub.dev/packages/crypto) | `dart pub add crypto` |
+| [google_generative_ai](https://pub.dev/packages/google_generative_ai) | `dart pub add google_generative_ai` |
+
+## Dev Dependencies
+
+| Link | Installing |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [build_runner](https://pub.dev/packages/build_runner) | `flutter pub add dev:build_runner` |
+| [freezed](https://pub.dev/packages/freezed) | `dart pub add dev:freezed` |
+| [custom_lint](https://pub.dev/packages/custom_lint) | `flutter pub add dev:custom_lint` |
+| [riverpod_lint](https://pub.dev/packages/riverpod_lint) | `flutter pub add dev:riverpod_lint` |
+| [riverpod_generator](https://pub.dev/packages/riverpod_generator) | `flutter pub add dev:riverpod_generator` |
+
+## Databases
+
+| Link | Installing |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [drift](https://pub.dev/packages/drift) | `flutter pub add drift` |
+| [sqflite](https://pub.dev/packages/sqflite) | `flutter pub add sqflite` |
+| [realm](https://pub.dev/packages/realm) | `flutter pub add realm` |
+| [isar](https://pub.dev/packages/isar) | `dart pub add isar` |

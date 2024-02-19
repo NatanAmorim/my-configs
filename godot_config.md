@@ -102,6 +102,7 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 - [RoboBlast: Third-Person Shooter demo (Godot 4, 3D)](https://github.com/gdquest-demos/godot-4-3d-third-person-controller/)
 - [Godot 4 - Third Person Player Controller](https://github.com/selgesel/godot4-third-person-controller)
 - [Abandoned-Spaceship-Godot-Demo](https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo)
+- [Desert Light](https://github.com/RPicster/godot4-demo-desert-light)
 - [Sketchy Renderer](https://github.com/Gyrth/SketchyRenderer)
 - [Godot 4 Complete Cel Shader](https://github.com/eldskald/godot4-cel-shader)
 - [Expresso Inventory System](https://github.com/expressobits/inventory-system)
