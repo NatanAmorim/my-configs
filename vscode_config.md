@@ -46,6 +46,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) | `code --install-extension Dart-Code.dart-code` |
 | [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) | `code --install-extension Dart-Code.flutter` |
 | [Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) | `code --install-extension rust-lang.rust-analyzer` |
+| [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) | `code --install-extension Angular.ng-template` |
 
 ### Good but not using right now
 
