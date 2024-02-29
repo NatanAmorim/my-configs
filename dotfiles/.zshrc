@@ -16,7 +16,7 @@ CASE_SENSITIVE="false"
 HYPHEN_INSENSITIVE="false"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="false"
-HIST_STAMPS="dd/mm/yyyy"
+HIST_STAMPS="%d/%m/%y %T"
 
 # Change how often to auto-update (in days).
 export UPDATE_ZSH_DAYS=7
