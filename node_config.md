@@ -20,13 +20,13 @@ This is for sharing the Node.js dependencies I use with npm.
 - [Zustand](https://zustand-demo.pmnd.rs/) A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy API based on hooks, isn't boilerplatey or opinionated.
 
 ```sh
-`npm install zustand`
+npm install zustand
 ```
 
 - [TanStack Query](https://tanstack.com/query/latest) Powerful asynchronous state management for TS/JS, React, Solid, Vue, Svelte and Angular.
 
 ```sh
-npm install @tanstack/react-query @tanstack/react-query-devtools` |
+npm install @tanstack/react-query @tanstack/react-query-devtools
 ```
 
 ## Dependencies
