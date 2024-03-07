@@ -23,7 +23,7 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## State Managers
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [flutter_riverpod](https://pub.dev/packages/flutter_riverpod) | `flutter pub add flutter_riverpod` |
 | [hooks_riverpod](https://pub.dev/packages/hooks_riverpod) | `flutter pub add hooks_riverpod` |
 | [bloc](https://pub.dev/packages/bloc) | `flutter pub add bloc` |
@@ -32,7 +32,7 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Dependencies
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [flutter_svg](https://pub.dev/packages/flutter_svg) | `flutter pub add flutter_svg` |
 | [shared_preferences](https://pub.dev/packages/shared_preferences) | `flutter pub add shared_preferences` |
 | [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage) | `flutter pub add flutter_secure_storage` |
@@ -88,7 +88,7 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Dev Dependencies
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [build_runner](https://pub.dev/packages/build_runner) | `flutter pub add dev:build_runner` |
 | [freezed](https://pub.dev/packages/freezed) | `flutter pub add dev:freezed` |
 | [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) | `flutter pub add dev:flutter_launcher_icons` |
@@ -102,21 +102,21 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Charts
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [flutter_echarts](https://pub.dev/packages/flutter_echarts) | `flutter pub add flutter_echarts` |
 | [fl_chart](https://pub.dev/packages/fl_chart) | `flutter pub add fl_chart` |
 
 ## Fonts
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [google_fonts](https://pub.dev/packages/google_fonts) | `flutter pub add google_fonts` |
 | [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) | `flutter pub add font_awesome_flutter` |
 
 ## Icons
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [fluentui_system_icons](https://pub.dev/packages/fluentui_system_icons) | `flutter pub add fluentui_system_icons` |
 | [line_icons](https://pub.dev/packages/line_icons) | `flutter pub add line_icons` |
 | [flutter_animated_icons](https://pub.dev/packages/flutter_animated_icons) | `flutter pub add flutter_animated_icons` |
@@ -124,14 +124,14 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Design Systems
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [macos_ui](https://pub.dev/packages/macos_ui) | `flutter pub add macos_ui` |
 | [fluent_ui](https://pub.dev/packages/fluent_ui) | `flutter pub add fluent_ui` |
 
 ## Responsive Design
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [adaptive_navigation](https://pub.dev/packages/adaptive_navigation) | `flutter pub add adaptive_navigation` |
 | [adaptive_components](https://pub.dev/packages/adaptive_components) | `flutter pub add adaptive_components` |
 | [adaptive_breakpoints](https://pub.dev/packages/adaptive_breakpoints) | `flutter pub add adaptive_breakpoints` |
@@ -142,14 +142,14 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Loading
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [loading_animation_widget](https://pub.dev/packages/loading_animation_widget) | `flutter pub add loading_animation_widget` |
 | [flutter_spinkit](https://pub.dev/packages/flutter_spinkit) | `flutter pub add flutter_spinkit` |
 
 ## Animation
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [flutter_animate](https://pub.dev/packages/flutter_animate) | `flutter pub add flutter_animate` |
 | [animate_do](https://pub.dev/packages/animate_do) | `flutter pub add animate_do` |
 | [spring](https://pub.dev/packages/spring) | `flutter pub add spring` |
@@ -162,7 +162,7 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Templates
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [resizable_widget](https://pub.dev/packages/resizable_widget) | `flutter pub add resizable_widget` |
 | [multi_split_view](https://pub.dev/packages/multi_split_view) | `flutter pub add multi_split_view` |
 | [hyper_effects](https://pub.dev/packages/hyper_effects) | `flutter pub add hyper_effects` |
@@ -201,13 +201,13 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Payments
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [pay](https://pub.dev/packages/pay) | `flutter pub add pay` |
 
 ## AWS
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [aws_signature_v4](https://pub.dev/packages/aws_signature_v4) | `flutter pub add aws_signature_v4` |
 | [amplify_api](https://pub.dev/packages/amplify_api) | `flutter pub add amplify_api` |
 | [amplify_core](https://pub.dev/packages/amplify_core) | `flutter pub add amplify_core` |
@@ -219,5 +219,5 @@ This is for sharing the Flutter dependencies I use, also check my [Dart](https:/
 ## Artificial Intelligence
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [tflite_flutter](https://pub.dev/packages/tflite_flutter) | `flutter pub add tflite_flutter` |

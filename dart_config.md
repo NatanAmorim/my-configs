@@ -12,7 +12,7 @@ This is for sharing the Dart dependencies I use, also check my [Flutter](https:/
 ## Dependencies
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [intl](https://pub.dev/packages/intl) | `dart pub add intl` |
 | [logging](https://pub.dev/packages/logging) | `dart pub add logging` |
 | [http](https://pub.dev/packages/http) | `dart pub add http` |
@@ -47,7 +47,7 @@ This is for sharing the Dart dependencies I use, also check my [Flutter](https:/
 ## Dev Dependencies
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [build_runner](https://pub.dev/packages/build_runner) | `dart pub add dev:build_runner` |
 | [freezed](https://pub.dev/packages/freezed) | `dart pub add dev:freezed` |
 | [custom_lint](https://pub.dev/packages/custom_lint) | `dart pub add dev:custom_lint` |
@@ -57,6 +57,6 @@ This is for sharing the Dart dependencies I use, also check my [Flutter](https:/
 ## Databases
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [drift](https://pub.dev/packages/drift) | `dart pub add drift` |
 | [isar](https://pub.dev/packages/isar) | `dart pub add isar` |

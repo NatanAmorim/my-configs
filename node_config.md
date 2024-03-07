@@ -1,6 +1,7 @@
 # Node.js
 
 - [About](#about)
+- [State management](#state-management)
 - [Dependencies](#dependencies)
 - [Dev dependencies](#dev-dependencies)
 - [React dependencies](#react-dependencies)
@@ -14,24 +15,34 @@ This is for sharing the Node.js dependencies I use with npm.
 > I'm using [npm](https://www.npmjs.com) since it's the most common package manager and I want something stable.\
 > Check out [Bun](https://bun.sh), [PnPm](https://pnpm.io) and [Yarn](https://yarnpkg.com) and see what's better for **you**.
 
+## State management
+
+- [Zustand](https://zustand-demo.pmnd.rs/) A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy API based on hooks, isn't boilerplatey or opinionated.
+
+```sh
+`npm install zustand`
+```
+
+- [TanStack Query](https://tanstack.com/query/latest) Powerful asynchronous state management for TS/JS, React, Solid, Vue, Svelte and Angular.
+
+```sh
+npm install @tanstack/react-query @tanstack/react-query-devtools` |
+```
+
 ## Dependencies
 
 > [!NOTE]\
 > `npm install` can be simplified to `npm i`.
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [Zod](https://zod.dev) | `npm install zod` |
-| [TanStack Query](https://tanstack.com/query/latest) | `npm install @tanstack/react-query @tanstack/react-query-devtools` |
-| [Zustand](https://zustand-demo.pmnd.rs/) | `npm install zustand` |
 | [Chart.js](https://www.chartjs.org) | `npm install chart.js` |
 | [ECharts](https://echarts.apache.org/en/index.html) | `npm install echarts` |
 | [ApexCharts.js](https://apexcharts.com) | `npm install apexcharts` |
 | [Moment.js](https://momentjs.com) | `npm install moment` |
-| [Material Web](https://material-web.dev/about/quick-start/) | `npm install @material/web` |
 | [AutoAnimate](https://auto-animate.formkit.com) | `npm install @formkit/auto-animate` |
 | [dnd kit](https://dndkit.com) | `npm install @dnd-kit/core` |
-| [tRPC client](https://trpc.io/docs/client/vanilla) | `npm install @trpc/server@next @trpc/client@next @trpc/react-query@next @trpc/next@next @tanstack/react-query@latest @tanstack/react-query-devtools@latest` |
 <!--
 | []() | `npm install` |
 -->
@@ -42,7 +53,7 @@ This is for sharing the Node.js dependencies I use with npm.
 > `npm install --save-dev` can be simplified to `npm i -D`.
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [Tailwind CSS](https://tailwindcss.com) | `npm install --save-dev tailwindcss` |
 | [TypeScript](https://www.typescriptlang.org) | `npm install --save-dev typescript` |
 | [ESLint](https://eslint.org) | `npm init @eslint/config` |
@@ -54,7 +65,7 @@ This is for sharing the Node.js dependencies I use with npm.
 ## React Dependencies
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [React](https://react.dev) | `npm install react` |
 | [React dom](https://legacy.reactjs.org/docs/react-dom.html) | `npm install react-dom` |
 | [React Router](https://reactrouter.com/en/main) | `npm install react-router-dom` |
@@ -132,3 +143,5 @@ That's all, your project will now work with tailwind.
 - [Astro](https://astro.build) a tool for building static websites with your favorite javascript frameworks, while shipping zero javascript to the browser.
 - [Slidev](https://sli.dev) Presentation Slides for Developers.
 - [Google Material Icons](https://fonts.google.com/icons) and [Google Fonts](https://fonts.google.com).
+- [Material Web](https://material-web.dev/about/quick-start/) Material web, also known as Material Web Components or MWC, is a library of web components that follows Google's Material Design guidelines.
+- [tRPC client](https://trpc.io/docs/client/vanilla) Move Fast and Break Nothing. End-to-end typesafe APIs made easy.

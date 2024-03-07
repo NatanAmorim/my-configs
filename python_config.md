@@ -13,7 +13,7 @@ This is for sharing the Python 3 libraries I used to use (warning: I haven't pro
 `pip install --upgrade pip`
 
 | Link | Installing |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|---|---|
 | [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html) | `pip install jupyter` |
 | [CMake](https://pypi.org/project/cmake/) | `pip install cmake` |
 | [OpenCV](https://pypi.org/project/opencv-python/) | `pip install opencv-python` |
