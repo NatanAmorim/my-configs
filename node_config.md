@@ -23,6 +23,7 @@ This is for sharing the Node.js dependencies I use with npm.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Zod](https://zod.dev) | `npm install zod` |
 | [TanStack Query](https://tanstack.com/query/latest) | `npm install @tanstack/react-query @tanstack/react-query-devtools` |
+| [Zustand](https://zustand-demo.pmnd.rs/) | `npm install zustand` |
 | [Chart.js](https://www.chartjs.org) | `npm install chart.js` |
 | [ECharts](https://echarts.apache.org/en/index.html) | `npm install echarts` |
 | [ApexCharts.js](https://apexcharts.com) | `npm install apexcharts` |
