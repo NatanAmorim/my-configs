@@ -1,9 +1,9 @@
 # README
 
-This repository is for sharing NatanAmorim personal setup. Ideas and patches are appreciated, but keep it simple.
+This repository is for sharing NatanAmorim Configuration and APPs.
 
 > [!Warning]\
-> Everything you see here is exactly what I use, don't just copy and paste without adapting for your config.
+> Everything you see here is exactly what I use, feel free to adapt this to your specific requirements.
 
 ## Tech Tips
 

@@ -12,7 +12,7 @@
 This is for sharing the Node.js dependencies I use with npm.
 
 > [!NOTE]\
-> I'm using [npm](https://www.npmjs.com) since it's the most common package manager and I want something stable.\
+> I'm using [npm](https://www.npmjs.com) since it's the most common tool.\
 > Check out [Bun](https://bun.sh), [PnPm](https://pnpm.io) and [Yarn](https://yarnpkg.com) and see what's better for **you**.
 
 ## State management
@@ -140,6 +140,7 @@ That's all, your project will now work with tailwind.
 ### Useful Information
 
 - Build your component library with [shadcn/ui](https://ui.shadcn.com) and/or [Radix-UI](https://www.radix-ui.com).
+- With [Aceternity UI](https://ui.aceternity.com/), you can build great looking websites within minutes, Copy paste the most trending components and use them in your websites without having to worry about styling and animations.
 - [Astro](https://astro.build) a tool for building static websites with your favorite javascript frameworks, while shipping zero javascript to the browser.
 - [Slidev](https://sli.dev) Presentation Slides for Developers.
 - [Google Material Icons](https://fonts.google.com/icons) and [Google Fonts](https://fonts.google.com).
