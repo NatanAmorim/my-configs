@@ -6,6 +6,7 @@
 - [Dev dependencies](#dev-dependencies)
 - [React dependencies](#react-dependencies)
 - [Tips](#tips)
+- [Docker Container](#docker-container)
 
 ## About
 
@@ -146,3 +147,64 @@ That's all, your project will now work with tailwind.
 - [Google Material Icons](https://fonts.google.com/icons) and [Google Fonts](https://fonts.google.com).
 - [Material Web](https://material-web.dev/about/quick-start/) Material web, also known as Material Web Components or MWC, is a library of web components that follows Google's Material Design guidelines.
 - [tRPC client](https://trpc.io/docs/client/vanilla) Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
+
+## Docker Container
+
+### NodeJS
+
+- Create a **`dockerfile`**
+
+#### Build a docker image for a node.js Using NPM
+
+```dockerfile
+# Use the official lightweight Node.js 20 image.
+# https://hub.docker.com/_/node
+FROM node:20-slim
+
+# Set working directory. Paths will be relative this WORKDIR
+WORKDIR /usr/src/app
+
+# Copy application dependency manifests to the container image.
+# Copying this first prevents re-running npm install on every code change.
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy source files from host computer to the container
+COPY . .
+
+# Set environment variable
+ENV PORT=3000
+
+# Specify port app runs on
+EXPOSE 3000
+
+# Run the web service on container startup.
+CMD ["npm", "dev"]
+```
+
+#### Ignore node_modules on your docker image
+
+- create a **`.dockerignore`**
+
+```dockerignore
+node_modules
+
+npm-debug.log
+```
+
+#### Building the container
+
+- Finally let's build the container using [docker-compose](https://docs.docker.com/compose/).
+
+- `docker build -t <username>/<app_name> .`
+
+> [!IMPORTANT]\
+> `<username>` you should use the username of your image Hub of preference.
+
+#### Running the container
+
+- `docker run -p 3000:3000 -d <username>/<app_name> .`
+or
+- `docker run -p 3000:3000 <image_id> .`
