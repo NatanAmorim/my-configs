@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [MongoDB](#mongodb)
 - [PostgreSQL](#postgresql)
-- [Microsoft SQL](#mssql)
+- [Microsoft SQL (MSSQL)](#microsoft-sql-mssql)
 - [Add later](#add-later)
 
 ## About
@@ -68,11 +68,10 @@ docker pull governmentpaas/psql
 docker run -it --rm postgres psql -h <postgres-ip> -p 5432 -U postgres
 ```
 
-## MSSQL
+## Microsoft SQL (MSSQL)
 
-> [!Warning]\
+> [!IMPORTANT]\
 > Replace `<Y0ur_Strong@Passw0rd>` with your own **strong password**.
-> Remember you **must use a strong password** in MS SQL, otherwise the process will exit with status 1.
 
 ### Microsoft SQL 2022
 
@@ -83,6 +82,9 @@ docker pull mcr.microsoft.com/mssql/server:2022-latest
 ```sh
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=<Y0ur_Strong@Passw0rd>" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
 ```
+
+> [!Warning]\
+> Remember you **must use a strong password** in MSSQL (Microsoft SQL), otherwise the process will exit with status 1.
 
 ## Add later
 
