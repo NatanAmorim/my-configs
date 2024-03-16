@@ -3,6 +3,7 @@
 - [About](#about)
 - [Plugins](#plugins)
 - [Templates](#templates)
+- [C#/.Net Plugins](#cnet-plugins)
 
 ## About
 
@@ -114,3 +115,7 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 - [drag-and-place-template](https://gitlab.com/ikinami/godot-drag-and-place-template)
 - [Godot SplashScreens](https://github.com/KenneyNL/Godot-SplashScreens)
 - [fpc-godot](https://github.com/Like475/fpc-godot)
+
+## C#/.Net Plugins
+
+- [TerraBrush](https://github.com/spimort/TerraBrush)
