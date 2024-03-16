@@ -2,6 +2,16 @@
 
 Here's a list of everything I install on my Mac.
 
+> [!Warning]\
+> Are you attempting to install an application from the Internet and encountering the following message?"
+> \
+> \
+> **"Example App" can't be opened because Apple cannot check it for malicious software.**\
+> \
+> If you’re certain that the app you want to install is from a trustworthy source and hasn’t been tampered with, you can temporarily override your Mac security settings and open it, check [Apple Support: Safely open apps on your Mac](https://support.apple.com/en-us/102445).
+
+![Alert that Apple cannot check the app for malicious software](https://cdsassets.apple.com/live/7WUAS350/images/mac-os/macos-app-cant-be-opened-cannot-check-for-malicious-software-needs-to-be-updated-contact-developer-2.png)
+
 ## Mac UI and UX improvements
 
 - [Rectangle (Github)](https://github.com/rxhanson/Rectangle)
@@ -88,6 +98,12 @@ I don't program in Ruby, but I do use some ruby Apps.
 ```sh
 sudo gem install cocoapods
 ```
+
+## Text editor
+
+I'm using Kate because I miss windows simple and fast `notepad.exe`, Leafpad may be better for that but the website would not even load. also the MacOs `textEdit.app` is one of the worst text editor app I have ever used when it comes to UX, I also don't like Gedit.
+
+- [Kate](https://kate-editor.org/get-it/) is a Feature-Packed Text Editor.
 
 ## Others
 
