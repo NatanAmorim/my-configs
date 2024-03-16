@@ -15,7 +15,6 @@ Here's a list of everything I install on my Mac.
 ## Mac UI and UX improvements
 
 - [Rectangle (Github)](https://github.com/rxhanson/Rectangle)
-- [AltTab (Github)](https://github.com/lwouis/alt-tab-macos)
 - [lsd (Github)](https://github.com/Peltoche/lsd)
 
 ## Development
@@ -101,9 +100,9 @@ sudo gem install cocoapods
 
 ## Text editor
 
-I'm using Kate because I miss windows simple and fast `notepad.exe`, Leafpad may be better for that but the website would not even load. also the MacOs `textEdit.app` is one of the worst text editor app I have ever used when it comes to UX, I also don't like Gedit.
+I miss `notepad.exe` Windows simple and fast default text editor, "Leafpad" may be better for that but the website would not even load. also the MacOs `textEdit.app` is one of the worst text editor app I have ever used when it comes to UX.
 
-- [Kate](https://kate-editor.org/get-it/) is a Feature-Packed Text Editor.
+- Right now my best choice was [Kate](https://kate-editor.org/get-it/) a Feature-Packed Text Editor, I wanted something way smaller and simple, but it's working fine for now.
 
 ## Others
 
