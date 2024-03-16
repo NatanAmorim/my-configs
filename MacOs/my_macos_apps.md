@@ -2,7 +2,7 @@
 
 Here's a list of everything I install on my Mac.
 
-> [!Warning]\
+> [!Important]\
 > Are you attempting to install an application from the Internet and encountering the following message?"
 > \
 > \
@@ -93,7 +93,7 @@ brew install --cask dbeaver-community
 
 ## Ruby Packages
 
-I don't program in Ruby, but I do use some ruby Apps.
+I don't program in Ruby, but I do use some ruby apps.
 
 ```sh
 sudo gem install cocoapods
