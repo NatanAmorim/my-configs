@@ -16,7 +16,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 | Extension | Installation |
 |---|---|
-| [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) | `code --install-extension MS-vsliveshare.vsliveshare` |
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `code --install-extension christian-kohler.path-intellisense` |
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
@@ -215,6 +214,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   ],
   /// User words to add to dictionary
   "cSpell.userWords": [
+    "!i",
     "aseprite",
     "autofocus",
     "autovalidate",
@@ -226,17 +226,17 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "cocoapods",
     "dotnet",
     "dtos",
-    "echarts",
     "elgato",
     "excalidraw",
     "figma",
     "findstr",
-    "fluentui",
     "gitmodules",
     "godot",
     "grey",
     "hmac",
     "HMACSHA",
+    "I",
+    "imgur",
     "inkscape",
     "jigglebones",
     "mariadb",
@@ -251,6 +251,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "neovim",
     "nestjs",
     "nginx",
+    "nullable",
     "omni",
     "onboarded",
     "opensearch",
@@ -262,6 +263,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "protobufs",
     "protoc",
     "psql",
+    "pubspec",
     "redhat",
     "riverpod",
     "roboto",
@@ -309,7 +311,8 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "git.openRepositoryInParentFolders": "always",
   "accessibility.signals.onDebugBreak": {
     "sound": "on"
-  }
+  },
+  "editor.accessibilitySupport": "off"
 }
 ```
 
