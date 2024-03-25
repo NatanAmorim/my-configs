@@ -95,6 +95,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 ```json
 {
+  "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "workbench.iconTheme": "vscode-icons",
@@ -113,6 +114,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
+  "editor.accessibilitySupport": "off",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
@@ -239,6 +241,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "imgur",
     "inkscape",
     "jigglebones",
+    "lerp",
     "mariadb",
     "metroidvania",
     "middlewares",
@@ -311,8 +314,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "git.openRepositoryInParentFolders": "always",
   "accessibility.signals.onDebugBreak": {
     "sound": "on"
-  },
-  "editor.accessibilitySupport": "off"
+  }
 }
 ```
 
