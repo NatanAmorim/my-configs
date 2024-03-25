@@ -20,6 +20,8 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 
 ## Assets
 
+- [Steam Audio](https://valvesoftware.github.io/steam-audio/#learn-more)
+- [Steam Audio (GitHub)](https://github.com/ValveSoftware/steam-audio)
 - [Godot Asset Library](https://godotengine.org/asset-library/asset)
 - [FBX2glTF](https://github.com/godotengine/FBX2glTF)
 - [Poly Haven](https://polyhaven.com/)
@@ -31,6 +33,7 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 
 ## Plugins
 
+- [godot-steam-audio](https://github.com/stechyo/godot-steam-audio)
 - [Phantom Camera](https://github.com/ramokz/phantom-camera)
 - [Little Camera Preview](https://github.com/anthonyec/godot_little_camera_preview)
 - [Aseprite Wizard](https://github.com/viniciusgerevini/godot-aseprite-wizard)
@@ -91,28 +94,27 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 - [Onscreen-Keyboard](https://github.com/martinfuchs/Godot-Onscreen-Keyboard)
 - [Find Everywhere](https://github.com/MakovWait/godot-find-everywhere)
 - [Managed Memory Monitor for Godot](https://github.com/PumpkinPaul/godot-managed-memory-monitor)
+- [godot-optional](https://github.com/WhoStoleMyCoffee/godot-optional)
 
 ## Templates
 
+- [(Official) Third Person Shooter Demo](https://github.com/godotengine/tps-demo)
+- [First Person Shooter Template](https://github.com/chafmere/Godot4-FPS-Template)
 - [Godot 4: New Features demos](https://github.com/gdquest-demos/godot-4-new-features)
 - [Fps Arms](https://github.com/gdquest-demos/godot-4-FPS-arms)
 - [3D Characters Repository](https://github.com/gdquest-demos/godot-4-3D-Characters)
 - [Starter Kit 3D Platformer](https://github.com/KenneyNL/Starter-Kit-3D-Platformer)
 - [Starter Kit City Builder](https://github.com/KenneyNL/Starter-Kit-City-Builder)
 - [Starter Kit FPS](https://github.com/KenneyNL/Starter-Kit-FPS)
-- [RoboBlast: Third-Person Shooter demo (Godot 4, 3D)](https://github.com/gdquest-demos/godot-4-3d-third-person-controller/)
+- [RoboBlast: Third-Person Shooter demo (Godot 4, 3D)](https://github.com/gdquest-demos/godot-4-3d-third-person-controller)
 - [Godot 4 - Third Person Player Controller](https://github.com/selgesel/godot4-third-person-controller)
 - [Abandoned-Spaceship-Godot-Demo](https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo)
 - [Desert Light](https://github.com/RPicster/godot4-demo-desert-light)
 - [Sketchy Renderer](https://github.com/Gyrth/SketchyRenderer)
 - [Godot 4 Complete Cel Shader](https://github.com/eldskald/godot4-cel-shader)
-- [Expresso Inventory System](https://github.com/expressobits/inventory-system)
-- [GodotSteam 4.x Example Project](https://github.com/CoaguCo-Industries/GodotSteam-Example-Project/tree/godot4)
 - [ShaderExamplesWithVideo](https://github.com/Goldenlion5648/ShaderExamplesWithVideo)
 - [weeping-angel-godot](https://github.com/bypell/weeping-angel-godot)
-- [Scrolling Backgrounds](https://github.com/PKGaspi/godot-ScrollingBackgrounds)
 - [Cogito](https://github.com/Phazorknight/Cogito)
-- [drag-and-place-template](https://gitlab.com/ikinami/godot-drag-and-place-template)
 - [Godot SplashScreens](https://github.com/KenneyNL/Godot-SplashScreens)
 - [fpc-godot](https://github.com/Like475/fpc-godot)
 
