@@ -95,6 +95,8 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 - [Find Everywhere](https://github.com/MakovWait/godot-find-everywhere)
 - [Managed Memory Monitor for Godot](https://github.com/PumpkinPaul/godot-managed-memory-monitor)
 - [godot-optional](https://github.com/WhoStoleMyCoffee/godot-optional)
+- [Dialogic](https://github.com/dialogic-godot/dialogic)
+- [TODO Manager](https://github.com/OrigamiDev-Pete/TODO_Manager)
 
 ## Templates
 
