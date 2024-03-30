@@ -195,7 +195,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "javascript": "jsx"
   },
   // Code Spell Checker
-  "cSpell.language": "en,pt",
+  "cSpell.language": "en,pt,pt-BR",
   /// Display the spell checker status on the status bar.
   "cSpell.showStatus": true,
   /// Enable / Disable compound words like 'errormessage'
@@ -203,8 +203,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   /// Specify file types to spell check.
   "cSpell.enableFiletypes": [
     "!asciidoc",
-    "!c",
-    "!cpp",
     "!handlebars",
     "!haskell",
     "!jade",
@@ -212,7 +210,13 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "!pug",
     "!restructuredtext",
     "!scala",
-    "!scss"
+    "c",
+    "cpp",
+    "dart",
+    "proto3",
+    "sql",
+    "tailwindcss",
+    "xml"
   ],
   /// User words to add to dictionary
   "cSpell.userWords": [
@@ -314,6 +318,17 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "git.openRepositoryInParentFolders": "always",
   "accessibility.signals.onDebugBreak": {
     "sound": "on"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
   }
 }
 ```
