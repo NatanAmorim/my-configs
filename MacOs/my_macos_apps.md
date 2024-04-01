@@ -102,8 +102,6 @@ sudo gem install cocoapods
 
 I miss `notepad.exe` Windows simple and fast default text editor, "Leafpad" may be better for that but the website would not even load. also the MacOs `textEdit.app` is one of the worst text editor app I have ever used when it comes to UX.
 
-- Right now my best choice was [Kate](https://kate-editor.org/get-it/) a Feature-Packed Text Editor, I wanted something way smaller and simple, but it's working fine for now.
-
 ## Others
 
 - [Discord](https://discordapp.com/download)
