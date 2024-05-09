@@ -71,10 +71,6 @@ brew install lsd
 ```
 
 ```sh
-brew install neofetch
-```
-
-```sh
 brew install neovim
 ```
 
@@ -88,6 +84,10 @@ brew install protobuf
 
 ```sh
 brew install --cask dbeaver-community
+```
+
+```sh
+brew install mac-mouse-fix
 ```
 
 ## Ruby Packages
