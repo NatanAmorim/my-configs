@@ -119,6 +119,7 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 - [Cogito](https://github.com/Phazorknight/Cogito)
 - [Godot SplashScreens](https://github.com/KenneyNL/Godot-SplashScreens)
 - [fpc-godot](https://github.com/Like475/fpc-godot)
+- [Starter Kit for a Twin-Stick Shooter](https://github.com/Nodragem/twin-stick-shooter-starter-kit)
 
 ## C#/.Net Plugins
 
