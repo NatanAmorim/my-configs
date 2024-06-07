@@ -103,6 +103,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "workbench.editor.empty.hint": "hidden",
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 14,
+  "debug.toolBarLocation": "docked",
   "editor.cursorBlinking": "expand",
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 16,
