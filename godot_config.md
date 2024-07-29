@@ -97,6 +97,7 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 - [godot-optional](https://github.com/WhoStoleMyCoffee/godot-optional)
 - [Dialogic](https://github.com/dialogic-godot/dialogic)
 - [TODO Manager](https://github.com/OrigamiDev-Pete/TODO_Manager)
+- [Shaker](https://github.com/Eneskp3441/Shaker)
 
 ## Templates
 
