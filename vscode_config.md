@@ -24,8 +24,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
-| [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | `code --install-extension esbenp.prettier-vscode` |
-| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `code --install-extension dbaeumer.vscode-eslint` |
 <!--
 | []() | `code --install-extension ` |
 -->
@@ -44,7 +42,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) | `code --install-extension Dart-Code.dart-code` |
 | [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) | `code --install-extension Dart-Code.flutter` |
 | [Rust](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) | `code --install-extension rust-lang.rust-analyzer` |
-| [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) | `code --install-extension Angular.ng-template` |
 
 ### Good but not using right now
 
@@ -70,20 +67,11 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 
 | Extension | Installation |
 |---|---|
-| [Stream Deck for VS Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck) | `code --install-extension nicollasr.vscode-streamdeck` |
-| [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets) | `code --install-extension robert-brunhage.flutter-riverpod-snippets` |
-| [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) | `code --install-extension ms-playwright.playwright` |
+| [Codeium: AI Coding Autocomplete](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) | `code --install-extension Codeium.codeium` |
 | [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
 | [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
-| [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) | `code --install-extension yoavbls.pretty-ts-errors` |
-| [quick-lint-js](https://marketplace.visualstudio.com/items?itemName=quick-lint.quick-lint-js) | `code --install-extension quick-lint.quick-lint-js` |
 | [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) | `code --install-extension stkb.rewrap` |
-| [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) | `code --install-extension formulahendry.auto-close-tag` |
 | [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) | `code --install-extension redhat.vscode-xml` |
-| [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | `code --install-extension bradlc.vscode-tailwindcss` |
-| [Cloak](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-cloak) | `code --install-extension johnpapa.vscode-cloak` |
-| [C# to TypeScript](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.csharp-to-typescript) | `code --install-extension adrianwilczynski.csharp-to-typescript` |
-| [glean](https://marketplace.visualstudio.com/items?itemName=wix.glean) | `code --install-extension wix.glean` |
 | [Inline fold](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold) | `code --install-extension moalamri.inline-fold` |
 
 ## Fonts
