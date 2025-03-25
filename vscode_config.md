@@ -1,4 +1,8 @@
 # VSCODE Extensions
+<!--
+// I use this for quick copy and paste
+| []() | `code --install-extension ` |
+-->
 
 - [About](#about)
 - [Extensions](#extensions)
@@ -8,7 +12,7 @@
 
 ## About
 
-This is for sharing the Visual Studio code (VSCODE) extensions I use.
+This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 
 ## Extensions
 
@@ -24,9 +28,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
-<!--
-| []() | `code --install-extension ` |
--->
+
 ### Theme extensions
 
 | Extension | Installation |
@@ -56,23 +58,32 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 | [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) | `code --install-extension GitHub.vscode-github-actions` |
 | [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub) | `code --install-extension GitHub.remotehub` |
 | [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | `code --install-extension GitHub.vscode-pull-request-github` |
-| [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) | `code --install-extension johnpapa.vscode-peacock` |
 | [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | `code --install-extension oderwat.indent-rainbow` |
 | [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
 | [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension) | `code --install-extension figma.figma-vscode-extension` |
 | [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | `code --install-extension Gruntfuggly.todo-tree` |
-| [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | `code --install-extension naumovs.color-highlight` |
+| [Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) | `code --install-extension ms-toolsai.datawrangler` |
+| [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) | `code --install-extension ms-vscode.cmake-tools` |
+| [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) | `code --install-extension vscodevim.vim` |
+| [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) | `code --install-extension ms-vscode.hexeditor` |
+| [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) | `code --install-extension shd101wyy.markdown-preview-enhanced` |
+| [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer) | `code --install-extension hbenl.vscode-test-explorer` |
+| [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow) | `code --install-extension GitLab.gitlab-workflow` |
+| [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) | `code --install-extension jebbs.plantuml` |
+| [SonarQube for IDE](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) | `code --install-extension SonarSource.sonarlint-vscode` |
+| [Doxygen Documentation Generator](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen) | `code --install-extension cschlosser.doxdocgen` |
 
 ### Extensions I am testing
 
 | Extension | Installation |
 |---|---|
-| [Codeium: AI Coding Autocomplete](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) | `code --install-extension Codeium.codeium` |
-| [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
-| [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
-| [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) | `code --install-extension stkb.rewrap` |
 | [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) | `code --install-extension redhat.vscode-xml` |
-| [Inline fold](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold) | `code --install-extension moalamri.inline-fold` |
+| [Stripe](https://marketplace.visualstudio.com/items?itemName=Stripe.vscode-stripe) | `code --install-extension Stripe.vscode-stripe` |
+| [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
+| [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) | `code --install-extension rust-lang.rust-analyzer` |
+| [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
+| [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) | `code --install-extension alefragnani.Bookmarks` |
+| [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) | `code --install-extension alefragnani.project-manager` |
 
 ## Fonts
 
@@ -85,8 +96,19 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
 {
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  // A theme i'm developing
+  // "workbench.colorTheme": "purple-vibes"
   "workbench.iconTheme": "vscode-icons",
+  "vsicons.associations.folders": [
+    {
+      "icon": "helper",
+      "extensions": [
+        "providers"
+      ],
+      "format": "svg",
+      "light": false
+    }
+  ],
   "workbench.editor.labelFormat": "short",
   "workbench.editor.empty.hint": "hidden",
   "terminal.integrated.fontFamily": "Hack Nerd Font",
@@ -99,7 +121,10 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.lineHeight": 1.6,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.linkedEditing": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
@@ -126,7 +151,6 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     ".env.local": ".env*",
     ".env": ".env*"
   },
-  "breadcrumbs.enabled": false,
   "extensions.ignoreRecommendations": true,
   "files.trimTrailingWhitespace": true,
   // Don't show theses files
@@ -151,12 +175,21 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
       "source.organizeImports": "explicit",
       "source.fixAll": "never"
     },
-    "editor.rulers": [80, 80],
+    "editor.rulers": [
+      80
+    ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
+  },
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   // Prettier
   "prettier.enable": true,
@@ -226,6 +259,7 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
     "excalidraw",
     "figma",
     "findstr",
+    "fullscreen",
     "gitmodules",
     "godot",
     "grey",
@@ -306,19 +340,23 @@ This is for sharing the Visual Studio code (VSCODE) extensions I use.
   },
   // Others
   "git.openRepositoryInParentFolders": "always",
+  "git.suggestSmartCommit": false,
+  "conventionalCommits.showNewVersionNotes": false,
   "accessibility.signals.onDebugBreak": {
     "sound": "on"
   },
   "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "name": "envKeys",
-        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
-        "settings": {
-          "foreground": "#19354900"
-        }
-      }
-    ]
+    "textMateRules": []
+  },
+  "redhat.telemetry.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "json": false,
+    "xml": false,
+    "yaml": false
   }
 }
 ```
