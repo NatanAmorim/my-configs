@@ -9,6 +9,7 @@
 - [Fonts](#fonts)
 - [User Settings (JSON)](#user-settings-json)
 - [Useful Information](#useful-information)
+- [Open VSX](#open-vsx)
 
 ## About
 
@@ -143,6 +144,9 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": true,
   "editor.stickyScroll.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
@@ -153,15 +157,14 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
   },
   "extensions.ignoreRecommendations": true,
   "files.trimTrailingWhitespace": true,
-  // Don't show theses files
-  "files.exclude": {
+  "files.exclude": { // Don't show theses files
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true
   },
-  // Flutter + Dart
+  /// Flutter + Dart
   "dart.flutterSdkPath": "~/Development/flutter",
   "dart.openDevTools": "flutter",
   "dart.showInspectorNotificationsForWidgetErrors": false,
@@ -184,26 +187,23 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
-  // JSON
+  /// JSON
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  // Prettier
+  /// Prettier
   "prettier.enable": true,
   "prettier.tabWidth": 2,
   "prettier.singleQuote": false,
   "prettier.semi": true,
-  "[html][css][scss][tailwindcss][javascript][javascriptreact][typescript][typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  // TypeScript
+  /// TypeScript
   "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  // Javascript
+  /// Javascript
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {
@@ -217,32 +217,53 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  // Code Spell Checker
+  /// Code Spell Checker
   "cSpell.language": "en,pt,pt-BR",
-  /// Display the spell checker status on the status bar.
-  "cSpell.showStatus": true,
-  /// Enable / Disable compound words like 'errormessage'
-  "cSpell.allowCompoundWords": false,
-  /// Specify file types to spell check.
-  "cSpell.enableFiletypes": [
-    "!asciidoc",
-    "!handlebars",
-    "!haskell",
-    "!jade",
-    "!latex",
-    "!pug",
-    "!restructuredtext",
-    "!scala",
-    "c",
-    "cpp",
-    "dart",
-    "proto3",
-    "sql",
-    "tailwindcss",
-    "xml"
-  ],
-  /// User words to add to dictionary
-  "cSpell.userWords": [
+  "cSpell.allowCompoundWords": false, // Enable or Disable compound words like 'errormessage'
+  "cSpell.enabledFileTypes": { // Specify file types to spell check.
+    "asciidoc": false,
+    "handlebars": false,
+    "haskell": false,
+    "jade": false,
+    "latex": false,
+    "pug": false,
+    "restructuredtext": false,
+    "scala": false,
+    "jsonc": false,
+    "plaintext": true,
+    "markdown": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "javascript": true,
+    "javascriptreact": true,
+    "json": true,
+    "html": true,
+    "css": true,
+    "scss": true,
+    "less": true,
+    "yaml": true,
+    "yml": true,
+    "xml": true,
+    "php": true,
+    "python": true,
+    "ruby": true,
+    "swift": true,
+    "rust": true,
+    "go": true,
+    "c": true,
+    "cpp": true,
+    "c++": true,
+    "java": true,
+    "csharp": true,
+    "dart": true,
+    "protoc": true,
+    "protobuf": true,
+    "protobufs": true,
+    "proto3": true,
+    "sql": true,
+    "tailwindcss": true,
+  },
+  "cSpell.userWords": [ // User words to add to dictionary
     "!i",
     "aseprite",
     "autofocus",
@@ -330,7 +351,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "*.dll", // Ignore all .dll files.
     "**/*.dll" // Ignore all .dll files
   ],
-  // Jupyter Notebook
+  /// Jupyter Notebook
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
@@ -338,15 +359,12 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  // Others
+  /// Others
   "git.openRepositoryInParentFolders": "always",
   "git.suggestSmartCommit": false,
   "conventionalCommits.showNewVersionNotes": false,
   "accessibility.signals.onDebugBreak": {
     "sound": "on"
-  },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": []
   },
   "redhat.telemetry.enabled": false,
   "github.copilot.enable": {
@@ -365,3 +383,9 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 
 - You can reload/restart VS code with the `Developer: Reload Window` command. Simply type that in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` It will clear the error. It's like refreshing VS Code.
 - You can format your JSON document using `Shift+Alt+F` or simply type **Format Document** in after pressing `Ctrl+Shift+P (Cmd+Shift+P for Mac users).` in the context menu. Helps with formatting JSON files that comes in only one line, making them readable.
+
+## Open VSX
+
+[Eclipse Open VSX](https://github.com/eclipse/openvsx) is a [vendor-neutral](https://projects.eclipse.org/projects/ecd.openvsx) open-source alternative to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode). It provides a server application that manages [VS Code extensions](https://code.visualstudio.com/api) in a database, a web application similar to the VS Code Marketplace, and a command-line tool for publishing extensions similar to [vsce](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#vsce).
+
+A public instance of Open VSX is running at [open-vsx.org](https://open-vsx.org/). Please report issues related to that instance at [EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org).
