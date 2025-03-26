@@ -263,7 +263,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "sql": true,
     "tailwindcss": true,
   },
-  "cSpell.userWords": [ // User words to add to dictionary
+  "cSpell.userWords": [
     "!i",
     "aseprite",
     "autofocus",
@@ -291,6 +291,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "inkscape",
     "jigglebones",
     "lerp",
+    "mangohud",
     "mariadb",
     "metroidvania",
     "middlewares",
@@ -375,7 +376,10 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "json": false,
     "xml": false,
     "yaml": false
-  }
+  },
+  "projectManager.git.baseFolders": [
+    "~/Documents/GitHub"
+  ]
 }
 ```
 
