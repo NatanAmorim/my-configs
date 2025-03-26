@@ -1,6 +1,7 @@
 # Godot
 
 - [About](#about)
+- [Tutorials](#tutorials)
 - [Plugins](#plugins)
 - [Templates](#templates)
 - [C#/.Net Plugins](#cnet-plugins)
@@ -13,19 +14,27 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 > I'm still learning Godot in my short free time and have not used Godot in a serious/professional project yet, so what you see here may not be the best for a professional solution.
 > A lot of the things will be removed in the future as I figure out what is useful to me and what is not.
 
+## Tutorials
+
 - [GODOT TOURS: 101 - THE GODOT EDITOR](https://www.gdquest.com/tutorial/godot/learning-paths/godot-tours-101/)
 - [GODOT TOURS: 101 - THE GODOT EDITOR (GitHub)](https://github.com/GDQuest/godot-tours/)
 - [First Interactive Godot Tour: The Godot Editor - [Full Run-through]](https://www.youtube.com/watch?v=L2D1kT8zOrw)
 - [Your First 2D GAME From Zero with GODOT 4! **Vampire Survivor Style**](https://www.youtube.com/watch?v=GwCiGixlqiU)
+- [How to make a Video Game - Godot Beginner Tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0)
+- [How to program in Godot - GDScript Tutorial](https://www.youtube.com/watch?v=e1zJS31tr88)
+- [How to make 3D Games in Godot](https://www.youtube.com/watch?v=ke5KpqcoiIU)
+- [Godot Game Development (Playlist by Zenva)](https://youtube.com/playlist?list=PLnEt5PBXuAmsMmS2w-mwnT1bk0JN2YyYM&si=z08vo1JgwWyXzQ-0)
+- [My own "Learning Godot" Playlist](https://youtube.com/playlist?list=PLG_CFzCHbc1jHFOGIZrH1afm9C6s33TEd&si=ikrvPWPvTGGaRLK3)
 
 ## Assets
 
 - [Steam Audio](https://valvesoftware.github.io/steam-audio/#learn-more)
 - [Steam Audio (GitHub)](https://github.com/ValveSoftware/steam-audio)
 - [Godot Asset Library](https://godotengine.org/asset-library/asset)
-- [FBX2glTF](https://github.com/godotengine/FBX2glTF)
 - [Poly Haven](https://polyhaven.com/)
+- [Kenney Club](https://www.kenney.nl/)
 - [Kenney Prototype Textures](https://www.kenney.nl/assets/prototype-textures)
+- [Kenney Input Prompts](https://kenney.nl/assets/input-prompts)
 - [OpenGameArt](https://opengameart.org/)
 - [Godot Shaders](https://godotshaders.com/)
 - [ambientCG](https://ambientcg.com/)
@@ -35,12 +44,10 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 
 - [godot-steam-audio](https://github.com/stechyo/godot-steam-audio)
 - [Phantom Camera](https://github.com/ramokz/phantom-camera)
-- [Little Camera Preview](https://github.com/anthonyec/godot_little_camera_preview)
 - [Aseprite Wizard](https://github.com/viniciusgerevini/godot-aseprite-wizard)
 - [Terrain3D](https://github.com/TokisanGames/Terrain3D)
 - [SmartShape2D](https://github.com/SirRamEsq/SmartShape2D)
 - [Spatial Gardener](https://github.com/dreadpon/godot_spatial_gardener)
-- [Godot Jolt](https://github.com/godot-jolt/godot-jolt)
 - [Godot Box2D](https://github.com/appsinacup/godot-box2d)
 - [Concave Mesh Slicer](https://github.com/PiCode9560/Godot-4-Concave-Mesh-Slicer)
 - [SoftBody2D](https://github.com/appsinacup/godot-softbody2d)
@@ -121,6 +128,7 @@ This is for sharing the Godot 4 plugins, assets and templates I use.
 - [Godot SplashScreens](https://github.com/KenneyNL/Godot-SplashScreens)
 - [fpc-godot](https://github.com/Like475/fpc-godot)
 - [Starter Kit for a Twin-Stick Shooter](https://github.com/Nodragem/twin-stick-shooter-starter-kit)
+- [Volumetric Clouds](https://github.com/clayjohn/godot-volumetric-cloud-demo-v2)
 
 ## C#/.Net Plugins
 
