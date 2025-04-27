@@ -5,7 +5,7 @@
 
 sudo apt update && sudo apt upgrade
 # Terminal workflow
-sudo apt install wget curl git zsh htop neovim
+sudo apt install wget curl git zsh htop lsd neovim
 # Compilers & Interpreters
 sudo apt install gcc make cmake build-essential autoconf automake
 # File compression
@@ -25,4 +25,4 @@ sudo apt autoremove
 # Flatpak
 sudo apt update && sudo apt upgrade && sudo apt install flatpak && sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # Optional
-sudo apt install lm-sensors coolercontrol nvtop ncdu mangohud
+sudo apt install lm-sensors blueman coolercontrol nvtop ncdu mangohud
