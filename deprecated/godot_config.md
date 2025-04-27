@@ -17,14 +17,12 @@
 
 ## About
 
-> [!NOTE]\
->
+> [!NOTE]
 > I'm still learning Godot in my short free time and have not used Godot in a serious/professional project yet, so what you see here may not be the best for a professional solution.
 
 This is for sharing the Godot 4.x plugins, assets and templates I use.
 
-> [!WARNING]\
->
+> [!WARNING]
 > **A lot** of the things will be removed in the future as I figure out what is useful to me and what is not.
 
 ## Tutorials

@@ -8,8 +8,8 @@ sudo apt update && sudo apt upgrade
 sudo apt install wget curl git zsh htop lsd neovim
 # Compilers & Interpreters
 sudo apt install gcc make cmake build-essential autoconf automake
-# File compression
-sudo apt install tar zip gzip unzip lrzip unrar p7zip-full unace # TODO: Check if all of these are necessary
+# File compression (TODO: Check if these are necessary)
+# sudo apt install tar zip gzip unzip lrzip unrar p7zip-full unace
 # Breeze Theme
 sudo apt install breeze-cursor-theme breeze-icon-theme
 # Fonts
