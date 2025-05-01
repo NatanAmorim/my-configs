@@ -121,9 +121,9 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 - [First Person Shooter Template](https://github.com/chafmere/Godot4-FPS-Template) - Make prototyping a First Person Shooter a lot faster since the gameplay and weapons can be design an art added later.
 - [Godot 4: New Features demos](https://github.com/gdquest-demos/godot-4-new-features) - Free and open-source demo scenes to see the new features in action.
 - [Fps Arms](https://github.com/gdquest-demos/godot-4-FPS-arms) - An open-source arm rig for first-person shooter games.
+- [GodotOceanWaves](https://github.com/2Retr0/GodotOceanWaves) - An open ocean rendering experiment in the Godot Engine utilizing the inverse Fourier transform of directional ocean-wave spectra for wave generation.
 - [3D Characters Repository](https://github.com/gdquest-demos/godot-4-3D-Characters) - Beautiful 3D animated game characters for the Godot game engine, ready to drag and drop into your projects.
 - [Godot 4 - Third Person Player Controller](https://github.com/selgesel/godot4-third-person-controller) - Basic third person player controller.
-- [weeping-angel-godot](https://github.com/bypell/weeping-angel-godot) - Demo project for a statue that moves when the player can't see it.
 - [Godot SplashScreens](https://github.com/KenneyNL/Godot-SplashScreens) - About
 70 splash screens and logos for use.
 - [fpc-godot](https://github.com/Like475/fpc-godot) - No description, website, or topics provided 😞.
@@ -134,8 +134,10 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 - [Takin Godot Template](https://github.com/TinyTakinTeller/TakinGodotTemplate) - Template with a save file system, localization, UI (main menu, save files, options, credits), example game scene, plugins (scene and audio managers, logger, linter, resource viewer), placeholders (music, sfx), github workflows and various utility scripts.
 - [Super Tux Party](https://gitlab.com/SuperTuxParty/SuperTuxParty) - A free/libre and open-source party game that is meant to replicate the feel of games such as Mario Party.
 - [Thrive](https://github.com/Revolutionary-Games/Thrive/) - A free, open-source game about the evolution of life (Mono).
+- [weeping-angel-godot](https://github.com/bypell/weeping-angel-godot) - Demo project for a statue that moves when the player can't see it.
 - [Poder Solar](https://github.com/antimundo/poder-solar) - Simple resource management game.
-- [GodotOceanWaves](https://github.com/2Retr0/GodotOceanWaves) - An open ocean rendering experiment in the Godot Engine utilizing the inverse Fourier transform of directional ocean-wave spectra for wave generation.
+- [BasicGPUParticle3DEffects](https://github.com/Bonkahe/BasicParticleEffects) - A simple project for explaining basic particle effects in this [Tutorial](https://youtu.be/BUa-mKHEPUM).
+- [GodotEducationalBiped](https://github.com/Bonkahe/GodotEducationalBiped) - This will be the repository for all things regarding the intermediate biped animation series from Bonkahe Youtube Channel,
 
 ## Shaders
 
@@ -182,19 +184,24 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 
 ### Other Plugins, Addons, Scripts and Extensions
 
-- [Texture Packer](https://github.com/Relintai/texture_packer) - Tools to layer, pack, and merge textures at runtime.
+- [UUID](https://github.com/binogure-studio/godot-uuid) - Unique identifier generation v4.
 - [Phantom Camera](https://github.com/ramokz/phantom-camera) - Godot 4 plugin designed to provide and simplify common behaviors for the built-in `Camera2D` and`Camera3D` nodes.
+- [Auto Layout](https://github.com/don-tnowe/godot-auto-layout) - Press Shift+A to add a container for your green fellows.
+- [Radial Progress Indicator](https://github.com/daveTheOldCoder/godot-radial-progress-indicator) - Provides a Control that displays a radial progress indicator with several options.
+- [Onscreen-Keyboard](https://github.com/martinfuchs/Godot-Onscreen-Keyboard) - Onscreen keyboard, displayed as soon as LineEdit or TextEdit are in focus.
+- [Virtual Joystick](https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot) - A virtual joystick for touchscreens. Simple to use and with useful options.
+- [Metroidvania System](https://github.com/KoBeWi/Metroidvania-System) - General-purpose framework for creating metroidvania games.
+- [Advanced Radial Menu](https://github.com/diklor/advanced_radial_menu) - Advanced radial menu node.
+- [Deformable Mesh](https://github.com/cloudofoz/godot-deformablemesh) - Addon to deform 3D meshes using customizable deformers at run-time.
+- [Texture Packer](https://github.com/Relintai/texture_packer) - Tools to layer, pack, and merge textures at runtime.
 - [Aseprite Wizard](https://github.com/viniciusgerevini/godot-aseprite-wizard) - Godot Editor plugin to help import Aseprite animations to AnimationPlayers, AnimatedSprites and SpriteFrames.
 - [Spatial Gardener](https://github.com/dreadpon/godot_spatial_gardener) - A Godot plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript.
 - [Concave Mesh Slicer](https://github.com/PiCode9560/Godot-4-Concave-Mesh-Slicer) - Godot 4 Addon for slicing Concave Mesh Into Half.
 - [SoftBody2D](https://github.com/appsinacup/godot-softbody2d) - Plugin that adds deformable 2D soft body.
 - [ScrollListContainer](https://github.com/wareya/ScrollListContainer) - Wrapper nodes begone! A do-it-all container node that scrolls with multiple children (not just one) and draws its own background.
 - [Godot Universal Fade](https://github.com/KoBeWi/Godot-Universal-Fade) - Allows you to fade out and fade in the screen with a single line of code. No configuration needed, just install the addon and you can use it.
-- [Auto Layout](https://github.com/don-tnowe/godot-auto-layout) - Press Shift+A to add a container for your green fellows.
-- [Advanced Radial Menu](https://github.com/diklor/advanced_radial_menu) - Advanced radial menu node.
 - [Polyliner](https://github.com/Firepal/godot-polyliner) - Plugin for 3D camera-facing line and trail rendering.
 - [Extendable Inspector](https://github.com/ProFiLeR4100/ExtendableInspectorForCS) - addon to make it a bit easier to add custom inspector controls to nodes.
-- [Deformable Mesh](https://github.com/cloudofoz/godot-deformablemesh) - Addon to deform 3D meshes using customizable deformers at run-time.
 - [Color Preview](https://github.com/Qubus0/GodotColorPreview) - Lets you preview colors from code in the same line directly next to the line numbers and breakpoints.
 - [Debug Menu add-on](https://github.com/godot-extended-libraries/godot-debug-menu) - Display in-game FPS/performance/hardware metrics in a Godot 4.
 - [GDLog](https://github.com/MagdielM/GDLog) - An on-screen logging and graphing utility for Godot.
@@ -203,21 +210,16 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 - [WiggleBone](https://github.com/detomon/wigglebone) - Adds jiggle physics to a Skeleton3D bone using SkeletonModifier3D nodes.
 - [Prefab](https://github.com/KoBeWi/Godot-Prefab) - Custom class that can be used to easily store part of a scene at runtime.
 - [Godot Scene Loader](https://github.com/MASSHUU12/godot-scene-loader) - Basic scene loader for Godot 4 with support for loading screens.
-- [Metroidvania System](https://github.com/KoBeWi/Metroidvania-System) - General-purpose framework for creating metroidvania games.
 - [Format on Save](https://github.com/ryannhg/gdformat-on-save) - This plugin runs `gdformat` on save to automatically format your GD script as you code.
 - [ProtonScatter](https://github.com/HungryProton/scatter) - Addon to randomly fill an area with props or other scenes.
 - [Grappling Hook Addon](https://github.com/ivan-resetnikov/grappling-hook-3d) - This is a simple, yet customizable tool that makes it very easy to implement a grappling hook in your 3D FPS game.
 - [State Charts](https://github.com/derkork/godot-statecharts) - Allows you to use [state charts](https://statecharts.dev/) in your game.
-- [Radial Progress Indicator](https://github.com/daveTheOldCoder/godot-radial-progress-indicator) - Provides a Control that displays a radial progress indicator with several options.
 - [Godot Resource Groups](https://github.com/derkork/godot-resource-groups) - Simplifies handling of resources
 - [FloatableBody](https://github.com/ueshita/godot-floatable-body) - A simple physics system where objects float on a fluid.
 - [Simple Portal System](https://github.com/Donitzo/godot-simple-portal-system) - A simple portal system for viewport-based portals.
 - [SunshineClouds](https://github.com/Bonkahe/SunshineClouds) - A procedural cloud system.
 - [TrailMesh](https://github.com/tcmug/godot_trailmesh) - Allows you to add 3D trails via an emitter (TrailEmitter), have the shape defined by a curve and colored with a gradient.
-- [UUID](https://github.com/binogure-studio/godot-uuid) - Unique identifier generation v4.
-- [Godot Virtual Joystick](https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot) - A simple virtual joystick for touchscreens, for both 2D and 3D games, with useful options.
 - [YAMMS - Yet Another MultiMesh Scatter](https://github.com/Mattiny/yamms) - plugin to place MultiMesh meshes into the game world.
-- [Onscreen-Keyboard](https://github.com/martinfuchs/Godot-Onscreen-Keyboard) - Onscreen keyboard, displayed as soon as LineEdit or TextEdit are in focus.
 - [Find Everywhere](https://github.com/MakovWait/godot-find-everywhere) - Better Find in Files and Quick Open.
 - [Managed Memory Monitor for Godot](https://github.com/PumpkinPaul/godot-managed-memory-monitor) - A managed memory monitor addon.
 - [godot-optional](https://github.com/WhoStoleMyCoffee/godot-optional) - Option and Result types inspired from Rust.
@@ -252,5 +254,5 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 - [Simplified Flight Simulation library](https://github.com/fbcosentino/godot-simplified-flightsim) - A library that helps you create a simple airplane/helicopter/spaceship flight simulator.
 - [System Bar Color Changer](https://github.com/syntaxerror247/godot-android-system-bar-color-changer) - An Android plugin that enables you to dynamically change the colors of the status bar and navigation bar, and also supports enabling translucent system bars for a modern, immersive UI experience.
 - [Talo](https://github.com/TaloDev/godot) - A self-hostable game backend for managing players, leaderboards, stats, saving/loading data and more.
-- [Virtual Joystick](https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot) - A virtual joystick for touchscreens. Simple to use and with useful options.
 - [Your Buil](https://codeberg.org/svetogam/yourbuil) - A plugin that makes it as easy as possible to use build data like git commit hashes in your build.
+- [GodotIK](https://github.com/monxa/GodotIK) - 3D Inverse Kinematics (IK), supports scriptable constraints and multiple chains.
