@@ -7,12 +7,12 @@
 
 - [The Markdown Guide](https://www.markdownguide.org)! and [The Markdown Guide on Github](https://github.com/mattcone/markdown-guide), The comprehensive Markdown reference guide.
 - [GitHub Docs - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), Create sophisticated formatting for your prose and code on GitHub with simple syntax.
-- [mattcone/book.md](https://github.com/mattcone/markdown-guide/blob/master/cheat-sheet.md) - The Markdown Guide book includes everything you need to get started and master Markdown syntax.
+- [mattcone/book.md](https://github.com/mattcone/markdown-guide/blob/master/book.md) - The Markdown Guide book includes everything you need to get started and master Markdown syntax.
 - [mattcone/cheat-sheet.md](https://github.com/mattcone/markdown-guide/blob/master/cheat-sheet.md) - This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements.
 - [mattcone/hacks.md](https://github.com/mattcone/markdown-guide/blob/master/hacks.md) - This page provides tips and tricks for working around Markdown's limitations.
 - [pierrejoubert73/markdown-details-collapsible.md](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab) - How to add a collapsible section in markdown.
 
-<details>
+</details>
 
 A Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax/) and [extended syntax](https://www.markdownguide.org/extended-syntax/).
 
