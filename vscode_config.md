@@ -1,4 +1,4 @@
-# VSCODE Extensions
+# VSCODE CONFIG
 <!--
 // I use this for quick copy and paste
 | []() | `code --install-extension ` |
@@ -21,16 +21,18 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 
 | Extension | Installation |
 |---|---|
+| [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) | `code --install-extension alefragnani.project-manager` |
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `code --install-extension christian-kohler.path-intellisense` |
-| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
+| [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) | `code --install-extension alefragnani.Bookmarks` |
+| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
 | [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 
-### Theme extensions
+### Themes
 
 | Extension | Installation |
 |---|---|
@@ -83,8 +85,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 | [Flutter Intl](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl) | `code --install-extension localizely.flutter-intl` |
 | [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) | `code --install-extension rust-lang.rust-analyzer` |
 | [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
-| [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) | `code --install-extension alefragnani.Bookmarks` |
-| [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) | `code --install-extension alefragnani.project-manager` |
+| [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) | `code --install-extension ms-vscode.hexeditor` |
 
 ## Fonts
 
@@ -95,10 +96,10 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 
 ```json
 {
-  "workbench.editor.editorActionsLocation": "titleBar",
-  "workbench.startupEditor": "none",
   // A theme i'm developing
   // "workbench.colorTheme": "purple-vibes"
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
   "vsicons.associations.folders": [
     {
@@ -236,11 +237,13 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "typescriptreact": true,
     "javascript": true,
     "javascriptreact": true,
-    "json": true,
+    "tailwindcss": true,
+    "tailwind": true,
     "html": true,
     "css": true,
     "scss": true,
     "less": true,
+    "json": true,
     "yaml": true,
     "yml": true,
     "xml": true,
@@ -260,8 +263,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "protobuf": true,
     "protobufs": true,
     "proto3": true,
-    "sql": true,
-    "tailwindcss": true,
+    "sql": true
   },
   "cSpell.userWords": [
     "!i",
@@ -284,6 +286,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
     "gitmodules",
     "godot",
     "grey",
+    "heightmap",
     "hmac",
     "HMACSHA",
     "I",
