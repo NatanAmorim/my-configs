@@ -21,6 +21,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 
 | Extension | Installation |
 |---|---|
+| [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `code --install-extension vscode-icons-team.vscode-icons` |
 | [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) | `code --install-extension alefragnani.project-manager` |
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `code --install-extension christian-kohler.path-intellisense` |
 | [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve) | `code --install-extension Cardinal90.multi-cursor-case-preserve` |
@@ -31,13 +32,6 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 | [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
-
-### Themes
-
-| Extension | Installation |
-|---|---|
-| [Winter is Coming Theme](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming) | `code --install-extension johnpapa.winteriscoming` |
-| [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `code --install-extension vscode-icons-team.vscode-icons` |
 
 ### Programming languages and frameworks
 
@@ -96,8 +90,6 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
 
 ```json
 {
-  // A theme i'm developing
-  // "workbench.colorTheme": "purple-vibes"
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
@@ -113,7 +105,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I like.'
   ],
   "workbench.editor.labelFormat": "short",
   "workbench.editor.empty.hint": "hidden",
-  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "terminal.integrated.fontSize": 14,
   "debug.toolBarLocation": "docked",
   "editor.minimap.enabled": false,
