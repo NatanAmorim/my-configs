@@ -5,6 +5,7 @@
     <i>Sources</i> (click here to expand)
   </summary>
 
+- [CommonMark Markdown Reference](https://commonmark.org/help/) - Markdown is a simple way to format text that looks great on any device. It doesn’t do anything fancy like change the font size, color, or type — just the essentials, using keyboard symbols you already know.
 - [The Markdown Guide](https://www.markdownguide.org)! and [The Markdown Guide on Github](https://github.com/mattcone/markdown-guide), The comprehensive Markdown reference guide.
 - [GitHub Docs - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), Create sophisticated formatting for your prose and code on GitHub with simple syntax.
 - [mattcone/book.md](https://github.com/mattcone/markdown-guide/blob/master/book.md) - The Markdown Guide book includes everything you need to get started and master Markdown syntax.
