@@ -9,7 +9,8 @@
 - [Terrain Editor](#terrain-editor)
 - [Audio](#audio)
 - [Logging](#logging)
-- [Templates and Demos](#templates-and-demos)
+- [Demos](#demos)
+- [Templates](#templates)
 - [Shaders](#shaders)
 - [Others](#others)
 
@@ -108,7 +109,16 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 - [Tracer](https://github.com/wyvernbw/tracer.gd) - Tracer is an addon for godot 4 for structured, customizable traces, heavily inspired by [tracing](https://github.com/tokio-rs/tracing).
 - [Log](https://github.com/albinaask/Log) - Adds logging similar to [Log4J](https://logging.apache.org/log4j/2.x/index.html).
 
-## Templates and Demos
+## Demos
+
+- [Outskirts Godot Environment Demo](https://jedenjenda23.itch.io/outskirts-godot-environment-demo) - Playable environment demo set in fictional 18th century Dutch town outskirts. This project was done to explore and showcase 3D game capabilities of Godot Engine.
+- [Realistic Jungle Demo](https://wrobot.itch.io/jungledemo) - Enjoy the scenery of this lush jungle in this demo showing off the rendering capabilities of Godot 4.
+- [GodotSponza](https://github.com/2Retr0/GodotSponza) - An instance of the widely-used Sponza Palace scene in the Godot Engine. This project was created primarily to be used as a simple demo environment in other personal projects.
+- [Bistro-Demo-Tweaked](https://github.com/Jamsers/Bistro-Demo-Tweaked) - Bistro demo for Godot showcasing lighting and high quality assets, Ported from Amazon Lumberyard Bistro.
+- [GodotGrass](https://github.com/2Retr0/GodotGrass) - Per-blade grass rendering inspired by "Ghost of Tsushima", implemented in Godot.
+- [GodotOceanWaves](https://github.com/2Retr0/GodotOceanWaves) - An open ocean rendering experiment in the Godot Engine utilizing the inverse Fourier transform of directional ocean-wave spectra for wave generation.
+
+## Templates
 
 - [Cogito](https://github.com/Phazorknight/Cogito) - Immersive Sim Template Project.
 - [RoboBlast: Third-Person Shooter demo (Godot 4, 3D)](https://github.com/gdquest-demos/godot-4-3d-third-person-controller) - Demo with a plug-and-play 3D Third-Person Shooter (TPS) character controller inspired by games like Ratchet and Clank.
@@ -121,13 +131,13 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 - [First Person Shooter Template](https://github.com/chafmere/Godot4-FPS-Template) - Make prototyping a First Person Shooter a lot faster since the gameplay and weapons can be design an art added later.
 - [Godot 4: New Features demos](https://github.com/gdquest-demos/godot-4-new-features) - Free and open-source demo scenes to see the new features in action.
 - [Fps Arms](https://github.com/gdquest-demos/godot-4-FPS-arms) - An open-source arm rig for first-person shooter games.
-- [GodotOceanWaves](https://github.com/2Retr0/GodotOceanWaves) - An open ocean rendering experiment in the Godot Engine utilizing the inverse Fourier transform of directional ocean-wave spectra for wave generation.
 - [3D Characters Repository](https://github.com/gdquest-demos/godot-4-3D-Characters) - Beautiful 3D animated game characters for the Godot game engine, ready to drag and drop into your projects.
 - [Godot 4 - Third Person Player Controller](https://github.com/selgesel/godot4-third-person-controller) - Basic third person player controller.
 - [Godot SplashScreens](https://github.com/KenneyNL/Godot-SplashScreens) - About
 70 splash screens and logos for use.
 - [fpc-godot](https://github.com/Like475/fpc-godot) - No description, website, or topics provided 😞.
-- [Starter Kit for a Top-Down Action Adventure Game](https://github.com/Nodragem/top-down-action-adventure-starter-kit) - A small prototype to learn implementing basic gameplay mechanics
+- [Starter Kit for a Top-Down Action Adventure Game](https://github.com/Nodragem/top-down-action-adventure-starter-kit) - A small prototype to learn implementing basic gameplay mechanics.
+- [Truck Town](https://github.com/godotengine/godot-demo-projects/tree/master/3d/truck_town) - This is a demo implementing different types of trucks of varying complexity using vehicle physics, ([Truck Town demo on YT](https://www.youtube.com/watch?v=Qh2Yd9cejm4)).
 - [Maaack's Game Template Plugin](https://github.com/Maaack/Godot-Game-Template) - Template with a main menu, options menus, pause menu, credits, scene loader, extra tools, and an example game scene.
 - [Maaack's Menus Template](https://github.com/Maaack/Godot-Menus-Template) - Template with a main menu, options menus, credits, and a scene loader.
 - [Maaack's Scene Loader](https://github.com/Maaack/Godot-Scene-Loader) - Scene loader that includes a loading screen, progress bar, and error handling.
@@ -136,8 +146,9 @@ This is for sharing the Godot 4.x plugins, assets and templates I use.
 - [Thrive](https://github.com/Revolutionary-Games/Thrive/) - A free, open-source game about the evolution of life (Mono).
 - [weeping-angel-godot](https://github.com/bypell/weeping-angel-godot) - Demo project for a statue that moves when the player can't see it.
 - [Poder Solar](https://github.com/antimundo/poder-solar) - Simple resource management game.
+- [GodotEducationalBiped](https://github.com/Bonkahe/GodotEducationalBiped) - This will be the repository for all things regarding the intermediate biped animation series from Bonkahe Youtube Channel.
 - [BasicGPUParticle3DEffects](https://github.com/Bonkahe/BasicParticleEffects) - A simple project for explaining basic particle effects in this [Tutorial](https://youtu.be/BUa-mKHEPUM).
-- [GodotEducationalBiped](https://github.com/Bonkahe/GodotEducationalBiped) - This will be the repository for all things regarding the intermediate biped animation series from Bonkahe Youtube Channel,
+- [Miziziziz's Big Collection of Godot Code Resources](https://github.com/Miziziziz/MizGodotTools) - Code Miziziziz uses in a lot of his games.
 
 ## Shaders
 
