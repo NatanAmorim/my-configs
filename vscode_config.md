@@ -25,6 +25,16 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
 
 ```json
 {
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#fcfcfc",
+    "activityBarBadge.foreground": "#181926",
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": {
+      "foreground": "#A7A8AF",
+    }
+  },
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
@@ -72,9 +82,6 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": true,
   "editor.stickyScroll.enabled": true,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": []
-  },
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
@@ -147,8 +154,8 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
   },
   /// Code Spell Checker
   "cSpell.language": "en,pt,pt-BR",
-  "cSpell.allowCompoundWords": false, // Enable or Disable compound words like 'errormessage'
-  "cSpell.enabledFileTypes": { // Specify file types to spell check.
+  "cSpell.allowCompoundWords": false, // Compound words are like 'errormessage'
+  "cSpell.enabledFileTypes": { // Specify file types to spell check
     "asciidoc": false,
     "handlebars": false,
     "haskell": false,
@@ -275,11 +282,11 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
     "node_modules", // this will ignore anything the node_modules directory
     "**/node_modules", // the same for this one
     "**/node_modules/**", // the same for this one
-    "node_modules/**", // Doesn't currently work due to how the current working directory is determined.
+    "node_modules/**", // Doesn't currently work due to how the current working directory is determined
     "vscode-extension", //
-    "*.json", // Ignore all .json files.
+    "*.json", // Ignore all .json files
     ".git", // Ignore the .git directory
-    "*.dll", // Ignore all .dll files.
+    "*.dll", // Ignore all .dll files
     "**/*.dll" // Ignore all .dll files
   ],
   /// Jupyter Notebook
@@ -299,13 +306,11 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
   },
   "redhat.telemetry.enabled": false,
   "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "json": false,
-    "xml": false,
-    "yaml": false
+    // Makes the inline greyed-out code suggestions less in your face.
+    // This prevents the hints from showing up while you type by default.
+    // But you can still access them on demand using `Alt`+`\` default shortcut.
+    // Then, you can press tab to accept the completion.
+    "*": false,
   },
   "projectManager.git.baseFolders": [
     "~/Documents/GitHub"
@@ -329,7 +334,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
 
 ### Extensions I am using
 
-| Extension | Installation |
+| Extension Link | CLI Installation |
 |---|---|
 | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `code --install-extension vscode-icons-team.vscode-icons` |
 | [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) | `code --install-extension alefragnani.project-manager` |
