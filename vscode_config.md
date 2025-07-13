@@ -35,6 +35,9 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
       "foreground": "#A7A8AF",
     }
   },
+  "accessibility.signals.onDebugBreak": {
+    "sound": "on"
+  },
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
@@ -298,13 +301,9 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
     "*.ipynb": "jupyter-notebook"
   },
   /// Others
+  "conventionalCommits.showNewVersionNotes": false,
   "git.openRepositoryInParentFolders": "always",
   "git.suggestSmartCommit": false,
-  "conventionalCommits.showNewVersionNotes": false,
-  "accessibility.signals.onDebugBreak": {
-    "sound": "on"
-  },
-  "redhat.telemetry.enabled": false,
   "github.copilot.enable": {
     // Makes the inline greyed-out code suggestions less in your face.
     // This prevents the hints from showing up while you type by default.
@@ -312,6 +311,14 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
     // Then, you can press tab to accept the completion.
     "*": false,
   },
+  "markdownlint.config": {
+    "MD033": {
+      "allowed_elements": [
+        "br",
+      ]
+    }
+  },
+  "redhat.telemetry.enabled": false,
   "projectManager.git.baseFolders": [
     "~/Documents/GitHub"
   ]
