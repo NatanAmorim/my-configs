@@ -23,9 +23,8 @@ Here's a list of everything I install on my Mac.
 - [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/)
 - [Github Desktop](https://desktop.github.com/)
 - [Android Studio](https://developer.android.com/studio)
-- [DBeaver Community Edition](https://dbeaver.io/download/)
 - [Flutter](https://docs.flutter.dev/get-started/install/macos)
-- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
 ## UI Design
 
@@ -50,49 +49,49 @@ Homebrew installs the stuff you need that Apple didn’t. See more in [Homebrew]
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
 ```
 
+### My installed Homebrew apps
+
+Most of these I use regularly, but, some apps here i'm just testing.
+
+`brew leaves | xargs brew desc --eval-all`
+
+```terminal
+bottom: Yet another cross-platform graphical process/system monitor
+btop: Resource monitor. C++ version and continuation of bashtop and bpytop
+cocoapods: Dependency manager for Cocoa projects
+fnm: Fast and simple Node.js version manager
+git: Distributed revision control system
+gtop: System monitoring dashboard for terminal
+htop: Improved top (interactive process viewer)
+lsd: Clone of ls with colorful output, file type icons, and more
+ncdu: NCurses Disk Usage
+neovim: Ambitious Vim-fork focused on extensibility and agility
+protobuf: Protocol buffers (Google's data interchange format)
+unar: Command-line unarchiving tools supporting multiple formats
+```
+
+`ls --casks | xargs brew desc --eval-all`
+
+```terminal
+alt-tab: (AltTab) Enable Windows-like alt-tab
+sonobus: (SonoBus) High-quality network audio streaming
+```
+
 ### Homebrew formulae
 
 Everything I install with Homebrew
 
 ```sh
-brew install ruby
+brew install ruby git htop lsd neovim protobuf ffmpeg
 ```
 
 ```sh
-brew install git
+brew install --cask alt-tab dbeaver-community mac-mouse-fix
 ```
 
-```sh
-brew install htop
-```
+## cocoapods
 
-```sh
-brew install lsd
-```
-
-```sh
-brew install neovim
-```
-
-```sh
-brew install --cask alt-tab
-```
-
-```sh
-brew install protobuf
-```
-
-```sh
-brew install --cask dbeaver-community
-```
-
-```sh
-brew install mac-mouse-fix
-```
-
-## Ruby Packages
-
-I don't program in Ruby, but I do use some ruby apps.
+I don't program in Ruby, but I do use cocoapods because of flutter.
 
 ```sh
 sudo gem install cocoapods
@@ -100,8 +99,10 @@ sudo gem install cocoapods
 
 ## Text editor
 
-I miss `notepad.exe` Windows simple and fast default text editor, "Leafpad" may be better for that but the website would not even load. also the MacOs `textEdit.app` is one of the worst text editor app I have ever used when it comes to UX.
+I miss `notepad.exe` Windows simple and fast default text editor, `Leafpad` may be better for that but the website would not even load. also the MacOs `textEdit.app` is one of the worst text editor app I have ever used when it comes to UX.
 
 ## Others
 
 - [Discord](https://discordapp.com/download)
+- <https://github.com/dracula/terminal-app>
+- [Best way to install Xcode is NOT through App Store](https://youtu.be/1NFLVZGlcBw)

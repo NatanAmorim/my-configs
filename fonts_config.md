@@ -50,6 +50,13 @@
 - [Neucha](https://fonts.google.com/download?family=Neucha)
 - [Sacramento](https://fonts.google.com/download?family=Sacramento)
 
+## Dyslexic Fonts
+
+- OpenDyslexic
+  - <https://opendyslexic.org/>
+  - <https://en.wikipedia.org/wiki/OpenDyslexic>
+  - <https://www.dafont.com/pt/open-dyslexic.font>
+
 ## Repositories
 
 - [Powerline Fonts](https://github.com/powerline/fonts)

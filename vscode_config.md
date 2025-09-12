@@ -271,6 +271,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
     "tiptap",
     "typeahead",
     "typesafe",
+    "unarchiving",
     "unfocus",
     "unfollow",
     "unform",
@@ -315,6 +316,9 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
     "MD033": {
       "allowed_elements": [
         "br",
+        "details",
+        "summary",
+        "b"
       ]
     }
   },
