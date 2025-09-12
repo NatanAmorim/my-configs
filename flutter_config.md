@@ -1,6 +1,7 @@
 # Flutter
 
 - [About](#about)
+- [Version Management](#version-management)
 - [State Managers](#state-managers)
 - [Dependencies](#dependencies)
 - [Dev Dependencies](#dev-dependencies)
@@ -19,6 +20,31 @@
 ## About
 
 This is for sharing the Flutter dependencies I use, also check my [Dart](https://github.com/NatanAmorim/my-configs/blob/master/dart_config.md) dependencies.
+
+## Version Management
+
+I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), because it allows per-project SDK versions, ensuring consistent app builds and easier testing of new releases, thereby boosting the efficiency of your Flutter project tasks.
+
+### Video Guides & Walkthroughs
+
+- _“Flutter Version Management. You Need to Use This”_ by _Fun with Flutter_ on **YouTube** (Jun 14, 2021).
+
+### Why FVM?
+
+- Need for simultaneous use of multiple Flutter SDKs.
+- SDK testing requires constant [channel](https://github.com/flutter/flutter/blob/master/docs/releases/Flutter-build-release-channels.md) switching.
+- [Channel](https://github.com/flutter/flutter/blob/master/docs/releases/Flutter-build-release-channels.md) switches are slow and need repeated reinstalls.
+- Difficulty managing the latest successful SDK version used in an app.
+- Flutter's major updates demand total app migration.
+- Inconsistencies occur in development environments within teams.
+
+### Principles
+
+- Interact with the SDK only through Flutter tools.
+- Avoid overriding any Flutter CLI commands.
+- Adhere to Flutter's recommended installation procedures for effective caching.
+- Aim to enhance Flutter's behavior, not to alter it.
+- Prioritize a simple and intuitive API.
 
 ## State Managers
 
