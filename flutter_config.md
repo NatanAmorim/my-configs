@@ -1,7 +1,7 @@
 # Flutter
 
 - [About](#about)
-- [Version Management](#version-management)
+- [Flutter Version Management](#flutter-version-management)
 - [State Managers](#state-managers)
 - [Dependencies](#dependencies)
 - [Dev Dependencies](#dev-dependencies)
@@ -21,13 +21,12 @@
 
 This is for sharing the Flutter dependencies I use, also check my [Dart](https://github.com/NatanAmorim/my-configs/blob/master/dart_config.md) dependencies.
 
-## Version Management
+## Flutter Version Management
 
 I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), because it allows per-project SDK versions, ensuring consistent app builds and easier testing of new releases, thereby boosting the efficiency of your Flutter project tasks.
 
-### Video Guides & Walkthroughs
-
-- _“Flutter Version Management. You Need to Use This”_ by _Fun with Flutter_ on **YouTube** (Jun 14, 2021).
+- For more information, read [FVM documentation](https://fvm.app/) & [GitHub Repository](https://github.com/leoafarias/fvm).
+- **YouTube** [FVM Video Guides & Walkthroughs](https://www.youtube.com/playlist?list=PLVnlSO6aQelAAddOFQVJNoaRGZ1mMsj2Q) Playlist.
 
 ### Why FVM?
 
@@ -46,16 +45,23 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 - Aim to enhance Flutter's behavior, not to alter it.
 - Prioritize a simple and intuitive API.
 
-## State Managers
+## Tools
+
+- I'm **testing** [sidekick](https://github.com/leoafarias/sidekick) - A simple app to make Flutter development more delightful.
+
+## pub.dev
+
+### State Managers
 
 | Link | Installing |
 |---|---|
+| [provider](https://pub.dev/packages/provider) | `flutter pub add provider` |
 | [flutter_riverpod](https://pub.dev/packages/flutter_riverpod) | `flutter pub add flutter_riverpod` |
 | [hooks_riverpod](https://pub.dev/packages/hooks_riverpod) | `flutter pub add hooks_riverpod` |
 | [bloc](https://pub.dev/packages/bloc) | `flutter pub add bloc` |
 | [flutter_bloc](https://pub.dev/packages/flutter_bloc) | `flutter pub add flutter_bloc` |
 
-## Dependencies
+### Dependencies
 
 | Link | Installing |
 |---|---|
@@ -111,7 +117,7 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [realm](https://pub.dev/packages/realm) | `dart pub add realm` |
 | [sqflite](https://pub.dev/packages/sqflite) | `dart pub add sqflite` |
 
-## Dev Dependencies
+### Dev Dependencies
 
 | Link | Installing |
 |---|---|
@@ -125,21 +131,21 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [riverpod_generator](https://pub.dev/packages/riverpod_generator) | `flutter pub add dev:riverpod_generator` |
 | [msix](https://pub.dev/packages/msix) | `dart pub add dev:msix` |
 
-## Charts
+### Charts
 
 | Link | Installing |
 |---|---|
 | [flutter_echarts](https://pub.dev/packages/flutter_echarts) | `flutter pub add flutter_echarts` |
 | [fl_chart](https://pub.dev/packages/fl_chart) | `flutter pub add fl_chart` |
 
-## Fonts
+### Fonts
 
 | Link | Installing |
 |---|---|
 | [google_fonts](https://pub.dev/packages/google_fonts) | `flutter pub add google_fonts` |
 | [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) | `flutter pub add font_awesome_flutter` |
 
-## Icons
+### Icons
 
 | Link | Installing |
 |---|---|
@@ -147,14 +153,14 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [line_icons](https://pub.dev/packages/line_icons) | `flutter pub add line_icons` |
 | [flutter_animated_icons](https://pub.dev/packages/flutter_animated_icons) | `flutter pub add flutter_animated_icons` |
 
-## Design Systems
+### Design Systems
 
 | Link | Installing |
 |---|---|
 | [macos_ui](https://pub.dev/packages/macos_ui) | `flutter pub add macos_ui` |
 | [fluent_ui](https://pub.dev/packages/fluent_ui) | `flutter pub add fluent_ui` |
 
-## Responsive Design
+### Responsive Design
 
 | Link | Installing |
 |---|---|
@@ -165,14 +171,14 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [auto_size_text](https://pub.dev/packages/auto_size_text) | `flutter pub add auto_size_text` |
 | [sized_context](https://pub.dev/packages/sized_context) | `flutter pub add sized_context` |
 
-## Loading
+### Loading
 
 | Link | Installing |
 |---|---|
 | [loading_animation_widget](https://pub.dev/packages/loading_animation_widget) | `flutter pub add loading_animation_widget` |
 | [flutter_spinkit](https://pub.dev/packages/flutter_spinkit) | `flutter pub add flutter_spinkit` |
 
-## Animation
+### Animation
 
 | Link | Installing |
 |---|---|
@@ -185,7 +191,7 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [rive](https://pub.dev/packages/rive) | `flutter pub add rive` |
 | [animations](https://pub.dev/packages/animations) | `flutter pub add animations` |
 
-## Templates
+### Templates
 
 | Link | Installing |
 |---|---|
@@ -224,13 +230,13 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [feedback](https://pub.dev/packages/feedback) | `flutter pub add feedback` |
 | [photo_view](https://pub.dev/packages/photo_view) | `flutter pub add photo_view` |
 
-## Payments
+### Payments
 
 | Link | Installing |
 |---|---|
 | [pay](https://pub.dev/packages/pay) | `flutter pub add pay` |
 
-## AWS
+### AWS
 
 | Link | Installing |
 |---|---|
@@ -242,7 +248,7 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [amplify_auth_cognito](https://pub.dev/packages/amplify_auth_cognito) | `flutter pub add amplify_auth_cognito` |
 | [amplify_storage_s3](https://pub.dev/packages/amplify_storage_s3) | `flutter pub add amplify_storage_s3` |
 
-## Artificial Intelligence
+### AI (Artificial Intelligence)
 
 | Link | Installing |
 |---|---|
