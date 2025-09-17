@@ -248,7 +248,7 @@ I use [FVM (Flutter Version Management)](https://github.com/leoafarias/fvm), bec
 | [amplify_auth_cognito](https://pub.dev/packages/amplify_auth_cognito) | `flutter pub add amplify_auth_cognito` |
 | [amplify_storage_s3](https://pub.dev/packages/amplify_storage_s3) | `flutter pub add amplify_storage_s3` |
 
-### AI (Artificial Intelligence)
+### Artificial Intelligence
 
 | Link | Installing |
 |---|---|
