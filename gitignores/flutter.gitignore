@@ -476,3 +476,7 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 .vscode/tasks.json
 .vscode/settings.json
+
+
+## ignore the FVM (Flutter Version Management) SDK path:
+.fvm/flutter_sdk
