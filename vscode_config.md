@@ -407,4 +407,5 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
 | [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) | `code --install-extension rust-lang.rust-analyzer` |
 | [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) | `code --install-extension vivaxy.vscode-conventional-commits` |
 | [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) | `code --install-extension ms-vscode.hexeditor` |
-| [Flutter & Dart Utilities](https://marketplace.visualstudio.com/items?itemName=RodrigoRahman.flutter-dart-utils) | `code --install-extension RodrigoRahman.flutter-dart-utils` |
+| [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens) | `code --install-extension pflannery.vscode-versionlens` |
+| [bloc](https://marketplace.visualstudio.com/items?itemName=FelixAngelov.bloc) | `code --install-extension FelixAngelov.bloc` |
