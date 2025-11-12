@@ -25,6 +25,9 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
 
 ```json
 {
+  "window.zoomLevel": 0.8,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.presets.hideFolders": true,
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#fcfcfc",
@@ -40,17 +43,6 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
   },
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.startupEditor": "none",
-  "workbench.iconTheme": "vscode-icons",
-  "vsicons.associations.folders": [
-    {
-      "icon": "helper",
-      "extensions": [
-        "providers"
-      ],
-      "format": "svg",
-      "light": false
-    }
-  ],
   "workbench.editor.labelFormat": "short",
   "workbench.editor.empty.hint": "hidden",
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
@@ -59,7 +51,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "expand",
   "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.lineHeight": 1.6,
@@ -231,6 +223,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
     "inkscape",
     "jigglebones",
     "lerp",
+    "linux",
     "mangohud",
     "mariadb",
     "metroidvania",
