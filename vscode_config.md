@@ -338,6 +338,10 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
 
 ### Extensions I am using
 
+> [!NOTE]
+>
+> The extension [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) is deprecated. i'm using the [Protobuf VSC](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-vsc) extension instead.
+
 | Extension Link | CLI Installation |
 |---|---|
 | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `code --install-extension vscode-icons-team.vscode-icons` |
@@ -348,7 +352,7 @@ This is for sharing the Visual Studio code (VSCODE) configurations I use or like
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `code --install-extension DavidAnson.vscode-markdownlint` |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `code --install-extension eamodio.gitlens` |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `code --install-extension ms-azuretools.vscode-docker` |
-| [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) | `code --install-extension zxh404.vscode-proto3` |
+| [Protobuf VSC](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-vsc) | `code --install-extension DrBlury.protobuf-vsc` |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | `code --install-extension streetsidesoftware.code-spell-checker` |
 | [Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese) | `code --install-extension streetsidesoftware.code-spell-checker-portuguese` |
 
