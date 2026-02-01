@@ -7,7 +7,7 @@
 
 sudo apt update && sudo apt upgrade
 ## Terminal workflow
-sudo apt install wget curl git zsh htop lsd neovim
+sudo apt install wget curl git zsh htop lsd neovim fastfetch
 ## Compilers & Interpreters
 sudo apt install gcc make cmake build-essential autoconf automake
 ## Fonts

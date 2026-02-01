@@ -1,10 +1,8 @@
 #!/bin/bash
-# macos_setup.sh
+# install_macos_basic_tools.sh
 
 # You may need to "sudo chmod +x macos_setup.sh"
 
-# Rust with rustup
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # zsh config
