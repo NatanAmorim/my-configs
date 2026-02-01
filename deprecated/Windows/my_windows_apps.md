@@ -1,64 +1,72 @@
-# Windows
+# Windows Setup & Tooling
 
-Here's a list of everything I install on my Windows PC.
+A curated list of applications and tools I use to set up my Windows environment for development, design, and productivity.
 
-## Development
+1. [Development Tools](#-development-tools)
+2. [UI Design](#-ui-design)
+3. [Editing](#-editing)
+4. [Other Applications](#-other-applications)
+5. [Microsoft Store Apps](#-microsoft-store-apps)
+6. [Configurations](#-configurations)
 
-- [VS Code](https://code.visualstudio.com/Download)
-- [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Git Bash](https://git-scm.com/downloads)
-- [Github Desktop](https://desktop.github.com/)
-- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
-- [DBeaver Community](https://dbeaver.io/download/)
-- [Android Studio](https://developer.android.com/studio)
-- [Inno Setup](https://jrsoftware.org/isdl.php#stable)
-- [Flutter](https://flutter.dev/docs/get-started/install/windows)
-- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+## 🛠 Development Tools
 
-## UI Design
+### IDEs & Editors
+- **[VS Code](https://code.visualstudio.com/)**: My primary code editor for most projects.
+- **[Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)**: Essential for .NET development and C++ projects.
+- **[Android Studio](https://developer.android.com/studio)**: The official IDE for Android and intensive Flutter development.
 
-- [Figma](https://www.figma.com/downloads/)
+### Core Environment & SDKs
+- **[Flutter](https://flutter.dev/docs/get-started/install/windows)**: Google's UI toolkit for building natively compiled applications.
+- **[C# .NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)**: The latest .NET runtime and development kit.
+- **[Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)**: Containerization platform for local development environments.
+- **[Git Bash](https://git-scm.com/downloads)**: Provides a Bash emulation for Windows, making Git CLI usage familiar.
+- **[Github Desktop](https://desktop.github.com/)**: A user-friendly GUI for managing Git repositories.
 
-## Editing
+### Databases & Utilities
+- **[MongoDB Compass](https://www.mongodb.com/try/download/compass)**: The GUI for MongoDB to explore and manipulate data.
+- **[DBeaver Community](https://dbeaver.io/download/)**: A universal database tool supporting SQL and NoSQL.
+- **[Inno Setup](https://jrsoftware.org/isdl.php#stable)**: A powerful free installer for Windows applications.
 
-- [Gimp](https://gimp.org/downloads/)
-- [Audacity](https://audacityteam.org/download/)
-- [Inkscape](https://inkscape.org/release/)
-- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
-- [Open Broadcaster Software - OBS](https://obsproject.com/download)
+## 🎨 UI Design
+- **[Figma](https://www.figma.com/downloads/)**: The leading collaborative design tool for UI/UX.
 
-## Others
+## 🎬 Editing
+- **[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)**: Professional-grade video editing and color grading.
+- **[Open Broadcaster Software (OBS)](https://obsproject.com/download)**: The standard for high-performance recording and streaming.
+- **[Gimp](https://gimp.org/downloads/)**: A versatile open-source image editor.
+- **[Inkscape](https://inkscape.org/release/)**: A professional vector graphics editor.
+- **[Audacity](https://audacityteam.org/download/)**: Multi-track audio recording and editing.
 
-- [Google Chrome Browser](https://google.com/intl/en/chrome/)
-- [Mozilla Firefox](https://www.mozilla.org/firefox/new/)
-- [FileZilla](https://filezilla-project.org/)
-- [Discord](https://discordapp.com/download)
-- [Etcher](https://www.balena.io/etcher/)
-- [Steam](https://store.steampowered.com/about/)
-- [7zip](https://7-zip.org)
-- [AutoHotkey](https://www.autohotkey.com/)
-- [WinDirStat](https://windirstat.net/download.html)
-- [lsd (Github)](https://github.com/Peltoche/lsd)
+## 🌐 Other Applications
+- **[Google Chrome](https://google.com/intl/en/chrome/)**: My primary web browser.
+- **[Mozilla Firefox](https://www.mozilla.org/firefox/new/)**: Secondary browser, great for privacy and web testing.
+- **[Discord](https://discordapp.com/download)**: Core communication tool for dev communities.
+- **[Steam](https://store.steampowered.com/about/)**: The ultimate destination for playing games, digital distribution service and storefront.
+- **[GOG Galaxy](https://www.gog.com/galaxy)**: Digital distribution platform and storefront for your collection of Good Old Games and modern hits, all DRM-free.
+- **[FileZilla](https://filezilla-project.org/)**: Reliable FTP, FTPS, and SFTP client.
+- **[7zip](https://7-zip.org)**: A high-compression file archiver.
+- **[Ventoy](https://www.ventoy.net/)**: An open-source tool to create bootable USB drives for ISO/WIM/IMG/VHD(x)/EFI files.
+- **[AutoHotkey](https://www.autohotkey.com/)**: Powerful automation and scripting for Windows.
+- **[WinDirStat](https://windirstat.net/download.html)**: Disk usage statistics viewer and cleanup tool.
 
-## Testing
+## 🧪 Testing & Audio
+- **[Voicemod](https://www.voicemod.net/)**: Real-time AI voice changer and soundboard.
 
-- [Voicemod](https://www.voicemod.net/)
+## 🏪 Microsoft Store Apps
+- **MS Teams**: Professional communication and collaboration.
+- **WhatsApp Web**: Popular messaging service on the desktop.
+- **Ubuntu ([Windows Subsystem for Linux 2 / WSL 2](https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel))**: Linux subsystem for native Linux development on Windows.
+- **Windows Terminal**: A modern, fast, and powerful terminal emulator.
 
-## Microsoft Store Apps
+## ⚙️ Configurations
 
-- MS Teams
-- WhatsApp Web
-- Ubuntu ([Windows Subsystem for Linux 2](https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel))
-- Windows Terminal
+### 7-Zip Context Menu Optimization
+To clean up and improve the 7-Zip context menu:
+1. Open **7-Zip File Manager** as Administrator.
+2. Go to **Tools > Options**.
+3. Disable **Cascaded context menu** for quicker access.
+4. Enable **Icons in context menu** for better visibility.
+5. Select the file extensions you wish to associate (or click "Select All").
+6. Click **OK** to save.
 
-## Configurations
-
-### 7zip better context menu
-
-1. Open the 7-Zip File Manager with Administrator Rights from your start menu
-2. Go to the tools menu and select options
-3. Disable Cascaded context menu
-4. Enable Icons in context menu
-5. Either select the individual extensions you wish to associate (recommended) or press the “Select All” button.
-6. Press OK to save your changes
