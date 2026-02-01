@@ -38,19 +38,12 @@ A curated list of applications and tools I use to set up my Windows environment 
 - **[Inkscape](https://inkscape.org/release/)**: A professional vector graphics editor.
 - **[Audacity](https://audacityteam.org/download/)**: Multi-track audio recording and editing.
 
-## 🌐 Other Applications
-- **[Google Chrome](https://google.com/intl/en/chrome/)**: My primary web browser.
-- **[Mozilla Firefox](https://www.mozilla.org/firefox/new/)**: Secondary browser, great for privacy and web testing.
-- **[Discord](https://discordapp.com/download)**: Core communication tool for dev communities.
-- **[Steam](https://store.steampowered.com/about/)**: The ultimate destination for playing games, digital distribution service and storefront.
-- **[GOG Galaxy](https://www.gog.com/galaxy)**: Digital distribution platform and storefront for your collection of Good Old Games and modern hits, all DRM-free.
+## 🧪 Other Applications
 - **[FileZilla](https://filezilla-project.org/)**: Reliable FTP, FTPS, and SFTP client.
 - **[7zip](https://7-zip.org)**: A high-compression file archiver.
 - **[Ventoy](https://www.ventoy.net/)**: An open-source tool to create bootable USB drives for ISO/WIM/IMG/VHD(x)/EFI files.
 - **[AutoHotkey](https://www.autohotkey.com/)**: Powerful automation and scripting for Windows.
 - **[WinDirStat](https://windirstat.net/download.html)**: Disk usage statistics viewer and cleanup tool.
-
-## 🧪 Testing & Audio
 - **[Voicemod](https://www.voicemod.net/)**: Real-time AI voice changer and soundboard.
 
 ## 🏪 Microsoft Store Apps
