@@ -14,36 +14,48 @@ Here's a list of everything I install on my Mac.
 
 ## Mac UI and UX improvements
 
-- [Rectangle (Github)](https://github.com/rxhanson/Rectangle)
-- [lsd (Github)](https://github.com/Peltoche/lsd)
+- [AltTab (Github)](https://github.com/lwouis/alt-tab-macos)
+- [noTunes (Github)](https://github.com/tombonez/noTunes)
+- [Mac Mouse Fix ver.2 (Github)](https://github.com/noah-nuebling/mac-mouse-fix/tree/version-2)
+- ~~[Rectangle (Github)](https://github.com/rxhanson/Rectangle)~~
 
 ## Development
 
+- [Github Desktop](https://desktop.github.com)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
-- [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/)
-- [Github Desktop](https://desktop.github.com/)
-- [Android Studio](https://developer.android.com/studio)
+- [Docker Desktop](https://docs.docker.com/desktop/install/mac-install)
+- [Postman](https://www.postman.com/downloads)
+- [Fast Node Manager (fnm)](https://github.com/Schniz/fnm)
+- [Bun](https://github.com/oven-sh/bun)
+- [Rust](https://rust-lang.org/tools/install)
+- [C# .NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 - [Flutter](https://docs.flutter.dev/get-started/install/macos)
-- [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+- [Android Studio](https://developer.android.com/studio)
+- [DBeaver](https://github.com/dbeaver/dbeaver)
+- [Xcodes](https://github.com/XcodesOrg/xcodes)
 
 ## UI Design
 
-- [Figma](https://www.figma.com/downloads/)
+- [Figma](https://www.figma.com/downloads)
 
 ## Audio and visual editing
 
-- [Gimp](https://gimp.org/downloads/)
-- [Audacity](https://audacityteam.org/download/)
-- [Inkscape](https://inkscape.org/release/)
-- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+- [Gimp](https://gimp.org/downloads)
+- [Audacity](https://audacityteam.org/download)
+- [Inkscape](https://inkscape.org/release)
+- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
 - [DaVinci Resolve (AppStore)](https://apps.apple.com/br/app/davinci-resolve/id571213070?l=en-GB&mt=12)
 - [Open Broadcaster Software - OBS](https://obsproject.com/download)
+
+## Others
+
+- [Obsidian](https://obsidian.md)
 
 ## Homebrew
 
 Homebrew installs the stuff you need that Apple didn’t. See more in [Homebrew](https://brew.sh).
 
-- To install Homebrew paste that in a macOS Terminal or Linux shell prompt.
+- To install Homebrew paste this in a macOS Terminal.
 
 ```sh
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
@@ -56,25 +68,28 @@ Most of these I use regularly, but, some apps here i'm just testing.
 `brew leaves | xargs brew desc --eval-all`
 
 ```terminal
-bottom: Yet another cross-platform graphical process/system monitor
-btop: Resource monitor. C++ version and continuation of bashtop and bpytop
 cocoapods: Dependency manager for Cocoa projects
+czkawka: Duplicate file utility
+fastfetch: Like neofetch, but much faster because written mostly in C
 fnm: Fast and simple Node.js version manager
 git: Distributed revision control system
-gtop: System monitoring dashboard for terminal
-htop: Improved top (interactive process viewer)
 lsd: Clone of ls with colorful output, file type icons, and more
+mole: Deep clean and optimize your Mac
 ncdu: NCurses Disk Usage
 neovim: Ambitious Vim-fork focused on extensibility and agility
+openjdk: Development kit for the Java programming language
 protobuf: Protocol buffers (Google's data interchange format)
 unar: Command-line unarchiving tools supporting multiple formats
+alt-tab: (AltTab) Enable Windows-like alt-tab
 ```
 
-`ls --casks | xargs brew desc --eval-all`
+#### TUI process viewer
 
 ```terminal
-alt-tab: (AltTab) Enable Windows-like alt-tab
-sonobus: (SonoBus) High-quality network audio streaming
+htop: Improved top (interactive process viewer)
+bottom: Yet another cross-platform graphical process/system monitor
+btop: Resource monitor. C++ version and continuation of bashtop and bpytop
+gtop: System monitoring dashboard for terminal
 ```
 
 ### Homebrew formulae
@@ -82,7 +97,7 @@ sonobus: (SonoBus) High-quality network audio streaming
 Everything I install with Homebrew
 
 ```sh
-brew install ruby git htop lsd neovim protobuf ffmpeg
+brew install ruby git htop lsd fnm neovim protobuf ffmpeg
 ```
 
 ```sh
@@ -105,4 +120,4 @@ I miss `notepad.exe` Windows simple and fast default text editor, `Leafpad` may 
 
 - [Discord](https://discordapp.com/download)
 - <https://github.com/dracula/terminal-app>
-- [Best way to install Xcode is NOT through App Store](https://youtu.be/1NFLVZGlcBw)
+- ~~[(outdated) Best way to install Xcode is NOT through App Store](https://youtu.be/1NFLVZGlcBw)~~
