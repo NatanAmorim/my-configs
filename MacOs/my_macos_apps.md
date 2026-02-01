@@ -9,11 +9,9 @@ A curated list of applications and tools I use to set up my macOS environment fo
 5. [Homebrew Setup](#homebrew-setup)
 6. [TUI & System Monitoring](#tui--system-monitoring)
 7. [Productivity & Communication](#productivity--communication)
-8. [Setup Tips](#setup-tips)
 
 > [!TIP]\
 > **Are you attempting to install an application from the Internet and encountering the following message?**\
-> \
 > \
 > _"Example App" can't be opened because Apple cannot check it for malicious software._\
 > \
