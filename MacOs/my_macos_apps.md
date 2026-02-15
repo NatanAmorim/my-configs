@@ -2,13 +2,13 @@
 
 A curated list of applications and tools I use to set up my macOS environment for development, design, and productivity.
 
-1. [UI & UX Enhancements](#ui--ux-enhancements)
-2. [Development Tools](#development-tools)
-3. [UI Design](#ui-design)
-4. [Audio & Visual Editing](#audio--visual-editing)
-5. [Homebrew Setup](#homebrew-setup)
-6. [TUI & System Monitoring](#tui--system-monitoring)
-7. [Productivity & Communication](#productivity--communication)
+- [UI & UX Enhancements](#-ui--ux-enhancements)
+- [Development Tools](#-development-tools)
+- [UI Design](#-ui-design)
+- [Audio & Visual Editing](#-audio--visual-editing)
+- [Homebrew Setup](#-homebrew-setup)
+- [TUI & System Monitoring](#-tui--system-monitoring)
+- [Productivity & Communication](#-productivity--communication)
 
 > [!TIP]\
 > **Are you attempting to install an application from the Internet and encountering the following message?**\
@@ -17,7 +17,7 @@ A curated list of applications and tools I use to set up my macOS environment fo
 > \
 > If you’re certain that the app you want to install is from a trustworthy source and hasn’t been tampered with, you can temporarily override your Mac security settings and open it, check [Apple Support: Safely open apps on your Mac](https://support.apple.com/en-us/102445).
 
-## 🖥 UI & UX Enhancements
+## 💻 UI & UX Enhancements
 
 | Tool | Description |
 | :--- | :--- |
@@ -28,27 +28,33 @@ A curated list of applications and tools I use to set up my macOS environment fo
 ## 🛠 Development Tools
 
 ### Core Environment
+
 - **[Visual Studio Code](https://code.visualstudio.com/)**: My primary code editor.
 - **[GitHub Desktop](https://desktop.github.com/)**: Simplified GUI for Git version control.
 - **[Docker Desktop](https://www.docker.com/products/docker-desktop/)**: Container management for local development.
 - **[Postman](https://www.postman.com/)**: Essential for API testing and development.
 - **[DBeaver](https://dbeaver.io/)**: Universal database tool (SQL, NoSQL).
+- **[LocalSend](https://github.com/localsend/localsend)**: Open source and cross-platform file sharing for everyone, alternative to AirDrop.
 
 ### Runtimes & Languages
+
 - **[fnm (Fast Node Manager)](https://github.com/Schniz/fnm)**: Fast and simple Node.js version manager.
 - **[Bun](https://bun.sh/)**: Fast all-in-one JavaScript runtime.
 - **[Rust](https://www.rust-lang.org/)**: Modern systems programming language.
 - **[.NET SDK](https://dotnet.microsoft.com/)**: Framework for building cross-platform apps.
 
 ### Mobile & IDEs
+
 - **[Flutter](https://docs.flutter.dev/)**: Google's UI toolkit for building natively compiled apps.
 - **[Android Studio](https://developer.android.com/studio)**: Official IDE for Android development.
 - **[Xcodes](https://github.com/XcodesOrg/xcodes)**: The best way to manage multiple Xcode versions.
 
 ## 🎨 UI Design
+
 - **[Figma](https://www.figma.com/)**: The industry standard for collaborative interface design.
 
 ## 🎬 Audio & Visual Editing
+
 - **[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)**: Professional video editing and color correction.
 - **[OBS Studio](https://obsproject.com/)**: Open source software for video recording and live streaming.
 - **[Gimp](https://www.gimp.org/)**: Free & open source image editor (Photoshop alternative).
@@ -60,11 +66,13 @@ A curated list of applications and tools I use to set up my macOS environment fo
 [Homebrew](https://brew.sh) is the missing package manager for macOS.
 
 ### Installation
+
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### Essential Bundles
+
 Run these commands to install my homebrew CLI tools and GUI apps:
 
 ```sh
@@ -85,6 +93,7 @@ brew install --cask alt-tab dbeaver-community mac-mouse-fix
 | **[Mole](https://github.com/Zack-S/mole)** | Deep clean and optimize your Mac. |
 
 ## 📝 Productivity & Communication
+
 - **[Obsidian](https://obsidian.md/)**: Personal knowledge base and Markdown note-taking.
 - **[Discord](https://discord.com/)**: Communication platform for communities.
 - **[Dracula for Terminal](https://github.com/dracula/terminal-app)**: A dark theme for the default macOS Terminal.
