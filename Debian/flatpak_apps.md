@@ -1,5 +1,18 @@
-# Flatpaks
-<!-- | [placeholder](placeholder) | `code` <br> Lorem.| -->
+# Flatpak Apps
+<!--
+this is here to make my life easier
+| [placeholder](placeholder) | `code` <br> Lorem.|
+-->
+
+- [Transcoding & Compression](#transcoding--compression)
+- [Office & Documentation](#office--documentation)
+- [Programming & IDE's (Integrated Development Environments)](#programming--ides-integrated-development-environments)
+- [Image & Photography](#image--photography)
+- [Audio & image Video editing](#audio--image-video-editing)
+- [General purpose tools](#general-purpose-tools)
+- [Gaming](#gaming)
+- [Gamedev](#gamedev)
+- [Cool Stuff](#cool-stuff)
 
 > [!NOTE]
 > This is unfinished, stuff will be added removed and organized later.
